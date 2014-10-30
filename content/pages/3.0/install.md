@@ -1,8 +1,14 @@
-Title: Install Nuvola Player 3.0
+Title: Install Nuvola Player 3.0 Alpha
+Image: images/3.0/unity/orig/unity_google_play_music_launcher_star_rating.png
+Description: Nuvola Player 3.0 will be the first release of the third generation of a runtime for
+    web-based music streaming services that provides more native user experience and integration with Linux
+    desktop environments than usual web browsers can offer. Nuvola Players handles multimedia keys,
+    shows desktop notifications, integrates with various sound indicators, media player applets,
+    GNOME lock screen and launchers and more.
 
 !!! danger "**In Development - Feedback Welcome**"
     **Nuvola Player 3 is a new code-base written from scratch** and the current development stage can be
-    described as "alpha", so please be patient and
+    described as **alpha**, so please be patient and
     [ask questions and provide feedback](https://groups.google.com/d/forum/nuvola-player-users) whenever you find a bug
     or two.
 

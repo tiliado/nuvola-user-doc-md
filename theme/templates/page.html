@@ -1,5 +1,32 @@
 {% extends "base.html" %}
+{% block htmltag %}itemscope itemtype="http://schema.org/Article"{% endblock %}
 {% block title %}{{ page.title }}{%endblock%}
+
+{% block head %}
+{{ super() }}
+  <meta itemprop="name" content="{{page.title}}">
+  <meta property="og:title" content="{{page.title}}" />
+  <meta name="twitter:title" content="{{page.title}}" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary" />
+  <meta property="og:url" content="http://tiliado.github.io/nuvolaplayer/documentation/{{output_file}}" />
+  <meta name="twitter:url" content="http://tiliado.github.io/nuvolaplayer/documentation/{{output_file}}" />
+  {% if page.image %}
+    <meta itemprop="image" content="http://tiliado.github.io/nuvolaplayer/documentation/{{ page.image }}"> 
+    <meta property="og:image" content="http://tiliado.github.io/nuvolaplayer/documentation/{{ page.image }}" />
+    <meta name="twitter:image" content="http://tiliado.github.io/nuvolaplayer/documentation/{{ page.image }}" />
+  {% endif %}
+  {% if page.description %}
+    {% set desc = page.description|join(" ") %}
+    <meta name="description" content="{{ desc }}" />
+    <meta property="og:description" content="{{ desc }}" />
+    <meta name="twitter:description" content="{{ desc }}" />
+    <meta itemprop="description" content="{{ desc }}">
+  {% endif %}
+  <meta name="twitter:site" content="@NuvolaPlayer" />
+  <meta name="twitter:creator" content="@NuvolaPlayer" />
+{% endblock head %}
+
 {% block content %}
   <div class="col-sm-12">
       <div class="page-header text-center">
@@ -15,6 +42,9 @@
     <span class="backtotop"><a href="#top">↑ Back to top ↑</a></span>
   </div>
   <div class="col-sm-12 col-md-10 col-lg-9">
+    {% if page.description and page.debug %}
+    <p><strong>Description:</strong> {{ page.description }}</p>
+    {% endif %}
     {{ page.content }}
     {% include "footer.inc.html" %}
   </div> 
