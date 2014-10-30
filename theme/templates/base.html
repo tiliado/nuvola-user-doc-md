@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="{{ DEFAULT_LANG }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% block head %}
+        <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
+    {% endblock head %}
+    {% block styles %}
+    <link rel="stylesheet" href="{{ SITEURL }}/theme/bootstrap.min.css" />
+    <link rel="stylesheet" href="{{ SITEURL }}/theme/bootstrap.lightbox.css" media="screen" />
+    <link rel="stylesheet" href="{{ SITEURL }}/theme/pygments.css" />
+    <link rel="stylesheet" href="{{ SITEURL }}/theme/main.css" />
+    <style type="text/css" media="screen">
+    ul.thumbnails li {display: inline;}
+    table.badges {width: 100%;}
+    table.badges td {text-align:center; padding: 10px;}
+    table.badges a {display: block; border: 2px solid #ccc; padding: 10px;}
+    table.badges a:hover { border: 2px solid #999;}
+    table.badges img {vertical-align: middle;}
+    </style>
+    {% endblock styles %}
+    {% block scripts %}
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="{{ SITEURL }}/theme/jquery.min.js"></script>
+    <script src="{{ SITEURL }}/theme/bootstrap.min.js"></script>
+    <script src="{{ SITEURL }}/theme/bootstrap.lightbox.js"></script>
+    {% endblock scripts %}
+  </head>
+  <body>
+    {% include "navbar.inc.html" %}
+    
+    <div class="container">
+      <div class="row">
+        
+        {% block content %}
+        {% endblock %}
+      </div>
+    </div>
+  </body>
+</html>
+

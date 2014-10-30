@@ -1,0 +1,78 @@
+<!-- Fixed navbar  -->
+<div class="navbar navbar-inverse navbar-static-top navbar-main" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-0">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="{{TILIADOWEB}}">Tiliado</a>
+        </div>
+        <div id="navbar-collapse-0" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="{{TILIADOWEB}}">Home</a></li>
+                <li class="dropdown active">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="{{TILIADOWEB}}nuvolaplayer/">Nuvola Player - Cloud music integration for your Linux desktop</a></li>
+                        <li><a href="{{TILIADOWEB}}diorite/">Diorite Library - Utility and widget library based on GLib and GTK+ 3</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="http://nuvolaplayer.fenryxo.cz/blog/">Nuvola Player</a></li>
+                    </ul>
+                </li>
+                <li><a href="{{TILIADOWEB}}contact/">Contact</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</div>
+
+
+<div class="container project-header">
+<span class="badges" style="float: right; padding: 10px;">
+<a href="https://plus.google.com/110794636546911932554" title="Google+ page"><img src="{{ SITEURL }}/theme/icons/googleplus.png" width="40" height="40" alt="Google+ page" /></a>
+<a href="https://www.facebook.com/nuvolaplayer" title="Facebook page"><img src="{{ SITEURL }}/theme/icons/facebook.png" width="40" height="40" alt="Facebook page" /></a>
+<a href="https://twitter.com/NuvolaPlayer" title="Twitter page"><img src="{{ SITEURL }}/theme/icons/twitter.png" width="40" height="40" alt="Twitter page" /></a>
+<a href="http://feeds.feedburner.com/nuvolaplayer" title="RSS feed"><img src="{{ SITEURL }}/theme/icons/feed.png" width="40" height="40" alt="RSS feed" /></a>
+</span>
+
+
+<p class="h1">
+
+<a href="/nuvolaplayer/" class="project-logo"><img src="{{ SITEURL }}/theme/nuvolaplayer/logo.png" width="48" height="48" alt="" /></a>
+
+Nuvola Player<br><small>Cloud music integration for your Linux desktop</small></p>
+
+
+<ul class="nav nav-tabs">
+  <li><a href="{{TILIADOWEB}}nuvolaplayer/">About</a></li>
+  <li class="active"><a href="{{ SITEURL }}/">Documentation</a></li>
+  <li><a href="{{TILIADOWEB}}nuvolaplayer/repository/">Repository</a></li>
+  <li><a href="{{TILIADOWEB}}nuvolaplayer/donate/">Donate</a></li>
+  <li><a href="http://nuvolaplayer.fenryxo.cz/blog/">Blog</a></li>
+  <li><a href="{{ TILIADO_IO_NUVOLA }}development/">Development</a></li>
+  
+</ul>
+
+</div>
+
+<div class="container">
+  <nav class="navbar navbar-default navbar-topics" role="navigation">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      {% include "navbar-brand.inc.html" %}
+    </div><!-- .navbar-header -->
+
+    {% include "navbar-sections.inc.html" %}
+  </nav>
+</div>

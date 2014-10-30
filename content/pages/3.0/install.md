@@ -1,0 +1,252 @@
+Title: Install Nuvola Player 3.0
+
+!!! danger "**In Development - Feedback Welcome**"
+    **Nuvola Player 3 is a new code-base written from scratch** and the current development stage can be
+    described as "alpha", so please be patient and
+    [ask questions and provide feedback](https://groups.google.com/d/forum/nuvola-player-users) whenever you find a bug
+    or two.
+
+Ubuntu {: #ubuntu}
+======
+
+Install Tiliado Repository Installer
+------------------------------------
+
+ 1. [Download Tiliado Repository Installer](https://tiliado.eu/nuvolaplayer/repository/) for your
+    distribution release and open it with Ubuntu Software Center
+ 2. Wait a bit as Ubuntu Software Center is a pretty slow beast. Then click **Install** button.
+ 3. Enter your password to confirm installation.
+
+
+<div class="cointainer">
+<ul class="thumbnails row" data-toggle="lightbox">
+<li class="col-md-4"><a title="Download Tiliado Repository Installer and open it with Ubuntu Software Center" href="../images/3.0/unity/orig/unity_firefox_download_installer.png" class="thumbnail"><img src="../images/3.0/unity/small/unity_firefox_download_installer.png" width="256" height="192" /></a></li>
+<li class="col-md-4"><a title="Wait a bit as Ubuntu Software Center is a pretty slow beast. Then click Install button." href="../images/3.0/unity/orig/unity_install_installer.png" class="thumbnail"><img src="../images/3.0/unity/small/unity_install_installer.png" width="256" height="192" /></a></li>
+<li class="col-md-4"><a title="Enter your password to confirm installation." href="../images/3.0/unity/orig/unity_install_installer_auth.png" class="thumbnail"><img src="../images/3.0/unity/small/unity_install_installer_auth.png" width="256" height="192" /></a></li>
+</ul>
+</div>
+
+Add Nuvola Player Repository
+----------------------------
+
+  1. Click **Ubuntu button** in the top left corner to open Unity Dash.
+  2. Launch **Tiliado Repositories** installer.
+  3. Enter login credentials to your Tiliado account.
+  4. Select Nuvola Player repository.
+  5. Select repository components you want to install Nuvola Player from.
+  6. Select which packages you want to install from the repository.
+  7. Review the summary and click **Install** button.
+  8. Enter your password to confirm installation.
+  9. If installation is successful, click Quit button. Otherwise copy the installation log and
+     [contact support](https://groups.google.com/d/forum/nuvola-player-users).
+ 10. Click **Ubuntu button** in the top left corner to open Unity Dash.
+ 11. Launch Nuvola Player 3.
+ 12. You should see Nuvola Player 3 services selector window.
+
+<div class="cointainer">
+<ul class="thumbnails row" data-toggle="lightbox">
+<li class="col-md-4"><a title="Click Ubuntu button in the top left corner to open Unity Dash." href="../images/3.0/unity/orig/unity_installer_installed_open_dash.png" class="thumbnail"><img src="../images/3.0/unity/small/unity_installer_installed_open_dash.png" width="256" height="192" /></a></li>
+<li class="col-md-4"><a title="Launch Tiliado Repositories installer." href="../images/3.0/unity/orig/unity_dash_tiliado_installer.png" class="thumbnail"><img src="../images/3.0/unity/small/unity_dash_tiliado_installer.png" width="256" height="192" /></a></li>
+<li class="col-md-4"><a title="Enter login credentials to your Tiliado account." href="../images/3.0/unity/orig/unity_installer_login.png" class="thumbnail"><img src="../images/3.0/unity/small/unity_installer_login.png" width="256" height="192" /></a></li>
+<li class="col-md-4"><a title="Select Nuvola Player repository." href="../images/3.0/unity/orig/unity_installer_repositories.png" class="thumbnail"><img src="../images/3.0/unity/small/unity_installer_repositories.png" width="256" height="192" /></a></li>
+<li class="col-md-4"><a title="Select repository components you want to install Nuvola Player from." href="../images/3.0/unity/orig/unity_installer_components.png" class="thumbnail"><img src="../images/3.0/unity/small/unity_installer_components.png" width="256" height="192" /></a></li>
+<li class="col-md-4"><a title="Select which packages you want to install from the repository." href="../images/3.0/unity/orig/unity_installer_packages.png" class="thumbnail"><img src="../images/3.0/unity/small/unity_installer_packages.png" width="256" height="192" /></a></li>
+<li class="col-md-4"><a title="Review the summary and click Install button." href="../images/3.0/unity/orig/unity_installer_summary.png" class="thumbnail"><img src="../images/3.0/unity/small/unity_installer_summary.png" width="256" height="192" /></a></li>
+<li class="col-md-4"><a title="Enter your password to confirm installation." href="../images/3.0/unity/orig/unity_installer_install_auth.png" class="thumbnail"><img src="../images/3.0/unity/small/unity_installer_install_auth.png" width="256" height="192" /></a></li>
+<li class="col-md-4"><a title="If installation is successful, click Quit button." href="../images/3.0/unity/orig/unity_installer_done_quit.png" class="thumbnail"><img src="../images/3.0/unity/small/unity_installer_done_quit.png" width="256" height="192" /></a></li>
+<li class="col-md-4"><a title="Click Ubuntu button in the top left corner to open Unity Dash." href="../images/3.0/unity/orig/unity_open_dash.png" class="thumbnail"><img src="../images/3.0/unity/small/unity_open_dash.png" width="256" height="192" /></a></li>
+<li class="col-md-4"><a title="Launch Nuvola Player 3." href="../images/3.0/unity/orig/unity_dash_nuvola.png" class="thumbnail"><img src="../images/3.0/unity/small/unity_dash_nuvola.png" width="256" height="192" /></a></li>
+<li class="col-md-4"><a title="Nuvola Player 3 services selector window." href="../images/3.0/unity/orig/unity_nuvola_selector_launch_grooveshark.png" class="thumbnail"><img src="../images/3.0/unity/small/unity_nuvola_selector_launch_grooveshark.png" width="256" height="192" /></a></li>
+</ul>
+</div>
+
+Check Format Support {: #ubuntu-format-support}
+--------------------
+
+!!! info
+    
+    **Nuvola Player 3 packages for Ubuntu** have both Flash plugin and GStreamer MP3 audio decoder as
+    dependencies, so these plugins should work out of the box without any hassles.
+
+ 1. Click **Ubuntu button** in the top left corner to open Unity Dash.
+ 2. Launch Nuvola Player 3.
+ 3. You should see Nuvola Player 3 services selector window. Launch Grooveshark, for example.
+ 4. Open Gear menu and select Format Support.
+ 5. Tab Web Plugins shows information about available Flash Player plugins.
+ 6. Tab MP3 format shows information whether GStreamer MP3 Audio encoder has been found. You can
+    click button Check again to run a MP3 support test.
+ 
+<div class="cointainer">
+<ul class="thumbnails row" data-toggle="lightbox">
+<li class="col-md-4"><a title="Click Ubuntu button in the top left corner to open Unity Dash." href="../images/3.0/unity/orig/unity_open_dash.png" class="thumbnail"><img src="../images/3.0/unity/small/unity_open_dash.png" width="256" height="192" /></a></li>
+<li class="col-md-4"><a title="Launch Nuvola Player 3." href="../images/3.0/unity/orig/unity_dash_nuvola.png" class="thumbnail"><img src="../images/3.0/unity/small/unity_dash_nuvola.png" width="256" height="192" /></a></li>
+<li class="col-md-4"><a title="Nuvola Player 3 services selector window. Launch Grooveshar, for example." href="../images/3.0/unity/orig/unity_nuvola_selector_launch_grooveshark.png" class="thumbnail"><img src="../images/3.0/unity/small/unity_nuvola_selector_launch_grooveshark.png" width="256" height="192" /></a></li>
+<li class="col-md-4"><a title="Open Gear menu and select Format Support." href="../images/3.0/new/orig/unity_grooveshark_appmenu_format_support.png" class="thumbnail"><img src="../images/3.0/new/small/unity_grooveshark_appmenu_format_support.png" width="256" height="192" /></a></li>
+<li class="col-md-4"><a title="Tab Web Plugins shows information about available Flash Player plugins." href="../images/3.0/unity/orig/unity_grooveshark_format_support_flash.png" class="thumbnail"><img src="../images/3.0/unity/small/unity_grooveshark_format_support_flash.png" width="256" height="192" /></a></li>
+<li class="col-md-4"><a title="Tab MP3 format shows information whether GStreamer MP3 Audio encoder has been found. You can click button Check again to run a MP3 support test."href="../images/3.0/unity/orig/unity_grooveshark_format_support_mp3_ok.png" class="thumbnail"><img src="../images/3.0/unity/small/unity_grooveshark_format_support_mp3_ok.png" width="256" height="192" /></a></li>
+<li class="col-md-4"><a title="A sound is playing during the test." href="../images/3.0/unity/orig/unity_grooveshark_format_support_mp3_check.png" class="thumbnail"><img src="../images/3.0/unity/small/unity_grooveshark_format_support_mp3_check.png" width="256" height="192" /></a></li>
+<li class="col-md-4"><a title="Test has been successful." href="../images/3.0/unity/orig/unity_grooveshark_format_support_mp3_check_success.png" class="thumbnail"><img src="../images/3.0/unity/small/unity_grooveshark_format_support_mp3_check_success.png" width="256" height="192" /></a></li>
+</ul>
+</div>
+
+Explore
+-------
+
+<table class="badges">
+<tr>
+<td><a href="./explore.html#news"><img src="../images/3.0/unity/small/unity_google_play_music_launcher_star_rating.png" width="256" height="192" /></a></td>
+<td><a href="./explore.html#news"><img src="../images/3.0/new/small/gnome_grooveshark_add_to_favorites.png" width="256" height="192" /></a></td>
+</tr>
+</table>
+
+Fedora {: #fedora}
+======
+
+Install Tiliado Repository Installer
+------------------------------------
+
+ 1. [Download Tiliado Repository Installer](https://tiliado.eu/nuvolaplayer/repository/) for your
+    distribution release and open it with Software Install tool.
+ 2. When the Software Install tool is launched, click **Install** button.
+ 3. Enter your password to confirm installation.
+
+<div class="cointainer">
+<ul class="thumbnails row" data-toggle="lightbox">
+<li class="col-md-4"><a title="Download Tiliado Repository Installer for your distribution release and open it with Software Install tool." href="../images/3.0/gnome/orig/gnome_firefox_download_rpm.png" class="thumbnail"><img src="../images/3.0/gnome/small/gnome_firefox_download_rpm.png" width="256" height="192" /></a></li>
+<li class="col-md-4"><a title="When the Software Install tool is launched, click Install button." href="../images/3.0/gnome/orig/gnome_install_installer.png" class="thumbnail"><img src="../images/3.0/gnome/small/gnome_install_installer.png" width="256" height="192" /></a></li>
+<li class="col-md-4"><a title="Enter your password to confirm installation." href="../images/3.0/gnome/orig/gnome_install_installer_auth.png" class="thumbnail"><img src="../images/3.0/gnome/small/gnome_install_installer_auth.png" width="256" height="192" /></a></li>
+
+</ul>
+</div>
+
+Add Nuvola Player Repository
+----------------------------
+
+  1. Click **Activities button** in the top left corner to open GNOME Overview.
+  2. Launch **Tiliado Repositories** installer.
+  3. Enter login credentials to your Tiliado account.
+  4. Select Nuvola Player repository.
+  5. Select repository components you want to install Nuvola Player from.
+  6. Select which packages you want to install from the repository.
+  7. Review the summary and click **Install** button.
+  8. Enter your password to confirm installation.
+  9. If installation is successful, click Quit button. Otherwise copy the installation log and
+     [contact support](https://groups.google.com/d/forum/nuvola-player-users).
+ 10. Click **Activities button** in the top left corner to open GNOME Overview.
+ 11. Launch Nuvola Player 3.
+ 12. You should see Nuvola Player 3 services selector window.
+
+<div class="cointainer">
+<ul class="thumbnails row" data-toggle="lightbox">
+<li class="col-md-4"><a title="Click Activities button in the top left corner to open GNOME Overview." href="../images/3.0/gnome/orig/gnome_installer_installed_open_activities.png" class="thumbnail"><img src="../images/3.0/gnome/small/gnome_installer_installed_open_activities.png" width="256" height="192" /></a></li>
+<li class="col-md-4"><a title="Launch Tiliado Repositories installer." href="../images/3.0/gnome/orig/gnome_activities_launch_installer.png" class="thumbnail"><img src="../images/3.0/gnome/small/gnome_activities_launch_installer.png" width="256" height="192" /></a></li>
+<li class="col-md-4"><a title="Enter login credentials to your Tiliado account." href="../images/3.0/gnome/orig/gnome_installer_login.png" class="thumbnail"><img src="../images/3.0/gnome/small/gnome_installer_login.png" width="256" height="192" /></a></li>
+<li class="col-md-4"><a title="Select Nuvola Player repository." href="../images/3.0/gnome/orig/gnome_installer_repositories.png" class="thumbnail"><img src="../images/3.0/gnome/small/gnome_installer_repositories.png" width="256" height="192" /></a></li>
+<li class="col-md-4"><a title="Select repository components you want to install Nuvola Player from." href="../images/3.0/gnome/orig/gnome_installer_components.png" class="thumbnail"><img src="../images/3.0/gnome/small/gnome_installer_components.png" width="256" height="192" /></a></li>
+<li class="col-md-4"><a title="Select which packages you want to install from the repository." href="../images/3.0/gnome/orig/gnome_installer_packages.png" class="thumbnail"><img src="../images/3.0/gnome/small/gnome_installer_packages.png" width="256" height="192" /></a></li>
+<li class="col-md-4"><a title="Review the summary and click Install button." href="../images/3.0/gnome/orig/gnome_installer_summary.png" class="thumbnail"><img src="../images/3.0/gnome/small/gnome_installer_summary.png" width="256" height="192" /></a></li>
+<li class="col-md-4"><a title="Enter your password to confirm installation." href="../images/3.0/gnome/orig/gnome_installer_install_auth.png" class="thumbnail"><img src="../images/3.0/gnome/small/gnome_installer_install_auth.png" width="256" height="192" /></a></li>
+<li class="col-md-4"><a title="If installation is successful, click Quit button. Otherwise copy the installation log and contact support." href="../images/3.0/gnome/orig/gnome_installer_finished.png" class="thumbnail"><img src="../images/3.0/gnome/small/gnome_installer_finished.png" width="256" height="192" /></a></li>
+<li class="col-md-4"><a title="Click Activities button in the top left corner to open GNOME Overview." href="../images/3.0/gnome/orig/fedora_flash_install_done_activities.png" class="thumbnail"><img src="../images/3.0/gnome/small/fedora_flash_install_done_activities.png" width="256" height="192" /></a></li>
+<li class="col-md-4"><a title="Launch Nuvola Player 3." href="../images/3.0/gnome/orig/gnome_activities_nuvola.png" class="thumbnail"><img src="../images/3.0/gnome/small/gnome_activities_nuvola.png" width="256" height="192" /></a></li>
+<li class="col-md-4"><a title="You should see Nuvola Player 3 services selector window." href="../images/3.0/gnome/orig/gnome_selector_launch_grooveshark.png" class="thumbnail"><img src="../images/3.0/gnome/small/gnome_selector_launch_grooveshark.png" width="256" height="192" /></a></li>
+</ul>
+</div>
+
+Install Flash Plugin {: #fedora-flash}
+--------------------
+
+!!! info
+    
+    Fedora repository doesn't contain a [Flash plugin](http://fedoraproject.org/wiki/Flash) package,
+    so it **cannot be installed automatically with Nuvola Player 3** package and it's necessary to
+    [install it manually](https://ask.fedoraproject.org/en/question/10217/how-to-install-adobe-flash-on-fedora/).
+
+  1. Open [Adobe Flash Installation web page](http://get.adobe.com/flashplayer/) in your web browser.
+  2. Select variant "YUM for Linux (YUM)" and click Download button.
+  3. Open downloaded package with Software Install Flash tool.
+  4. Install the downloaded package to add Adobe Flash repository.
+  5. Click **Activities button** in the top left corner to open GNOME Overview and launch Terminal.
+  6. Run command ``su`` or ``sudo -i`` to get superuser rights.
+  7. Run command ``rpm --import /etc/pki/rpm-gpg/RPM-GPG-KEY-adobe-linux`` to import PGP key.
+  8. Run command ``yum -y install flash-plugin`` to install Flash plugin.
+  9. Close both terminal and Nuvola Player.
+  10. Click **Activities button** in the top left corner to open GNOME Overview and launch Nuvola Player again.
+  11. Open Format support dialog and check whether Flash plugin is recognized.
+
+
+<div class="cointainer">
+<ul class="thumbnails row" data-toggle="lightbox">
+<li class="col-md-4"><a title="Flash plugin is not available in a clean Fedora installation." href="../images/3.0/gnome/orig/fedora_grooveshark_flash_button.png" class="thumbnail"><img src="../images/3.0/gnome/small/fedora_grooveshark_flash_button.png" width="256" height="192" /></a></li>
+<li class="col-md-4"><a title="Flash plugin is not available in a clean Fedora installation." href="../images/3.0/gnome/orig/fedora_grooveshark_format_support_flash.png" class="thumbnail"><img src="../images/3.0/gnome/small/fedora_grooveshark_format_support_flash.png" width="256" height="192" /></a></li>
+<li class="col-md-4"><a title="Click Install Flash to open Adobe Flash Installation web page in your web browser." href="../images/3.0/new/orig/fedora_grooveshark_install_flash.png" class="thumbnail"><img src="../images/3.0/new/small/fedora_grooveshark_install_flash.png" width="256" height="192" /></a></li>
+<li class="col-md-4"><a title="Select variant &quot;YUM for Linux (YUM)&quot;." href="../images/3.0/gnome/orig/fedora_flash_install_select_yum.png" class="thumbnail"><img src="../images/3.0/gnome/small/fedora_flash_install_select_yum.png" width="256" height="192" /></a></li>
+<li class="col-md-4"><a title="Click Download button." href="../images/3.0/gnome/orig/fedora_flash_install_download_button.png" class="thumbnail"><img src="../images/3.0/gnome/small/fedora_flash_install_download_button.png" width="256" height="192" /></a></li>
+<li class="col-md-4"><a title="Open downloaded package with Software Install tool." href="../images/3.0/gnome/orig/fedora_flash_install_download_rpm.png" class="thumbnail"><img src="../images/3.0/gnome/small/fedora_flash_install_download_rpm.png" width="256" height="192" /></a></li>
+<li class="col-md-4"><a title="Install the downloaded package to add Adobe Flash repository." href="../images/3.0/gnome/orig/fedora_flash_install_rpm.png" class="thumbnail"><img src="../images/3.0/gnome/small/fedora_flash_install_rpm.png" width="256" height="192" /></a></li>
+<li class="col-md-4"><a title="Click Activities button in the top left corner to open GNOME Overview and launch Terminal." href="../images/3.0/gnome/orig/fedora_activities_terminal.png" class="thumbnail"><img src="../images/3.0/gnome/small/fedora_activities_terminal.png" width="256" height="192" /></a></li>
+<li class="col-md-4"><a title="Installation of Flash plugin in terminal (1/2)." href="../images/3.0/gnome/orig/fedora_flash_install_terminal_1.png" class="thumbnail"><img src="../images/3.0/gnome/small/fedora_flash_install_terminal_1.png" width="256" height="192" /></a></li>
+<li class="col-md-4"><a title="Installation of Flash plugin in terminal (2/2)." href="../images/3.0/gnome/orig/fedora_flash_install_terminal_2.png" class="thumbnail"><img src="../images/3.0/gnome/small/fedora_flash_install_terminal_2.png" width="256" height="192" /></a></li>
+<li class="col-md-4"><a title="Quit Nuvola Player" href="../images/3.0/new/orig/fedora_grooveshark_flash_installed_quit.png" class="thumbnail"><img src="../images/3.0/new/small/fedora_grooveshark_flash_installed_quit.png" width="256" height="192" /></a></li>
+<li class="col-md-4"><a title="Click Activities button in the top left corner to open GNOME Overview and launch Nuvola Player again." href="../images/3.0/gnome/orig/fedora_flash_install_relaunch_grooveshark.png" class="thumbnail"><img src="../images/3.0/gnome/small/fedora_flash_install_relaunch_grooveshark.png" width="256" height="192" /></a></li>
+<li class="col-md-4"><a title="Open Format support dialog." href="../images/3.0/new/orig/fedora_grooveshark_flash_installed_format_support.png" class="thumbnail"><img src="../images/3.0/new/small/fedora_grooveshark_flash_installed_format_support.png" width="256" height="192" /></a></li>
+<li class="col-md-4"><a title="Check whether Flash plugin is recognized." href="../images/3.0/new/orig/fedora_grooveshark_format_support_flash_ok.png" class="thumbnail"><img src="../images/3.0/new/small/fedora_grooveshark_format_support_flash_ok.png" width="256" height="192" /></a></li>
+</ul>
+</div>
+
+Install GStreamer MP3 Audio Decoder {: #fedora-mp3}
+-----------------------------------
+
+!!! info
+    
+    Fedora repository doesn't contain a GStreamer MP3 Audio Decoder package,
+    so it **cannot be installed automatically with Nuvola Player 3** package and it's necessary to
+    [install it manually](https://ask.fedoraproject.org/en/question/42073/how-i-can-install-audio-codecs-like-mp3/).
+
+
+ 1. Click **Activities button** in the top left corner to open GNOME Overview and launch Terminal.
+ 2. Run command ``su`` or ``sudo -i`` to get superuser rights.
+ 3. Run following command to add a RPM Fusion repository.
+     
+        :::text
+        yum localinstall --nogpgcheck \
+        http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-stable.noarch.rpm \
+        http://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-stable.noarch.rpm
+    
+  4. Run following command to install GStreamer MP3 Audio Decoder from the RPM Fusion repository.
+    
+        :::text
+        yum install gstreamer1-{libav,plugins-{good,ugly,bad-free}}
+
+  9. Close both terminal and Nuvola Player.
+ 10. Click **Activities button** in the top left corner to open GNOME Overview and launch Nuvola Player again.
+ 11. Open Format support dialog and check whether GStreamer MP3 Audio Decoder is recognized.
+  
+<div class="cointainer">
+<ul class="thumbnails row" data-toggle="lightbox">
+<li class="col-md-4"><a title="GStreamer MP3 Audio Decoder is not available in a clean Fedora installation." href="../images/3.0/new/orig/fedora_fromat_support_mp3_button.png" class="thumbnail"><img src="../images/3.0/new/small/fedora_fromat_support_mp3_button.png" width="256" height="192" /></a></li>
+<li class="col-md-4"><a title="GStreamer MP3 Audio Decoder is not available in a clean Fedora installation." href="../images/3.0/new/orig/fedora_format_support_mp3_unsupported_check_again.png" class="thumbnail"><img src="../images/3.0/new/small/fedora_format_support_mp3_unsupported_check_again.png" width="256" height="192" /></a></li>
+<li class="col-md-4"><a title="GStreamer MP3 Audio Decoder is not available in a clean Fedora installation." href="../images/3.0/new/orig/fedora_format_support_mp3_unsupported_check_failed.png" class="thumbnail"><img src="../images/3.0/new/small/fedora_format_support_mp3_unsupported_check_failed.png" width="256" height="192" /></a></li>
+<li class="col-md-4"><a title="Click Activities button in the top left corner to open GNOME Overview and launch Terminal." href="../images/3.0/gnome/orig/fedora_activities_terminal.png" class="thumbnail"><img src="../images/3.0/gnome/small/fedora_activities_terminal.png" width="256" height="192" /></a></li>
+<li class="col-md-4"><a title="Installation of GStreamer MP3 Audio Decoder in terminal (1/3)." href="../images/3.0/gnome/orig/fedora_mp3_install_terminal_1.png" class="thumbnail"><img src="../images/3.0/gnome/small/fedora_mp3_install_terminal_1.png" width="256" height="192" /></a></li>
+<li class="col-md-4"><a title="Installation of GStreamer MP3 Audio Decoder in terminal (2/3)." href="../images/3.0/gnome/orig/fedora_mp3_install_terminal_2.png" class="thumbnail"><img src="../images/3.0/gnome/small/fedora_mp3_install_terminal_2.png" width="256" height="192" /></a></li>
+<li class="col-md-4"><a title="Installation of GStreamer MP3 Audio Decoder in terminal (3/3)." href="../images/3.0/gnome/orig/fedora_mp3_install_terminal_3.png" class="thumbnail"><img src="../images/3.0/gnome/small/fedora_mp3_install_terminal_3.png" width="256" height="192" /></a></li>
+<li class="col-md-4"><a title="Quit Nuvola Player" href="../images/3.0/new/orig/fedora_grooveshark_mp3_installed_quit.png" class="thumbnail"><img src="../images/3.0/new/small/fedora_grooveshark_mp3_installed_quit.png" width="256" height="192" /></a></li>
+<li class="col-md-4"><a title="Click Activities button in the top left corner to open GNOME Overview and launch Nuvola Player again." href="../images/3.0/gnome/orig/fedora_flash_install_relaunch_grooveshark.png" class="thumbnail"><img src="../images/3.0/gnome/small/fedora_flash_install_relaunch_grooveshark.png" width="256" height="192" /></a></li>
+<li class="col-md-4"><a title="Open Format support dialog." href="../images/3.0/gnome/orig/gnome_grooveshark_appmenu_format_support.png" class="thumbnail"><img src="../images/3.0/gnome/small/gnome_grooveshark_appmenu_format_support.png" width="256" height="192" /></a></li>
+<li class="col-md-4"><a title="Check whether GStreamer MP3 Audio Decoder is recognized." href="../images/3.0/gnome/orig/gnome_format_support_mp3_ok_check_again.png" class="thumbnail"><img src="../images/3.0/gnome/small/gnome_format_support_mp3_ok_check_again.png" width="256" height="192" /></a></li>
+<li class="col-md-4"><a title="A sound is playing during the test." href="../images/3.0/gnome/orig/gnome_format_support_mp3_checking.png" class="thumbnail"><img src="../images/3.0/gnome/small/gnome_format_support_mp3_checking.png" width="256" height="192" /></a></li>
+</ul>
+</div>
+
+Explore
+-------
+
+<table class="badges">
+<tr>
+<td><a href="./explore.html#news"><img src="../images/3.0/unity/small/unity_google_play_music_launcher_star_rating.png" width="256" height="192" /></a></td>
+<td><a href="./explore.html#news"><img src="../images/3.0/new/small/gnome_grooveshark_add_to_favorites.png" width="256" height="192" /></a></td>
+</tr>
+</table>
+
+[TOC]
