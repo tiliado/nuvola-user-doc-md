@@ -15,6 +15,11 @@ Description: Nuvola Player 3.0 will be the first release of the third generation
 Ubuntu {: #ubuntu}
 ======
 
+!!! info
+
+    **Nuvola Player 3 Alpha won't replace Nuvola Player 2 in you system.** You can keep using Nuvola
+    Player 2 until Nuvola Player 3 is stable enough for your.
+
 Install Tiliado Repository Installer
 ------------------------------------
 
@@ -108,6 +113,11 @@ Explore
 Fedora {: #fedora}
 ======
 
+!!! info
+
+    **Nuvola Player 3 Alpha won't replace Nuvola Player 2 in your system.** You can keep using Nuvola
+    Player 2 until Nuvola Player 3 is stable enough for you.
+    
 Install Tiliado Repository Installer
 ------------------------------------
 
