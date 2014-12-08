@@ -18,6 +18,14 @@ Future Releases
 Supported Stable Releases
 =========================
 
+[Nuvola Player 2.5.x](http://nuvolaplayer.fenryxo.cz/releases/2.5.html)
+---------------------
+
+  * Initial release 2.5.0 was released on December 08th, 2014.
+ 
+Old Releases
+============
+
 [Nuvola Player 2.4.x](http://nuvolaplayer.fenryxo.cz/releases/2.4.html)
 ---------------------
 
@@ -25,9 +33,6 @@ Supported Stable Releases
   * Maintenance release 2.4.1 was released on June 30th, 2014.
   * Maintenance release 2.4.2 was released on July 17th, 2014.
   * Maintenance release 2.4.3 was released on September 6th, 2014.
-
-Old Releases
-============
 
 [Nuvola Player 2.3.x](http://nuvolaplayer.fenryxo.cz/releases/2.3.html)
 ---------------------
