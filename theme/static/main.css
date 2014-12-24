@@ -33,3 +33,11 @@ dl dd {
 {
   vertical-align: -30%;
 }
+
+iframe {
+  border-size: 0px;
+}
+
+.patrons-box {
+  margin-top: 1em;
+}
