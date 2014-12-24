@@ -8,7 +8,7 @@
         <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
     {% endblock head %}
     {% block styles %}
-    <link rel="stylesheet" href="{{ SITEURL }}/theme/bootstrap.min.css" />
+    <link rel="stylesheet" href="{{ SITEURL }}/theme/bootstrap.css" />
     <link rel="stylesheet" href="{{ SITEURL }}/theme/bootstrap.lightbox.css" media="screen" />
     <link rel="stylesheet" href="{{ SITEURL }}/theme/pygments.css" />
     <link rel="stylesheet" href="{{ SITEURL }}/theme/main.css" />
@@ -36,9 +36,11 @@
     
     <div class="container">
       <div class="row">
-        
         {% block content %}
         {% endblock %}
+      </div>
+      <div class="row">
+        {% include "footer.inc.html" %}
       </div>
     </div>
   </body>
