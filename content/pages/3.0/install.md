@@ -287,4 +287,13 @@ Explore
 </tr>
 </table>
 
+
+Debian
+======
+
+Installation instructions for Debian haven't been written yet. You can follow [instructions for Ubuntu](#ubuntu) for now.
+Please report any issues to [the Nuvola Player Users mailing list](https://groups.google.com/d/forum/nuvola-player-users).
+I'll be there to help you ;-)
+
+
 [TOC]
