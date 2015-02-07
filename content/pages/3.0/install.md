@@ -20,6 +20,20 @@ Ubuntu {: #ubuntu}
     **Nuvola Player 3 Alpha won't replace Nuvola Player 2 in you system.** You can keep using Nuvola
     Player 2 until Nuvola Player 3 is stable enough for your.
 
+
+Graphical Installer or Terminal Kung-fu
+---------------------------------------
+
+There are two ways how to install Nuvola Player:
+
+ 1. **Power users** who are excellent in command-line kung-fu can just add
+    [the Nuvola Player Repository](https://tiliado.eu/nuvolaplayer/repository/) manually and install Nuvola Player
+    using common package management tools of your linux distribution. Then skip to the section
+    [Check format support](#ubuntu-format-support).
+
+ 2. Users who are **not friends with a terminal** can take advantage of an easy-to-use graphical installer
+    and follow instructions in the next section.
+
 Install Tiliado Repository Installer
 ------------------------------------
 
@@ -117,7 +131,20 @@ Fedora {: #fedora}
 
     **Nuvola Player 3 Alpha won't replace Nuvola Player 2 in your system.** You can keep using Nuvola
     Player 2 until Nuvola Player 3 is stable enough for you.
-    
+
+Graphical Installer or Terminal Kung-fu
+---------------------------------------
+
+There are two ways how to install Nuvola Player:
+
+ 1. **Power users** who are excellent in command-line kung-fu can just add
+    [the Nuvola Player Repository](https://tiliado.eu/nuvolaplayer/repository/) manually and install Nuvola Player
+    using common package management tools of your linux distribution. Then skip to the section
+    [Install Flash Plugin](#fedora-flash).
+
+ 2. Users who are **not friends with a terminal** can take advantage of an easy-to-use graphical installer
+    and follow instructions in the next section.
+
 Install Tiliado Repository Installer
 ------------------------------------
 
