@@ -51,7 +51,7 @@ Add Nuvola Player Repository
 
   1. Click **Ubuntu button** in the top left corner to open Unity Dash.
   2. Launch **Tiliado Repositories** installer.
-  3. Enter login credentials to your Tiliado account.
+  3. Use anonymous access or Enter login credentials to your Tiliado account.
   4. Select Nuvola Player repository.
   5. Select repository components you want to install Nuvola Player from.
   6. Select which packages you want to install from the repository.
@@ -67,7 +67,7 @@ Add Nuvola Player Repository
 <ul class="thumbnails row" data-toggle="lightbox">
 <li class="col-md-8"><a title="Click Ubuntu button in the top left corner to open Unity Dash." href="../images/3.0/unity/orig/unity_installer_installed_open_dash.png" class="thumbnail"><img src="../images/3.0/unity/small/unity_installer_installed_open_dash.png" width="256" height="192" /></a></li>
 <li class="col-md-8"><a title="Launch Tiliado Repositories installer." href="../images/3.0/unity/orig/unity_dash_tiliado_installer.png" class="thumbnail"><img src="../images/3.0/unity/small/unity_dash_tiliado_installer.png" width="256" height="192" /></a></li>
-<li class="col-md-8"><a title="Enter login credentials to your Tiliado account." href="../images/3.0/unity/orig/unity_installer_login.png" class="thumbnail"><img src="../images/3.0/unity/small/unity_installer_login.png" width="256" height="192" /></a></li>
+<li class="col-md-8"><a title="Use anonymous access or enter login credentials to your Tiliado account." href="../images/3.0/unity/orig/unity_installer_anonymous.png" class="thumbnail"><img src="../images/3.0/unity/small/unity_installer_anonymous.png" width="256" height="192" /></a></li>
 <li class="col-md-8"><a title="Select Nuvola Player repository." href="../images/3.0/unity/orig/unity_installer_repositories.png" class="thumbnail"><img src="../images/3.0/unity/small/unity_installer_repositories.png" width="256" height="192" /></a></li>
 <li class="col-md-8"><a title="Select repository components you want to install Nuvola Player from." href="../images/3.0/unity/orig/unity_installer_components.png" class="thumbnail"><img src="../images/3.0/unity/small/unity_installer_components.png" width="256" height="192" /></a></li>
 <li class="col-md-8"><a title="Select which packages you want to install from the repository." href="../images/3.0/unity/orig/unity_installer_packages.png" class="thumbnail"><img src="../images/3.0/unity/small/unity_installer_packages.png" width="256" height="192" /></a></li>
@@ -162,7 +162,7 @@ Add Nuvola Player Repository
 
   1. Click **Activities button** in the top left corner to open GNOME Overview.
   2. Launch **Tiliado Repositories** installer.
-  3. Enter login credentials to your Tiliado account.
+  3. Use anonymous access or enter login credentials to your Tiliado account.
   4. Select Nuvola Player repository.
   5. Select repository components you want to install Nuvola Player from.
   6. Select which packages you want to install from the repository.
@@ -178,7 +178,7 @@ Add Nuvola Player Repository
 <ul class="thumbnails row" data-toggle="lightbox">
 <li class="col-md-8"><a title="Click Activities button in the top left corner to open GNOME Overview." href="../images/3.0/gnome/orig/gnome_installer_installed_open_activities.png" class="thumbnail"><img src="../images/3.0/gnome/small/gnome_installer_installed_open_activities.png" width="256" height="192" /></a></li>
 <li class="col-md-8"><a title="Launch Tiliado Repositories installer." href="../images/3.0/gnome/orig/gnome_activities_launch_installer.png" class="thumbnail"><img src="../images/3.0/gnome/small/gnome_activities_launch_installer.png" width="256" height="192" /></a></li>
-<li class="col-md-8"><a title="Enter login credentials to your Tiliado account." href="../images/3.0/gnome/orig/gnome_installer_login.png" class="thumbnail"><img src="../images/3.0/gnome/small/gnome_installer_login.png" width="256" height="192" /></a></li>
+<li class="col-md-8"><a title="Use anonymous access or enter login credentials to your Tiliado account." href="../images/3.0/gnome/orig/gnome_installer_anonymous.png" class="thumbnail"><img src="../images/3.0/gnome/small/gnome_installer_anonymous.png" width="256" height="192" /></a></li>
 <li class="col-md-8"><a title="Select Nuvola Player repository." href="../images/3.0/gnome/orig/gnome_installer_repositories.png" class="thumbnail"><img src="../images/3.0/gnome/small/gnome_installer_repositories.png" width="256" height="192" /></a></li>
 <li class="col-md-8"><a title="Select repository components you want to install Nuvola Player from." href="../images/3.0/gnome/orig/gnome_installer_components.png" class="thumbnail"><img src="../images/3.0/gnome/small/gnome_installer_components.png" width="256" height="192" /></a></li>
 <li class="col-md-8"><a title="Select which packages you want to install from the repository." href="../images/3.0/gnome/orig/gnome_installer_packages.png" class="thumbnail"><img src="../images/3.0/gnome/small/gnome_installer_packages.png" width="256" height="192" /></a></li>
