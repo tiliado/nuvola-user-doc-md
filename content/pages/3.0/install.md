@@ -287,7 +287,6 @@ Explore
 </tr>
 </table>
 
-
 Debian
 ======
 
@@ -295,5 +294,15 @@ Installation instructions for Debian haven't been written yet. You can follow [i
 Please report any issues to [the Nuvola Player Users mailing list](https://groups.google.com/d/forum/nuvola-player-users).
 I'll be there to help you ;-)
 
+Other Distributions
+===================
+
+Although Nuvola Player 3 **officially supports** only three distributions (Debian, Ubuntu and Fedora),
+it should work on other modern Linux distributions. You can take a look at
+[a list of unofficial packages](https://github.com/tiliado/nuvolaplayer/wiki/Unofficial) provided by a community
+or [build Nuvola Player from source](https://github.com/tiliado/nuvolaplayer).
+However, user experience might not be optimal (e.g. inconsistent look and behavior). Official support for more
+distributions and environments is expected to be added in the future depending on
+[project funding](https://tiliado.eu/nuvolaplayer/funding/) and demand from users, especially from donators.
 
 [TOC]
