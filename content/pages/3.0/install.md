@@ -6,18 +6,13 @@ Description: Nuvola Player 3.0 will be the first release of the third generation
     shows desktop notifications, integrates with various sound indicators, media player applets,
     GNOME lock screen and launchers and more.
 
-!!! danger "**In Development - Feedback Welcome**"
-    **Nuvola Player 3 is a new code-base written from scratch** and the current development stage can be
-    described as **alpha**, so please be patient and
-    [ask questions and provide feedback](https://groups.google.com/d/forum/nuvola-player-users) whenever you find a bug
-    or two.
 
 Ubuntu {: #ubuntu}
 ======
 
 !!! info
 
-    **Nuvola Player 3 Alpha won't replace Nuvola Player 2 in you system.** You can keep using Nuvola
+    **Nuvola Player 3 won't replace Nuvola Player 2 in you system.** You can keep using Nuvola
     Player 2 until Nuvola Player 3 is stable enough for your.
 
 
@@ -129,7 +124,7 @@ Fedora {: #fedora}
 
 !!! info
 
-    **Nuvola Player 3 Alpha won't replace Nuvola Player 2 in your system.** You can keep using Nuvola
+    **Nuvola Player 3 won't replace Nuvola Player 2 in your system.** You can keep using Nuvola
     Player 2 until Nuvola Player 3 is stable enough for you.
 
 Graphical Installer or Terminal Kung-fu
