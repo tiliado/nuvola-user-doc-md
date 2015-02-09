@@ -49,6 +49,11 @@ Install Tiliado Repository Installer
 Add Nuvola Player Repository
 ----------------------------
 
+!!! danger "Warning"
+    
+    Make sure you have installed **Tiliado Repository Installer version 0.3.2** or newer. If unsure,
+    [download the latest version](https://tiliado.eu/nuvolaplayer/repository/).
+
   1. Click **Ubuntu button** in the top left corner to open Unity Dash.
   2. Launch **Tiliado Repositories** installer.
   3. Use anonymous access or Enter login credentials to your Tiliado account.
@@ -159,6 +164,11 @@ Install Tiliado Repository Installer
 
 Add Nuvola Player Repository
 ----------------------------
+
+!!! danger "Warning"
+    
+    Make sure you have installed **Tiliado Repository Installer version 0.3.2** or newer. If unsure,
+    [download the latest version](https://tiliado.eu/nuvolaplayer/repository/).
 
   1. Click **Activities button** in the top left corner to open GNOME Overview.
   2. Launch **Tiliado Repositories** installer.
