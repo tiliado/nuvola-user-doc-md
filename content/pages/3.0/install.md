@@ -7,6 +7,14 @@ Description: Nuvola Player 3.0 will be the first release of the third generation
     GNOME lock screen and launchers and more.
 
 
+Nuvola Player 3 project officially supports and provides packages for [Ubuntu](#ubuntu) 14.10-14.10, [Fedora](#fedora) 20-21 and [Debian](#debian)
+Jessie and Sid. The Nuvola Player developer has tested installation and functionality in clean virtualized instances
+of these distributions and can assure reasonable user support in case of problems.
+
+However, Nuvola Player should also work on [other modern Linux distributions](#other-linux), but user experience might
+not be optimal (e.g. inconsistent look and behavior) and quality of user support depends on complexity of an issue.
+
+
 Ubuntu {: #ubuntu}
 ======
 
@@ -297,22 +305,40 @@ Explore
 </tr>
 </table>
 
-Debian
+Debian {: #debian}
 ======
 
-Installation instructions for Debian haven't been written yet. You can follow [instructions for Ubuntu](#ubuntu) for now.
-Please report any issues to [the Nuvola Player Users mailing list](https://groups.google.com/d/forum/nuvola-player-users).
+Installation instructions for Debian haven't been written yet, but will be made before the stable release.
+You can follow [instructions for Ubuntu](#ubuntu) for now. Please report any issues to
+[the Nuvola Player Users mailing list](https://groups.google.com/d/forum/nuvola-player-users).
 I'll be there to help you ;-)
 
-Other Distributions
+Other Distributions {: #other-linux}
 ===================
 
-Although Nuvola Player 3 **officially supports** only three distributions (Debian, Ubuntu and Fedora),
-it should work on other modern Linux distributions. You can take a look at
-[a list of unofficial packages](https://github.com/tiliado/nuvolaplayer/wiki/Unofficial) provided by a community
-or [build Nuvola Player from source](https://github.com/tiliado/nuvolaplayer).
-However, user experience might not be optimal (e.g. inconsistent look and behavior). Official support for more
-distributions and environments is expected to be added in the future depending on
-[project funding](https://tiliado.eu/nuvolaplayer/funding/) and demand from users, especially from donators.
+Nuvola Player 3 should work also on modern linux distributions which meet minimal requirements listed bellow,
+but hasn't been tested here by the developer and support may be limited for that reason.
+You can take a look at [a list of unofficial packages](https://github.com/tiliado/nuvolaplayer/wiki/Unofficial)
+provided by a community or [build Nuvola Player from source](https://github.com/tiliado/nuvolaplayer).
+
+  * [Python 2](http://python.org) >= 2.7 (recommended)
+    or [Python 3](http://python.org) >= 3.4 (not well tested)
+  * [Vala](https://wiki.gnome.org/Projects/Vala) >= 0.22.1
+  * [Diorite library](https://github.com/tiliado/diorite)
+  * [glib-2.0](https://wiki.gnome.org/Projects/GLib) >= 2.38
+  * [gio-2.0](https://wiki.gnome.org/Projects/GLib) >= 2.38
+  * [gobject-2.0](https://wiki.gnome.org/Projects/GLib) >= 2.38
+  * [gthread-2.0](https://wiki.gnome.org/Projects/GLib) >= 2.38
+  * [gtk+-3.0](http://www.gtk.org/) >= 3.10
+  * [gdk-3.0](http://www.gtk.org/) >= 3.10
+  * [gdk-x11-3.0](http://www.gtk.org/) >= 3.10
+  * [x11](http://www.x.org/wiki/) >= 0.5
+  * [json-glib-1.0](https://wiki.gnome.org/Projects/JsonGlib) >= 0.7
+  * [libarchive](http://www.libarchive.org/) >= 3.1
+  * [webkit2gtk-3.0](http://webkitgtk.org/) >= 2.2
+  * [javascriptcoregtk-3.0](http://webkitgtk.org/) >= 1.8
+  * [libnotify](https://git.gnome.org/browse/libnotify/) >= 0.7
+  * optional unity >= 3.0
+  * optional dbusmenu-glib-0.4 >= 0.4 
 
 [TOC]
