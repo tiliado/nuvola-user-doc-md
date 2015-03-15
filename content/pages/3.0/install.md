@@ -439,6 +439,9 @@ but hasn't been tested here by the developer and support may be limited for that
 You can take a look at [a list of unofficial packages](https://github.com/tiliado/nuvolaplayer/wiki/Unofficial)
 provided by a community or [build Nuvola Player from source](https://github.com/tiliado/nuvolaplayer).
 
+Dependencies
+------------
+
   * [Python 2](http://python.org) >= 2.7 (recommended)
     or [Python 3](http://python.org) >= 3.4 (not well tested)
   * [Vala](https://wiki.gnome.org/Projects/Vala) >= 0.22.1
@@ -458,6 +461,15 @@ provided by a community or [build Nuvola Player from source](https://github.com/
   * [libnotify](https://git.gnome.org/browse/libnotify/) >= 0.7
   * optional unity >= 3.0
   * optional dbusmenu-glib-0.4 >= 0.4 
+
+Format Support
+--------------
+
+Streaming services use following technologies for audio playback:
+
+* **Adobe Flash** - you will need a NPAPI based Flash plugin (not PAPI) - see [Flash download page](http://get.adobe.com/flashplayer/)
+* **HTML5 Audio with MP3 format** - you will need a functional [GStreamer stack](http://gstreamer.freedesktop.org/modules/)
+  with a MP3 decoder. I'd recommend to install modules `gst-plugins-base`, `gst-plugins-good`, `gst-plugins-ugly` and `gst-plugins-bad`.
 
 Explore Features
 ----------------
