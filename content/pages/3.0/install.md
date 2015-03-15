@@ -40,8 +40,10 @@ There are two ways how to install Nuvola Player:
 Install Tiliado Repository Installer
 ------------------------------------
 
- 1. [Download Tiliado Repository Installer](https://tiliado.eu/nuvolaplayer/repository/) for your
-    distribution release and open it with Ubuntu Software Center
+ 1. Download Tiliado Repository Installer for your
+    distribution release and open it with Ubuntu Software Center.
+     * [Ubuntu 14.04 LTS Trusty Tahr](https://tiliado.eu/repository-installer/download/trusty/) 
+     * [Ubuntu 14.10 Utopic Unicorn](https://tiliado.eu/repository-installer/download/utopic/) 
  2. Wait a bit as Ubuntu Software Center is a pretty slow beast. Then click **Install** button.
  3. Enter your password to confirm installation.
 
@@ -122,15 +124,36 @@ Check Format Support {: #ubuntu-format-support}
 </ul>
 </div>
 
-Explore
--------
+Explore Features
+----------------
 
-<table class="badges">
-<tr>
-<td><a href="./explore.html#news"><img src="../images/3.0/unity/small/unity_google_play_music_launcher_star_rating.png" width="256" height="192" /></a></td>
-<td><a href="./explore.html#news"><img src="../images/3.0/new/small/gnome_grooveshark_add_to_favorites.png" width="256" height="192" /></a></td>
-</tr>
-</table>
+<div class="row">
+  <div class="col-sm-12 col-md-8">
+    <div class="thumbnail">
+      <a href="./explore.html#explore-unity"><img src="../images/3.0/unity/small/unity_google_play_music_launcher_star_rating.png" width="256" height="192" /></a>
+      <div class="caption">
+        <a class="btn btn-primary btn-block" role="button" href="./explore.html#explore-unity">Unity</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-12 col-md-8">
+    <div class="thumbnail">
+      <a href="./explore.html#explore-gnome"><img src="../images/3.0/new/small/gnome_grooveshark_add_to_favorites.png" width="256" height="192" /></a>
+      <div class="caption">
+        <a class="btn btn-primary btn-block" role="button" href="./explore.html#explore-gnome">GNOME</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-12 col-md-8">
+    <div class="thumbnail">
+      <a href="./explore.html#explore-terminal"><img src="../images/3.0/unity/small/unity_nuvolactl_multiple_apps.png" width="256" height="192" /></a>
+      <div class="caption">
+        <a class="btn btn-primary btn-block" role="button" href="./explore.html#explore-terminal">Terminal & scripts</a>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 Fedora {: #fedora}
 ======
@@ -156,8 +179,10 @@ There are two ways how to install Nuvola Player:
 Install Tiliado Repository Installer
 ------------------------------------
 
- 1. [Download Tiliado Repository Installer](https://tiliado.eu/nuvolaplayer/repository/) for your
+ 1. Download Tiliado Repository Installer for your
     distribution release and open it with Software Install tool.
+    * [Fefora 20](https://tiliado.eu/repository-installer/download/fc20/)
+    * [Fefora 21](https://tiliado.eu/repository-installer/download/fc21/)
  2. When the Software Install tool is launched, click **Install** button.
  3. Enter your password to confirm installation.
 
@@ -191,6 +216,7 @@ Add Nuvola Player Repository
  10. Click **Activities button** in the top left corner to open GNOME Overview.
  11. Launch Nuvola Player 3.
  12. You should see Nuvola Player 3 services selector window.
+
 
 <div class="cointainer">
 <ul class="thumbnails row" data-toggle="lightbox">
@@ -295,15 +321,35 @@ Install GStreamer MP3 Audio Decoder {: #fedora-mp3}
 </ul>
 </div>
 
-Explore
--------
+Explore Features
+----------------
 
-<table class="badges">
-<tr>
-<td><a href="./explore.html#news"><img src="../images/3.0/unity/small/unity_google_play_music_launcher_star_rating.png" width="256" height="192" /></a></td>
-<td><a href="./explore.html#news"><img src="../images/3.0/new/small/gnome_grooveshark_add_to_favorites.png" width="256" height="192" /></a></td>
-</tr>
-</table>
+<div class="row">
+  <div class="col-sm-12 col-md-8">
+    <div class="thumbnail">
+      <a href="./explore.html#explore-gnome"><img src="../images/3.0/new/small/gnome_grooveshark_add_to_favorites.png" width="256" height="192" /></a>
+      <div class="caption">
+        <a class="btn btn-primary btn-block" role="button" href="./explore.html#explore-gnome">GNOME</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-12 col-md-8">
+    <div class="thumbnail">
+      <a href="./explore.html#explore-unity"><img src="../images/3.0/unity/small/unity_google_play_music_launcher_star_rating.png" width="256" height="192" /></a>
+      <div class="caption">
+        <a class="btn btn-primary btn-block" role="button" href="./explore.html#explore-unity">Unity</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-12 col-md-8">
+    <div class="thumbnail">
+      <a href="./explore.html#explore-terminal"><img src="../images/3.0/unity/small/unity_nuvolactl_multiple_apps.png" width="256" height="192" /></a>
+      <div class="caption">
+        <a class="btn btn-primary btn-block" role="button" href="./explore.html#explore-terminal">Terminal & scripts</a>
+      </div>
+    </div>
+  </div>
+</div>
 
 Debian {: #debian}
 ======
@@ -312,6 +358,78 @@ Installation instructions for Debian haven't been written yet, but will be made 
 You can follow [instructions for Ubuntu](#ubuntu) for now. Please report any issues to
 [the Nuvola Player Users mailing list](https://groups.google.com/d/forum/nuvola-player-users).
 I'll be there to help you ;-)
+
+Graphical Installer or Terminal Kung-fu
+---------------------------------------
+
+There are two ways how to install Nuvola Player:
+
+ 1. **Power users** who are excellent in command-line kung-fu can just add
+    [the Nuvola Player Repository](https://tiliado.eu/nuvolaplayer/repository/) manually and install Nuvola Player
+    using common package management tools of your linux distribution.
+
+ 2. Users who are **not friends with a terminal** can take advantage of an easy-to-use graphical installer
+    and follow instructions in the next section.
+
+
+Install Tiliado Repository Installer
+------------------------------------
+
+Download Tiliado Repository Installer for your distribution release and install it with package installer.
+
+  * [Debian 8 Jessie](https://tiliado.eu/repository-installer/download/jessie/) 
+  * [Debian Sid](https://tiliado.eu/repository-installer/download/sid/) 
+
+Add Nuvola Player Repository
+----------------------------
+
+!!! danger "Warning"
+    
+    Make sure you have installed **Tiliado Repository Installer version 0.3.2** or newer. If unsure,
+    [download the latest version](https://tiliado.eu/nuvolaplayer/repository/).
+
+  1. Launch **Tiliado Repositories** installer from applications list.
+  2. Use anonymous access or Enter login credentials to your Tiliado account.
+  3. Select Nuvola Player repository.
+  4. Select repository components you want to install Nuvola Player from.
+  5. Select which packages you want to install from the repository.
+  6. Review the summary and click **Install** button.
+  7. Enter your password to confirm installation.
+  8. If installation is successful, click Quit button. Otherwise copy the installation log and
+     [contact support](https://groups.google.com/d/forum/nuvola-player-users).
+  9. Click **Ubuntu button** in the top left corner to open Unity Dash.
+ 10. Launch Nuvola Player 3 from applications list.
+ 11. You should see Nuvola Player 3 services selector window.
+
+Explore Features
+----------------
+
+<div class="row">
+  <div class="col-sm-12 col-md-8">
+    <div class="thumbnail">
+      <a href="./explore.html#explore-gnome"><img src="../images/3.0/new/small/gnome_grooveshark_add_to_favorites.png" width="256" height="192" /></a>
+      <div class="caption">
+        <a class="btn btn-primary btn-block" role="button" href="./explore.html#explore-gnome">GNOME</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-12 col-md-8">
+    <div class="thumbnail">
+      <a href="./explore.html#explore-unity"><img src="../images/3.0/unity/small/unity_google_play_music_launcher_star_rating.png" width="256" height="192" /></a>
+      <div class="caption">
+        <a class="btn btn-primary btn-block" role="button" href="./explore.html#explore-unity">Unity</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-12 col-md-8">
+    <div class="thumbnail">
+      <a href="./explore.html#explore-terminal"><img src="../images/3.0/unity/small/unity_nuvolactl_multiple_apps.png" width="256" height="192" /></a>
+      <div class="caption">
+        <a class="btn btn-primary btn-block" role="button" href="./explore.html#explore-terminal">Terminal & scripts</a>
+      </div>
+    </div>
+  </div>
+</div>
 
 Other Distributions {: #other-linux}
 ===================
@@ -340,5 +458,35 @@ provided by a community or [build Nuvola Player from source](https://github.com/
   * [libnotify](https://git.gnome.org/browse/libnotify/) >= 0.7
   * optional unity >= 3.0
   * optional dbusmenu-glib-0.4 >= 0.4 
+
+Explore Features
+----------------
+
+<div class="row">
+  <div class="col-sm-12 col-md-8">
+    <div class="thumbnail">
+      <a href="./explore.html#explore-gnome"><img src="../images/3.0/new/small/gnome_grooveshark_add_to_favorites.png" width="256" height="192" /></a>
+      <div class="caption">
+        <a class="btn btn-primary btn-block" role="button" href="./explore.html#explore-gnome">GNOME</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-12 col-md-8">
+    <div class="thumbnail">
+      <a href="./explore.html#explore-unity"><img src="../images/3.0/unity/small/unity_google_play_music_launcher_star_rating.png" width="256" height="192" /></a>
+      <div class="caption">
+        <a class="btn btn-primary btn-block" role="button" href="./explore.html#explore-unity">Unity</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-12 col-md-8">
+    <div class="thumbnail">
+      <a href="./explore.html#explore-terminal"><img src="../images/3.0/unity/small/unity_nuvolactl_multiple_apps.png" width="256" height="192" /></a>
+      <div class="caption">
+        <a class="btn btn-primary btn-block" role="button" href="./explore.html#explore-terminal">Terminal & scripts</a>
+      </div>
+    </div>
+  </div>
+</div>
 
 [TOC]
