@@ -7,7 +7,7 @@ Description: Nuvola Player 3.0 will be the first release of the third generation
     GNOME lock screen and launchers and more.
 
 
-Nuvola Player 3 project officially supports and provides packages for [Ubuntu](#ubuntu) 14.10-14.10, [Fedora](#fedora) 20-21 and [Debian](#debian)
+Nuvola Player 3 project officially supports and provides packages for [Ubuntu](#ubuntu) 14.10-15.04, [Fedora](#fedora) 20-21 and [Debian](#debian)
 Jessie and Sid. The Nuvola Player developer has tested installation and functionality in clean virtualized instances
 of these distributions and can assure reasonable user support in case of problems.
 
@@ -44,6 +44,7 @@ Install Tiliado Repository Installer
     distribution release and open it with Ubuntu Software Center.
      * [Ubuntu 14.04 LTS Trusty Tahr](https://tiliado.eu/repository-installer/download/trusty/) 
      * [Ubuntu 14.10 Utopic Unicorn](https://tiliado.eu/repository-installer/download/utopic/) 
+     * [Ubuntu 15.04 Vivid Vervet](https://tiliado.eu/repository-installer/download/vivid/) 
  2. Wait a bit as Ubuntu Software Center is a pretty slow beast. Then click **Install** button.
  3. Enter your password to confirm installation.
 

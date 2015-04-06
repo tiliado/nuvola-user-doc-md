@@ -143,7 +143,7 @@ proxy settings, and file downloads.
 Limited Support
 ===============
 
-Nuvola Player 3 project officially supports and provides packages for [Ubuntu]({filename}./install.md#ubuntu) 14.10-14.10,
+Nuvola Player 3 project officially supports and provides packages for [Ubuntu]({filename}./install.md#ubuntu) 14.10-15.04,
 [Fedora]({filename}./install.md#fedora) 20-21 and [Debian]({filename}./install.md#debian)
 Jessie and Sid. The Nuvola Player developer has tested installation and functionality in clean virtualized instances
 of these distributions and can assure reasonable user support in case of problems.
