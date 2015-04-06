@@ -3,29 +3,25 @@ URL:
 save_as: index.html
 
 
-Future Releases
+Supported Releases
 ===============
 
 [Nuvola Player 3.0.x]({filename}3.0.md)
 ---------------------
 
-!!! danger "**In Development - Feedback Welcome**"
-    **Nuvola Player 3 is a new code-base written from scratch** and the current development stage can be
-    described as "beta", so please be patient and
-    [ask questions and provide feedback](https://groups.google.com/d/forum/nuvola-player-users) whenever you find a bug
-    or two.
+Although Nuvola Player 3 is in a beta stage of development, it is recommended for general usage instead of
+Nuvola Player 2.5, which is practically unmaintained. Please
+[ask questions and provide feedback](https://groups.google.com/d/forum/nuvola-player-users) whenever you find a bug
+or two.
     
-Supported Stable Releases
-=========================
+Old Releases
+============
 
 [Nuvola Player 2.5.x](http://nuvolaplayer.fenryxo.cz/releases/2.5.html)
 ---------------------
 
   * Initial release 2.5.0 was released on December 08th, 2014.
  
-Old Releases
-============
-
 [Nuvola Player 2.4.x](http://nuvolaplayer.fenryxo.cz/releases/2.4.html)
 ---------------------
 
