@@ -120,16 +120,29 @@ Other changes
 Streaming Services
 ==================
 
-Nuvola Player 3 currently ships with five services: **Google Play Music** (Jiří Janoušek), **Grooveshark** (Jiří Janoušek),
-**Deezer** (Jiří Janoušek), **Jango** (Stefano Bagnatica) and **This is My Jam** (Jan Vlnas). Six more services are in preparation
-and will be added to the repository when finished: **8tracks** (Jiří Janoušek), **Rdio** (Aaron Cripps),
-**Bandcamp** (Jiří Janoušek), **Spotify** (Michael Nye), **KEXP Live Stream** (Michael Nye)
-and **Synology Audio Station** (Daniel Schep).
+Nuvola Player 3 currently ships with nine music streaming services:
 
-Unfortunately, five streaming services available in Nuvola Player 2 are currently unmaintained as a previous
-maintainer has lost interest in them: **Grooveshark Mobile, Hype Machine, Amazon Cloud Player, Pandora and Logitech
-Media Server**. These services might disappear from the Nuvola Player project unless a new maintainer is found.
-I could adopt Grooveshark Mobile and Hype Machine scripts, but I'm not so sure about Amazon Cloud Player, Pandora
+ * [Bandcamp](https://github.com/tiliado/nuvola-app-bandcamp) - Jiří Janoušek
+ * [Deezer](https://github.com/tiliado/nuvola-app-deezer) - Jiří Janoušek
+ * [Google Play Music](https://github.com/tiliado/nuvola-app-google-play) - Jiří Janoušek
+ * [Grooveshark](https://github.com/tiliado/nuvola-app-grooveshark) - Jiří Janoušek
+ * [Jango](https://github.com/tiliado/nuvola-app-jango) - Stefano Bagnatica
+ * [Mixcloud](https://github.com/tiliado/nuvola-app-mixcloud) - Samuel Mansour
+ * [Rdio](https://github.com/tiliado/nuvola-app-rdio) - Aaron Cripps
+ * [Spotify](https://github.com/tiliado/nuvola-app-spotify) - Michael Nye
+ * [This is My Jam](https://github.com/tiliado/nuvola-app-this-is-my-jam) - Jan Vlnas
+ 
+Four more services are in preparation and will be added to the repository when finished:
+
+ * [Amazon Cloud Player](https://github.com/tiliado/nuvola-app-amazon-cloud-player/pull/1) - Stephen Herbein
+ * KEXP Live Stream - Michael Nye
+ * [Synology Audio Station](https://github.com/dschep/nuvola-app-synology-audio-station/issues/2) - Daniel Schep
+ * 8tracks - Jiří Janoušek
+
+Unfortunately, four streaming services available in Nuvola Player 2 are currently unmaintained as a previous
+maintainer has lost interest in them: **Grooveshark Mobile, Hype Machine, Pandora and Logitech Media Server**.
+These services might disappear from the Nuvola Player project unless a new maintainer is found.
+I could adopt Grooveshark Mobile and Hype Machine scripts, but I'm not so sure about Pandora
 and Logitech Media Server scripts as I don't live in supported country or don't have required hardware.
 
 Missing Features
