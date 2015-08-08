@@ -17,12 +17,14 @@ or two.
 Old Releases
 ============
 
-[Nuvola Player 2.5.x](http://nuvolaplayer.fenryxo.cz/releases/2.5.html)
----------------------
+Documentation is no longer available.
+
+Nuvola Player 2.5.x
+-------------------
 
   * Initial release 2.5.0 was released on December 08th, 2014.
  
-[Nuvola Player 2.4.x](http://nuvolaplayer.fenryxo.cz/releases/2.4.html)
+Nuvola Player 2.4.x
 ---------------------
 
   * Initial release 2.4.0 was released on May 31, 2014.
@@ -30,22 +32,22 @@ Old Releases
   * Maintenance release 2.4.2 was released on July 17th, 2014.
   * Maintenance release 2.4.3 was released on September 6th, 2014.
 
-[Nuvola Player 2.3.x](http://nuvolaplayer.fenryxo.cz/releases/2.3.html)
+Nuvola Player 2.3.x
 ---------------------
 
 Initial release 2.2.0 was released on December 14, 2013.
 
-[Nuvola Player 2.2.x](http://nuvolaplayer.fenryxo.cz/releases/2.2.html)
----------------------
+Nuvola Player 2.2.x
+--------------------
 
 Initial release 2.2.0 was released on September 14, 2013.
 
-[Nuvola Player 2.1.x](http://nuvolaplayer.fenryxo.cz/releases/2.1.html)
+Nuvola Player 2.1.x
 ---------------------
 
 Initial release 2.1.0 was released on August 24, 2013.
 
-[Nuvola Player 2.0.x](http://nuvolaplayer.fenryxo.cz/releases/2.0.html)
+Nuvola Player 2.0.x
 ---------------------
 
   * Initial release 2.0.0 was released on September 17, 2012.
