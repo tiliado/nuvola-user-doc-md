@@ -184,6 +184,7 @@ Install Tiliado Repository Installer
     distribution release and open it with Software Install tool.
     * [Fefora 20](https://tiliado.eu/repository-installer/download/fc20/)
     * [Fefora 21](https://tiliado.eu/repository-installer/download/fc21/)
+    * [Fefora 22](https://tiliado.eu/repository-installer/download/fc22/)
  2. When the Software Install tool is launched, click **Install** button.
  3. Enter your password to confirm installation.
 
@@ -379,6 +380,7 @@ Install Tiliado Repository Installer
 Download Tiliado Repository Installer for your distribution release and install it with package installer.
 
   * [Debian 8 Jessie](https://tiliado.eu/repository-installer/download/jessie/) 
+  * [Debian 9 Stretch](https://tiliado.eu/repository-installer/download/stretch/) 
   * [Debian Sid](https://tiliado.eu/repository-installer/download/sid/) 
 
 Add Nuvola Player Repository
