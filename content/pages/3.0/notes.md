@@ -7,19 +7,23 @@ Description: Nuvola Player 3.0 will be the first release of the third generation
     GNOME lock screen and launchers and more.
 
 
-Nuvola Player 3.0 is currently in development. [Beta builds]({filename}./install.md) are available since February 8th, 2015.
+Nuvola Player 3.0 is currently in development. [Rolling beta builds]({filename}./install.md)
+are available since February 8th, 2015.
 
 About Nuvola Player
 ===================
 
-**Nuvola Player** is a runtime for web-based music streaming services providing more native user experience and integration with Linux desktop environments
-than usual web browsers can offer. It tries to feel and look like a native application as possible. However, it cannot overcome 
-common drawbacks of web-based music streaming: some music streaming services require Flash plugin and web apps usually have higher memory usage than native apps.
+**Nuvola Player** is a runtime for web-based music streaming services providing more native user
+experience and integration with Linux desktop environments than usual web browsers can offer.
+It tries to feel and look like a native application as possible. However, it cannot overcome common
+drawbacks of web-based music streaming: some music streaming services require Flash plugin and web
+apps usually have higher memory usage than native apps.
 
 What's New {: #news}
 ==========
 
-Nuvola Player 3 has been rewritten from scratch and contains plenty of improvements over Nuvola Player 2.
+Nuvola Player 3 has been rewritten from scratch and contains plenty of improvements over Nuvola
+Player 2.
 
 No Hacks for Flash Support
 --------------------------
@@ -34,7 +38,8 @@ interface, so GTK+ 2 based Flash plugins cannot be loaded without conflicts with
 non-conflicting process via nspluginwrapper. However, this approach has several disadvantages:
 
   * nspluginwrapper only supports only 32bit Flash plugin. As a result, you have to install hundreds
-    of 32bit libraries on you 64bit system to be able to run 32bit Flash plugin. Yes, this is insane.
+    of 32bit libraries on you 64bit system to be able to run 32bit Flash plugin. Yes, this is
+    insane.
 
   * Memory usage is higher and performance is lower.
 
@@ -76,17 +81,22 @@ GNOME Activities dock and launch it directly in the future.
 Tiliado Repository
 --------------------------
 
-While Nuvola Player 2 repository provides packages only for Ubuntu and Debian, Nuvola Player 3 brings official
-support and packages also for Fedora 20 and 21. As I have received many complains that installation of Nuvola Player
-2 is not easy enough for less experienced users, I've created a graphical installer specially designed for them.
-However, power users can of course still add Nuvola Player repository to software sources manually using terminal
-kung-fu. The graphical installer is pretty handy though and I always use it when I test Nuvola Player in clean
-systems in VirtualBox ;-)
+While Nuvola Player 2 repository provided packages only for Ubuntu and Debian, Nuvola Player 3
+brings official support and packages also for Fedora. However, the Fedora packages may be
+discontinued if there isn't enough financial support from Fedora users to justify existence of these
+packages.
 
-Since I dislike the short nine-month support window of interim Ubuntu releases and their consecutive removal from
-Launchpad build machines, I decided to abandon Launchpad and host APT repository on my server like I did so with
-the repository for Debian. A side benefit is that packages won't get stuck in Launchpad build queue. In addition,
-RPM packages for Fedora are also hosted on this server, all in one place.
+As I have received many complains that installation of Nuvola Player 2 was not easy enough for less
+experienced users, I've created a graphical installer specially designed for them. However, power
+users can of course still add Nuvola Player repository to software sources manually using terminal
+kung-fu. The graphical installer is pretty handy though and I always use it when I test Nuvola
+Player in clean systems in VirtualBox ;-)
+
+Since I dislike the short nine-month support window of interim Ubuntu releases and their consecutive
+removal from Launchpad build machines, I decided to abandon Launchpad and host APT repository on my
+server like I did so with the repository for Debian. A side benefit is that packages won't get stuck
+in Launchpad build queue. In addition, RPM packages for Fedora are also hosted on this server, all
+in one place.
 
 New Codebase
 --------------------------
@@ -120,56 +130,70 @@ Other changes
 Streaming Services
 ==================
 
-Nuvola Player 3 currently ships with nine music streaming services:
+On September 28th, Nuvola Player 3 shipped with 15 music streaming services.
+See [Nuvola Player hompage](https://tiliado.eu/nuvolaplayer/) for more up-to-date list.
 
- * [Bandcamp](https://github.com/tiliado/nuvola-app-bandcamp) - Jiří Janoušek
- * [Deezer](https://github.com/tiliado/nuvola-app-deezer) - Jiří Janoušek
- * [Google Play Music](https://github.com/tiliado/nuvola-app-google-play) - Jiří Janoušek
- * [Grooveshark](https://github.com/tiliado/nuvola-app-grooveshark) - Jiří Janoušek
- * [Jango](https://github.com/tiliado/nuvola-app-jango) - Stefano Bagnatica
- * [Mixcloud](https://github.com/tiliado/nuvola-app-mixcloud) - Samuel Mansour
- * [Rdio](https://github.com/tiliado/nuvola-app-rdio) - Aaron Cripps
- * [Spotify](https://github.com/tiliado/nuvola-app-spotify) - Michael Nye
- * [This is My Jam](https://github.com/tiliado/nuvola-app-this-is-my-jam) - Jan Vlnas
- 
-Four more services are in preparation and will be added to the repository when finished:
-
- * [Amazon Cloud Player](https://github.com/tiliado/nuvola-app-amazon-cloud-player/pull/1) - Stephen Herbein
- * KEXP Live Stream - Michael Nye
- * [Synology Audio Station](https://github.com/dschep/nuvola-app-synology-audio-station/issues/2) - Daniel Schep
- * 8tracks - Jiří Janoušek
-
-Unfortunately, four streaming services available in Nuvola Player 2 are currently unmaintained as a previous
-maintainer has lost interest in them: **Grooveshark Mobile, Hype Machine, Pandora and Logitech Media Server**.
-These services might disappear from the Nuvola Player project unless a new maintainer is found.
-I could adopt Grooveshark Mobile and Hype Machine scripts, but I'm not so sure about Pandora
-and Logitech Media Server scripts as I don't live in supported country or don't have required hardware.
+ * [8tracks](https://github.com/tiliado/nuvola-app-8tracks)
+   maintained by [Jiří Janoušek](https://github.com/fenryxo)
+ * [Amazon Cloud Player](https://github.com/tiliado/nuvola-app-amazon-cloud-player)
+   maintained by [Stephen Herbein](https://github.com/SteVwonder)
+ * [Bandcamp](https://github.com/tiliado/nuvola-app-bandcamp)
+   maintained by [Jiří Janoušek](https://github.com/fenryxo)
+ * [Deezer](https://github.com/tiliado/nuvola-app-deezer)
+   maintained by [Jiří Janoušek](https://github.com/fenryxo)
+ * [Google Play Music](https://github.com/tiliado/nuvola-app-google-play-music)
+   maintained by [Jiří Janoušek](https://github.com/fenryxo)
+ * [Jango](https://github.com/tiliado/nuvola-app-jango)
+   maintained by [Stefano Bagnatica](https://github.com/thepisu)
+ * [KEXP Live Stream](https://github.com/tiliado/nuvola-app-kexp)
+   maintained by [Michael Nye](https://github.com/thenyeguy)
+ * [Logitech Media Server](https://github.com/tiliado/nuvola-app-logitech-media-server)
+   maintained by [Steffen Coenen](https://github.com/Tar-Dingens)
+ * [Mixcloud](https://github.com/tiliado/nuvola-app-mixcloud)
+   maintained by [Samuel Mansour](https://github.com/s83)
+ * [Plex Music](https://github.com/tiliado/nuvola-app-plex)
+   maintained by [SkyghiS](https://github.com/skyghis)
+ * [Rdio](https://github.com/tiliado/nuvola-app-rdio)
+   maintained by [Aaron Cripps](https://github.com/eurythmia/)
+ * [Spotify](https://github.com/tiliado/nuvola-app-spotify)
+   maintained by [Michael Nye](https://github.com/thenyeguy)
+ * [This is My Jam](https://github.com/tiliado/nuvola-app-this-is-my-jam)
+   maintained by [Jan Vlnas](https://github.com/jnv)
+ * [TuneIn](https://github.com/tiliado/nuvola-app-tunein)
+   maintained by [Aurélien Jabot](https://github.com/ajabot)
+ * [Yandex Music](https://github.com/tiliado/nuvola-app-yandex-music)
+   maintained by [Jiří Janoušek](https://github.com/fenryxo)
 
 Missing Features
 ================
 
-Since I don't want to postpone release of Nuvola Player 3 again and again, I've decided not to implement some
-features available in Nuvola Player 2 for now. As a result, following features are missing in Nuvola Player 3 and might
-be added later upon demand from users: Libre.fm scrobbling, lyrics fetching, translations, per-service network
-proxy settings, and file downloads. 
+Since I don't want to postpone release of Nuvola Player 3 again and again, I've decided not to
+implement some features available in Nuvola Player 2 for now. As a result, following features are
+missing in Nuvola Player 3 and might be added later upon demand from users: Libre.fm scrobbling,
+translations and file downloads. 
 
-Limited Support
-===============
+Limited Support and Commercial Support
+======================================
 
-Nuvola Player 3 project officially supports and provides packages for [Ubuntu]({filename}./install.md#ubuntu) 14.10-15.04,
-[Fedora]({filename}./install.md#fedora) 20-21 and [Debian]({filename}./install.md#debian)
-Jessie and Sid. The Nuvola Player developer has tested installation and functionality in clean virtualized instances
-of these distributions and can assure reasonable user support in case of problems.
+Nuvola Player 3 project provides free support on best-effort basis without any guarantees.
+Officially supported distributions include [Ubuntu]({filename}./install.md#ubuntu) 14.04-15.04,
+[Fedora]({filename}./install.md#fedora) 22, and [Debian]({filename}./install.md#debian) Jessie,
+Stretch and Sid. The Nuvola Player developer has tested installation and functionality in clean
+virtualized instances of these distributions and can assure reasonable user support in case of
+problems. However, Nuvola Player should also work on
+[other modern Linux distributions]({filename}./install.md#other-linux), but user experience might
+not be optimal (e.g. inconsistent look and behavior) and quality of user support depends on
+complexity of an issue.
 
-However, Nuvola Player should also work on [other modern Linux distributions]({filename}./install.md#other-linux), but user experience might
-not be optimal (e.g. inconsistent look and behavior) and quality of user support depends on complexity of an issue.
+If free support on best-effort basic is not sufficient, you can contract the Nuvola Player developer
+for a commercial support.
 
 Project Funding
 ===============
 
-My work on Nuvola Player is [funded by Nuvola Patrons](https://tiliado.eu/nuvolaplayer/funding/). My dream is to work
-as an independent developer on open source software for all people around the world, software for you. 
-If you like Nuvola Player, or even use it every day, you can
+My work on Nuvola Player is [funded by Nuvola Patrons](https://tiliado.eu/nuvolaplayer/funding/).
+My dream is to work as an independent developer on open source software for all people around the
+world, software for you. If you like Nuvola Player, or even use it every day, you can
 [show your gratitude by supporting the project](https://tiliado.eu/nuvolaplayer/funding/).
 
 Thank you and happy listening!

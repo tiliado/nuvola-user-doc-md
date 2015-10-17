@@ -6,23 +6,20 @@ Description: Nuvola Player 3.0 will be the first release of the third generation
     shows desktop notifications, integrates with various sound indicators, media player applets,
     GNOME lock screen and launchers and more.
 
+Nuvola Player 3 project officially supports and provides packages for [Ubuntu](#ubuntu) 14.10-15.04,
+([15.10 in progress](https://github.com/tiliado/nuvolaplayer/issues/166)), [Fedora](#fedora) 22
+([23 in progress](https://github.com/tiliado/nuvolaplayer/issues/167)) and [Debian](#debian)
+Jessie, Stretch and Sid. The Nuvola Player developer has tested installation and functionality in
+clean virtualized instances of these distributions and can assure reasonable user support in case
+of problems.
 
-Nuvola Player 3 project officially supports and provides packages for [Ubuntu](#ubuntu) 14.10-15.04, [Fedora](#fedora) 20-21 and [Debian](#debian)
-Jessie and Sid. The Nuvola Player developer has tested installation and functionality in clean virtualized instances
-of these distributions and can assure reasonable user support in case of problems.
-
-However, Nuvola Player should also work on [other modern Linux distributions](#other-linux), but user experience might
-not be optimal (e.g. inconsistent look and behavior) and quality of user support depends on complexity of an issue.
+However, Nuvola Player should also work on [other modern Linux distributions](#other-linux), but
+user experience might not be optimal (e.g. inconsistent look and behaviour) and quality of user
+support depends on complexity of an issue.
 
 
 Ubuntu {: #ubuntu}
 ======
-
-!!! info
-
-    **Nuvola Player 3 won't replace Nuvola Player 2 in you system.** You can keep using Nuvola
-    Player 2 until Nuvola Player 3 is stable enough for your.
-
 
 Graphical Installer or Terminal Kung-fu
 ---------------------------------------
@@ -30,12 +27,12 @@ Graphical Installer or Terminal Kung-fu
 There are two ways how to install Nuvola Player:
 
  1. **Power users** who are excellent in command-line kung-fu can just add
-    [the Nuvola Player Repository](https://tiliado.eu/nuvolaplayer/repository/) manually and install Nuvola Player
-    using common package management tools of your linux distribution. Then skip to the section
-    [Check format support](#ubuntu-format-support).
+    [the Nuvola Player Repository](https://tiliado.eu/nuvolaplayer/repository/) manually and install
+    Nuvola Player using common package management tools of your linux distribution. Then skip to the
+    section [Check format support](#ubuntu-format-support).
 
- 2. Users who are **not friends with a terminal** can take advantage of an easy-to-use graphical installer
-    and follow instructions in the next section.
+ 2. Users who are **not friends with a terminal** can take advantage of an easy-to-use graphical
+    installer and follow instructions in the next section.
 
 Install Tiliado Repository Installer
 ------------------------------------
@@ -44,7 +41,10 @@ Install Tiliado Repository Installer
     distribution release and open it with Ubuntu Software Center.
      * [Ubuntu 14.04 LTS Trusty Tahr](https://tiliado.eu/repository-installer/download/trusty/) 
      * [Ubuntu 14.10 Utopic Unicorn](https://tiliado.eu/repository-installer/download/utopic/) 
-     * [Ubuntu 15.04 Vivid Vervet](https://tiliado.eu/repository-installer/download/vivid/) 
+     * [Ubuntu 15.04 Vivid Vervet](https://tiliado.eu/repository-installer/download/vivid/)
+     * In progress: [Ubuntu 15.10 Wily Werewolf](https://tiliado.eu/repository-installer/download/wily/) -
+       be careful as
+       [not all issues have been solved yet](https://github.com/tiliado/nuvolaplayer/issues/166)
  2. Wait a bit as Ubuntu Software Center is a pretty slow beast. Then click **Install** button.
  3. Enter your password to confirm installation.
 
@@ -159,32 +159,27 @@ Explore Features
 Fedora {: #fedora}
 ======
 
-!!! info
-
-    **Nuvola Player 3 won't replace Nuvola Player 2 in your system.** You can keep using Nuvola
-    Player 2 until Nuvola Player 3 is stable enough for you.
-
 Graphical Installer or Terminal Kung-fu
 ---------------------------------------
 
 There are two ways how to install Nuvola Player:
 
  1. **Power users** who are excellent in command-line kung-fu can just add
-    [the Nuvola Player Repository](https://tiliado.eu/nuvolaplayer/repository/) manually and install Nuvola Player
-    using common package management tools of your linux distribution. Then skip to the section
-    [Install Flash Plugin](#fedora-flash).
+    [the Nuvola Player Repository](https://tiliado.eu/nuvolaplayer/repository/) manually and install
+    Nuvola Player using common package management tools of your linux distribution. Then skip to the
+    section [Install Flash Plugin](#fedora-flash).
 
- 2. Users who are **not friends with a terminal** can take advantage of an easy-to-use graphical installer
-    and follow instructions in the next section.
+ 2. Users who are **not friends with a terminal** can take advantage of an easy-to-use graphical
+    installer and follow instructions in the next section.
 
 Install Tiliado Repository Installer
 ------------------------------------
 
  1. Download Tiliado Repository Installer for your
     distribution release and open it with Software Install tool.
-    * [Fefora 20](https://tiliado.eu/repository-installer/download/fc20/)
-    * [Fefora 21](https://tiliado.eu/repository-installer/download/fc21/)
     * [Fefora 22](https://tiliado.eu/repository-installer/download/fc22/)
+    * In progress: [Fefora 23](https://tiliado.eu/repository-installer/download/fc23/) - be careful
+      as [not all issues have been solved yet](https://github.com/tiliado/nuvolaplayer/issues/166)
  2. When the Software Install tool is launched, click **Install** button.
  3. Enter your password to confirm installation.
 
@@ -449,18 +444,18 @@ Dependencies
     or [Python 3](http://python.org) >= 3.4 (not well tested)
   * [Vala](https://wiki.gnome.org/Projects/Vala) >= 0.22.1
   * [Diorite library](https://github.com/tiliado/diorite)
-  * [glib-2.0](https://wiki.gnome.org/Projects/GLib) >= 2.38
-  * [gio-2.0](https://wiki.gnome.org/Projects/GLib) >= 2.38
-  * [gobject-2.0](https://wiki.gnome.org/Projects/GLib) >= 2.38
-  * [gthread-2.0](https://wiki.gnome.org/Projects/GLib) >= 2.38
+  * [glib-2.0](https://wiki.gnome.org/Projects/GLib) >= 2.40
+  * [gio-2.0](https://wiki.gnome.org/Projects/GLib) >= 2.40
+  * [gobject-2.0](https://wiki.gnome.org/Projects/GLib) >= 2.40
+  * [gthread-2.0](https://wiki.gnome.org/Projects/GLib) >= 2.40
   * [gtk+-3.0](http://www.gtk.org/) >= 3.10
   * [gdk-3.0](http://www.gtk.org/) >= 3.10
   * [gdk-x11-3.0](http://www.gtk.org/) >= 3.10
   * [x11](http://www.x.org/wiki/) >= 0.5
   * [json-glib-1.0](https://wiki.gnome.org/Projects/JsonGlib) >= 0.7
   * [libarchive](http://www.libarchive.org/) >= 3.1
-  * [webkit2gtk-3.0](http://webkitgtk.org/) >= 2.2
-  * [javascriptcoregtk-3.0](http://webkitgtk.org/) >= 1.8
+  * [webkit2gtk-3.0](http://webkitgtk.org/) >= 2.4
+  * [javascriptcoregtk-3.0](http://webkitgtk.org/) >= 2.4
   * [libnotify](https://git.gnome.org/browse/libnotify/) >= 0.7
   * optional unity >= 3.0
   * optional dbusmenu-glib-0.4 >= 0.4 
