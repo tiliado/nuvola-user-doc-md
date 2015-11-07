@@ -176,8 +176,8 @@ Install Tiliado Repository Installer
  1. Download Tiliado Repository Installer for your
     distribution release and open it with Software Install tool.
     * [Fefora 22](https://tiliado.eu/repository-installer/download/fc22/)
-    * In progress: [Fefora 23](https://tiliado.eu/repository-installer/download/fc23/) - be careful
-      as [not all issues have been solved yet](https://github.com/tiliado/nuvolaplayer/issues/166)
+    * In progress: [Fedora 23](https://tiliado.eu/repository-installer/download/fc23/) - be careful
+      as [not all issues have been solved yet](https://github.com/tiliado/nuvolaplayer/issues/167)
  2. When the Software Install tool is launched, click **Install** button.
  3. Enter your password to confirm installation.
 
