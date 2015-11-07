@@ -42,9 +42,7 @@ Install Tiliado Repository Installer
      * [Ubuntu 14.04 LTS Trusty Tahr](https://tiliado.eu/repository-installer/download/trusty/) 
      * [Ubuntu 14.10 Utopic Unicorn](https://tiliado.eu/repository-installer/download/utopic/) 
      * [Ubuntu 15.04 Vivid Vervet](https://tiliado.eu/repository-installer/download/vivid/)
-     * In progress: [Ubuntu 15.10 Wily Werewolf](https://tiliado.eu/repository-installer/download/wily/) -
-       be careful as
-       [not all issues have been solved yet](https://github.com/tiliado/nuvolaplayer/issues/166)
+     * [Ubuntu 15.10 Wily Werewolf](https://tiliado.eu/repository-installer/download/wily/)
  2. Wait a bit as Ubuntu Software Center is a pretty slow beast. Then click **Install** button.
  3. Enter your password to confirm installation.
 
