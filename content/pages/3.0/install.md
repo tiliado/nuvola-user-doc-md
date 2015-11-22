@@ -246,7 +246,7 @@ Install Flash Plugin {: #fedora-flash}
   5. Click **Activities button** in the top left corner to open GNOME Overview and launch Terminal.
   6. Run command ``su`` or ``sudo -i`` to get superuser rights.
   7. Run command ``rpm --import /etc/pki/rpm-gpg/RPM-GPG-KEY-adobe-linux`` to import PGP key.
-  8. Run command ``yum -y install flash-plugin`` to install Flash plugin.
+  8. Run command ``dnf -y install flash-plugin`` to install Flash plugin.
   9. Close both terminal and Nuvola Player.
   10. Click **Activities button** in the top left corner to open GNOME Overview and launch Nuvola Player again.
   11. Open Format support dialog and check whether Flash plugin is recognized.
@@ -286,14 +286,14 @@ Install GStreamer MP3 Audio Decoder {: #fedora-mp3}
  3. Run following command to add a RPM Fusion repository.
      
         :::text
-        yum localinstall --nogpgcheck \
+        dnf install --nogpgcheck \
         http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-stable.noarch.rpm \
         http://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-stable.noarch.rpm
     
   4. Run following command to install GStreamer MP3 Audio Decoder from the RPM Fusion repository.
     
         :::text
-        yum install gstreamer1-{libav,plugins-{good,ugly,bad-free}}
+        dnf install gstreamer1-{libav,plugins-{good,ugly,bad-free}}
 
   9. Close both terminal and Nuvola Player.
  10. Click **Activities button** in the top left corner to open GNOME Overview and launch Nuvola Player again.
