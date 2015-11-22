@@ -6,12 +6,10 @@ Description: Nuvola Player 3.0 will be the first release of the third generation
     shows desktop notifications, integrates with various sound indicators, media player applets,
     GNOME lock screen and launchers and more.
 
-Nuvola Player 3 project officially supports and provides packages for [Ubuntu](#ubuntu) 14.10-15.04,
-([15.10 in progress](https://github.com/tiliado/nuvolaplayer/issues/166)), [Fedora](#fedora) 22
-([23 in progress](https://github.com/tiliado/nuvolaplayer/issues/167)) and [Debian](#debian)
-Jessie, Stretch and Sid. The Nuvola Player developer has tested installation and functionality in
-clean virtualized instances of these distributions and can assure reasonable user support in case
-of problems.
+Nuvola Player 3 project officially supports and provides packages for [Ubuntu](#ubuntu) 14.10-15.10,
+[Fedora](#fedora) 22-23 and [Debian](#debian) Jessie, Stretch and Sid. The Nuvola Player developer
+has tested installation and functionality in clean virtualized instances of these distributions and
+can assure reasonable user support in case of problems.
 
 However, Nuvola Player should also work on [other modern Linux distributions](#other-linux), but
 user experience might not be optimal (e.g. inconsistent look and behaviour) and quality of user
