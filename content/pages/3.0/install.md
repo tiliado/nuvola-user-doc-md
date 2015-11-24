@@ -178,6 +178,16 @@ Install Tiliado Repository Installer
  2. When the Software Install tool is launched, click **Install** button.
  3. Enter your password to confirm installation.
 
+!!! warning "Installation via Software Install tool may fail behind HTTP proxy server"
+    
+    Software Install tool is not reliable behind HTTP proxy server and installation may fail. In
+    that case, please install the Tiliado Repository Installer from command line under root/superuser
+    account.
+    
+        su
+        dnf install /path/to/location/of/tiliado-repositories*.rpm
+    
+
 <div class="cointainer">
 <ul class="thumbnails row" data-toggle="lightbox">
 <li class="col-md-8"><a title="Download Tiliado Repository Installer for your distribution release and open it with Software Install tool." href="../images/3.0/gnome/orig/gnome_firefox_download_rpm.png" class="thumbnail"><img src="../images/3.0/gnome/small/gnome_firefox_download_rpm.png" width="256" height="192" /></a></li>
