@@ -1,5 +1,5 @@
 Title: Nuvola Player 3.0 Release Notes
-Image: images/3.0/unity/orig/unity_google_play_music_launcher_star_rating.png
+Image: images/3.0/unity/unity_google_play_music_launcher_star_rating.png
 Description: Nuvola Player 3.0 will be the first release of the third generation of a runtime for
     web-based music streaming services that provides more native user experience and integration with Linux
     desktop environments than usual web browsers can offer. Nuvola Players handles multimedia keys,
@@ -52,12 +52,9 @@ The major diference is that plugins are run in a separate GTK+ 2 compatible proc
 need to use nspluginwrapper and install 32bit libraries on 64bit system. There is also one extra
 benefit: If Flash plugin crashes, it doesn't take down whole Nuvola Player application.
 
-<div class="cointainer">
-<ul class="thumbnails row" data-toggle="lightbox">
-<li class="col-md-8"><a title="Nuvola Player 2 requires a plenty of 32bit libraries on 64bit system because of Flash plugin compatibility hack." href="../images/3.0/new/orig/nuvola_player_2_flash_deps.png" class="thumbnail"><img src="../images/3.0/new/small/nuvola_player_2_flash_deps.png" width="256" height="192" /></a></li>
-<li class="col-md-8"><a title="Nuvola Player 3 doesn't suffer from Flash plugin incompatibility issue ." href="../images/3.0/new/orig/nuvola_player_3_flash_deps.png" class="thumbnail"><img src="../images/3.0/new/small/nuvola_player_3_flash_deps.png" width="256" height="192" /></a></li>
-</ul>
-</div>
+ Gallery
++[Nuvola Player 2 requires a plenty of 32bit libraries on 64bit system because of Flash plugin compatibility hack.](images/3.0/new/nuvola_player_2_flash_deps.png|256x192)
++[Nuvola Player 3 doesn't suffer from Flash plugin incompatibility issue.](images/3.0/new/nuvola_player_3_flash_deps.png|256x192)
 
 Independent Instances
 --------------------------
@@ -70,13 +67,9 @@ shortcut ([feature request](https://bugs.launchpad.net/nuvola-player/+bug/121135
 when a particular service starts. As a result, you can than pin it to the Unity Launcher or
 GNOME Activities dock and launch it directly in the future.
 
-<div class="cointainer">
-<ul class="thumbnails row" data-toggle="lightbox">
-<li class="col-md-8"><a title="Multiple services pinned to Unity Launcher." href="../images/3.0/unity/orig/unity_launcher_multiple_pinned.png" class="thumbnail"><img src="../images/3.0/unity/small/unity_launcher_multiple_pinned.png" width="256" height="192" /></a></li>
-<li class="col-md-8"><a title="Multiple services pinned to GNOME Activities dock." href="../images/3.0/new/orig/gnome_many_favorites.png" class="thumbnail"><img src="../images/3.0/new/small/gnome_many_favorites.png" width="256" height="192" /></a></li>
-</ul>
-</div>
-
+ Gallery
++[Multiple services pinned to Unity Launcher.](images/3.0/unity/unity_launcher_multiple_pinned.png|256x192)
++[Multiple services pinned to GNOME Activities dock.](images/3.0/new/gnome_many_favorites.png|256x192)
 
 Tiliado Repository
 --------------------------
