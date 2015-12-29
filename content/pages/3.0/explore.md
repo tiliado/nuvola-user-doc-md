@@ -27,6 +27,26 @@ no need to look for them in your browser's bookmarks or to remember and type in 
 +[Who is the maintainer of this integration script?](images/3.0/unity/unity_deezer_gear_menu_about.png|256x192)
 +[Deezer script is maintained by the main Nuvola Player developer, but other integration scripts can be maintained by independent developers who are properly acknowledged.](images/3.0/unity/unity_deezer_about_dialog.png|256x192)
 
+## Create/Remove Application Launchers
+
+Nuvola Player automatically creates an application launcher when a particular streaming service is
+launched. It also allows you to create all launchers at once 
+(*Gear Menu → Create application launchers*) or to remove unnecessary launchers
+(*Gear Menu → Remove application launchers*). However, the launcher of a currently running streaming
+service cannot be removed.
+
+ Gallery
++[Gear Menu → Create application launchers](images/3.0/app_launchers/unity_create_app_launchers.png|256x192)
++[Application launchers have been created](images/3.0/app_launchers/unity_app_launchers_created.png|256x192)
++[Gear Menu → Remove application launchers](images/3.0/app_launchers/unity_delete_app_launchers.png|256x192)
++[Application launchers have been deleted](images/3.0/app_launchers/unity_app_launchers_deleted.png|256x192)
+
+!!! info "Preserve your custom launchers"
+    Nuvola Player keeps launchers updated every time a particular streaming service is launched. If you
+    want to modify the launchers on your own and prevent Nuvola Player from overwriting your changes,
+    mark the launcher as read-only in a file browser or from a terminal. The launchers are located in
+    a directory `~/.local/share/applications` where `~` represents your home directory.
+
 ## Unity Dash ##
 
 Nuvola Player neatly integrates with Unity Dash. Once a particular music streaming service is launched for the first time,
@@ -37,8 +57,6 @@ in Unity Dash screen. Can do this your web browser?
 +[Click Ubuntu button in the top left corner to open Unity Dash.](images/3.0/unity/unity_open_dash.png|256x192)
 +[First, you can launch only the Nuvola Player 3 services selector.](images/3.0/unity/unity_dash_nuvola.png|256x192)
 +[However, after the first launch of a particular service integration script, you can launch it again directly from the dash.](images/3.0/unity/unity_dash_deezer.png|256x192)
-
-
 
 ## Pin to Unity Launcher ##
 
@@ -123,6 +141,27 @@ in one place, no need to look for them in your browser's bookmarks or to remembe
 +[Nuvola Player 3 services selector window. Launch Grooveshark, for example.](images/3.0/gnome/gnome_selector_launch_grooveshark.png|256x192)
 +[Who is the maintainer of this integration script?](images/3.0/gnome/gnome_grooveshark_appmenu_about.png|256x192)
 +[Grooveshark script is maintained by the main Nuvola Player developer, but other integration scripts can be maintained by independent developers who are properly acknowledged.](images/3.0/gnome/gnome_grooveshark_about_dialog.png|256x192)
+
+
+## Create/Remove Application Launchers
+
+Nuvola Player automatically creates an application launcher when a particular streaming service is
+launched. It also allows you to create all launchers at once 
+(*App Menu → Create application launchers*) or to remove unnecessary launchers
+(*App Menu → Remove application launchers*). However, the launcher of a currently running streaming
+service cannot be removed.
+
+ Gallery
++[App Menu → Create application launchers](images/3.0/app_launchers/gnome_create_app_launchers.png|256x192)
++[Application launchers have been created](images/3.0/app_launchers/gnome_app_launchers_created.png|256x192)
++[App Menu → Remove application launchers](images/3.0/app_launchers/gnome_delete_app_launchers.png|256x192)
++[Application launchers have been deleted](images/3.0/app_launchers/gnome_app_launchers_deleted.png|256x192)
+
+!!! info "Preserve your custom launchers"
+    Nuvola Player keeps launchers updated every time a particular streaming service is launched. If you
+    want to modify the launchers on your own and prevent Nuvola Player from overwriting your changes,
+    mark the launcher as read-only in a file browser or from a terminal. The launchers are located in
+    a directory `~/.local/share/applications` where `~` represents your home directory.
 
 ## GNOME Dash ##
 
