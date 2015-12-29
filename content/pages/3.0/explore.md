@@ -208,7 +208,8 @@ Simple and extremely useful.
 ## Notifications with Playback Controls ##
 
 I hope you are not surprised that Nuvola Player also supports rich notifications with playback actions.
-You can than control playback even from a lock screen.
+You can than control playback even from a lock screen. Note that rich notifications are **no longer
+supported in GNOME 3.18**.
 
  Gallery
 +[Hover mouse over small notification and you will get expanded notification with playback controls.](images/3.0/gnome/gnome_notification_expanded.png|256x192)
