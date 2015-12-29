@@ -1,5 +1,5 @@
 Title: Explore Nuvola Player 3.0 Beta
-Image: images/3.0/unity/unity_google_play_music_launcher_star_rating.png
+Image: images/3.0/unity/unity_google_play_music_launcher_thumbs_up.png
 Description: Nuvola Player 3.0 will be the first release of the third generation of a runtime for
     web-based music streaming services that provides more native user experience and integration with Linux
     desktop environments than usual web browsers can offer. Nuvola Players handles multimedia keys,
@@ -23,9 +23,9 @@ no need to look for them in your browser's bookmarks or to remember and type in 
 +[Click Ubuntu button in the top left corner to open Unity Dash.](images/3.0/unity/unity_open_dash.png|256x192)
 +[Launch Nuvola Player 3.](images/3.0/unity/unity_dash_nuvola.png|256x192)
 +[Just in case you wonder which version you have installed.](images/3.0/unity/unity_nuvola_selector_about.png|256x192)
-+[Nuvola Player 3 services selector window. Launch Grooveshark, for example.](images/3.0/unity/unity_nuvola_selector_launch_grooveshark.png|256x192)
-+[Who is the maintainer of this integration script?](images/3.0/unity/unity_grooveshark_appmenu_about.png|256x192)
-+[Grooveshark script is maintained by the main Nuvola Player developer, but other integration scripts can be maintained by independent developers who are properly acknowledged.](images/3.0/unity/unity_grooveshark_about_dialog.png|256x192)
++[Nuvola Player 3 services selector window. Launch any streaming service.](images/3.0/unity/unity_nuvola_selector_launch_deezer.png|256x192)
++[Who is the maintainer of this integration script?](images/3.0/unity/unity_deezer_gear_menu_about.png|256x192)
++[Deezer script is maintained by the main Nuvola Player developer, but other integration scripts can be maintained by independent developers who are properly acknowledged.](images/3.0/unity/unity_deezer_about_dialog.png|256x192)
 
 ## Unity Dash ##
 
@@ -36,7 +36,7 @@ in Unity Dash screen. Can do this your web browser?
  Gallery
 +[Click Ubuntu button in the top left corner to open Unity Dash.](images/3.0/unity/unity_open_dash.png|256x192)
 +[First, you can launch only the Nuvola Player 3 services selector.](images/3.0/unity/unity_dash_nuvola.png|256x192)
-+[However, after the first launch of a particular service integration script, you can launch it again directly from the dash.](images/3.0/unity/unity_dash_grooveshark.png|256x192)
++[However, after the first launch of a particular service integration script, you can launch it again directly from the dash.](images/3.0/unity/unity_dash_deezer.png|256x192)
 
 
 
@@ -46,8 +46,8 @@ For even faster access to your music, you can pin our favorite music streaming s
 to launch it again!
 
  Gallery
-+[Launch your favorite service from Nuvola Player 3 services selector window. Grooveshark, for example.](images/3.0/unity/unity_nuvola_selector_launch_grooveshark.png|256x192)
-+[Right-click Grooveshark badge in the Unity Launcher and select Lock to Launcher.](images/3.0/unity/unity_grooveshark_lock_to_launcher.png|256x192)
++[Launch your favorite service from Nuvola Player 3 services selector window. ](images/3.0/unity/unity_nuvola_selector_launch_deezer.png|256x192)
++[Right-click Grooveshark badge in the Unity Launcher and select Lock to Launcher.](images/3.0/unity/unity_deezer_lock_to_launcher.png|256x192)
 +[You can, of course, pin all services ;-)](images/3.0/unity/unity_launcher_multiple_pinned.png|256x192)
 
 ## Be Quick with Quick List ##
@@ -56,9 +56,9 @@ Nuvola Player integrates with Unity Launcher quick list and adds playback action
 provide other actions like star rating.
 
  Gallery
-+[All integration scripts provide basic playback actions: Play/pause, previous song and next song.](images/3.0/new/unity_grooveshark_quicklist.png|256x192)
-+[Some integration scripts provide extra actions such as star rating in Google Play Music.](images/3.0/unity/unity_google_play_music_launcher_star_rating.png|256x192)
-+[Rating done. This feature is useful when the Google Play Window is hidden or covered by other windows.](images/3.0/unity/unity_google_play_music_launcher_star_rating_done.png|256x192)
++[All integration scripts provide basic playback actions: Play/pause, previous song and next song.](images/3.0/unity/unity_deezer_quick_list.png|256x192)
++[Some integration scripts provide extra actions such as thumbs up/down in Google Play Music.](images/3.0/unity/unity_google_play_music_launcher_thumbs_up.png|256x192)
++[Rating done. This feature is useful when the Google Play Window is hidden or covered by other windows.](images/3.0/unity/unity_google_play_music_launcher_thumbs_up_done.png|256x192)
 
 ## Became Keyboard Master ##
 
@@ -66,8 +66,8 @@ Nuvola Player allows you to change keyboard shortcuts or to add your own. Anothe
 special multimedia keys.
 
  Gallery
-+[Click gear icon and select Keyboard shortcuts from the menu](images/3.0/new/unity_grooveshark_appmenu_keyboard_shortcuts.png|256x192)
-+[You can define both in-app and global keyboard shortcuts.](images/3.0/unity/unity_grooveshark_keyboard_shortcuts.png|256x192)
++[Click gear icon and select Preferences from the menu](images/3.0/unity/unity_gear_menu_preferences.png|256x192)
++[You can define both in-app and global keyboard shortcuts.](images/3.0/unity/unity_keyboard_shortcuts.png|256x192)
 +[Moreover, Nuvola Player automatically handles multimedia keys on your keyboard.](images/3.0/unity/unity_media_keys.png|256x192)
 
 ## Head-Up Display ##
@@ -75,8 +75,8 @@ special multimedia keys.
 Unity's unique feature, Head-up display, is also supported. Just press Alt key and then start typing an action.
 
  Gallery
-+[Pres Alt key to show Unity Head-Up display](images/3.0/unity/unity_grooveshark_hud.png|256x192)
-+[Type any command](images/3.0/unity/unity_grooveshark_hud_toggle_play.png|256x192)
++[Pres Alt key to show Unity Head-Up display](images/3.0/unity/unity_hud_type_command.png|256x192)
++[Type any command](images/3.0/unity/unity_hud_thumbs_up.png|256x192)
 
 ## Play in Background with Notifications ##
 
@@ -85,10 +85,10 @@ Nuvola Player window, it keeps playing in background and you will get notificati
 Simple and extremely useful.
 
  Gallery
-+[Click gear icon and select Preferences from the menu](images/3.0/new/unity_grooveshark_appmenu_preferences.png|256x192)
-+[Enable background playback](images/3.0/new/unity_grooveshark_preferences.png|256x192)
-+[Now you don't have to worry about closing the window accidentally. Playback continues in background.](images/3.0/unity/unity_grooveshark_close.png|256x192)
-+[You'll get notifications on track change.](images/3.0/unity/unity_grooveshark_notification.png|256x192)
++[Click gear icon and select Preferences from the menu](images/3.0/unity/unity_gear_menu_preferences.png|256x192)
++[Enable background playback](images/3.0/unity/unity_preferences.png|256x192)
++[Now you don't have to worry about closing the window accidentally. Playback continues in background.](images/3.0/unity/unity_deezer_close.png|256x192)
++[You'll get notifications on track change.](images/3.0/unity/unity_track_change_notification.png|256x192)
 
 ## Unity Sound Indicator ##
 
@@ -97,9 +97,9 @@ I hope you are not surprised that Nuvola Player also integrates with Unity sound
 or show the main window if hidden.
 
  Gallery
-+[Close the window while music is playing. Playback continues in background.](images/3.0/unity/unity_grooveshark_close.png|256x192)
-+[You can control playback from the Unity Sound Indicator](images/3.0/unity/unity_grooveshark_sound_menu.png|256x192)
-+[You can also display the main window from the Unity Sound Indicator](images/3.0/unity/unity_grooveshark_open_from_sound_menu.png|256x192)
++[Close the window while music is playing. Playback continues in background.](images/3.0/unity/unity_deezer_close.png|256x192)
++[You can control playback from the Unity Sound Indicator](images/3.0/unity/unity_deezer_sound_menu.png|256x192)
++[You can also display the main window from the Unity Sound Indicator](images/3.0/unity/unity_deezer_open_from_sound_menu.png|256x192)
 
 ## Last.fm Scrobbling ##
 
@@ -116,12 +116,12 @@ Let's launch Nuvola Player from GNOME Activities screen. As you can see, you hav
 in one place, no need to look for them in your browser's bookmarks or to remember and type in address of a service.
 
  Gallery
-+[Click Activities button in the top left corner to open GNOME Overview.](images/3.0/gnome/fedora_flash_install_done_activities.png|256x192)
++[Click Activities button in the top left corner to open GNOME Overview.](images/3.0/gnome/fedora_open_activities.png|256x192)
 +[Launch Nuvola Player 3.](images/3.0/gnome/gnome_activities_nuvola.png|256x192)
-+[Just in case you wonder which version you have installed.](images/3.0/new/gnome_nuvola_appmenu_about.png|256x192)
-+[Just in case you wonder which version you have installed.](images/3.0/new/gnome_nuvola_about_dialog.png|256x192)
++[Just in case you wonder which version you have installed.](images/3.0/gnome/gnome_nuvola_appmenu_about.png|256x192)
++[Just in case you wonder which version you have installed.](images/3.0/gnome/gnome_nuvola_about_dialog.png|256x192)
 +[Nuvola Player 3 services selector window. Launch Grooveshark, for example.](images/3.0/gnome/gnome_selector_launch_grooveshark.png|256x192)
-+[Who is the maintainer of this integration script?](images/3.0/new/gnome_grooveshark_appmenu_about.png|256x192)
++[Who is the maintainer of this integration script?](images/3.0/gnome/gnome_grooveshark_appmenu_about.png|256x192)
 +[Grooveshark script is maintained by the main Nuvola Player developer, but other integration scripts can be maintained by independent developers who are properly acknowledged.](images/3.0/gnome/gnome_grooveshark_about_dialog.png|256x192)
 
 ## GNOME Dash ##
@@ -131,9 +131,9 @@ streaming service is launched for the first time, a desktop launcher is created 
 to your favorite music faster, just start typing its name in GNOME Activities screen. Can do this your web browser?
 
  Gallery
-+[Click Activities button in the top left corner to open GNOME Overview.](images/3.0/gnome/fedora_flash_install_done_activities.png|256x192)
++[Click Activities button in the top left corner to open GNOME Overview.](images/3.0/gnome/fedora_open_activities.png|256x192)
 +[First, you can launch only the Nuvola Player 3 services selector.](images/3.0/gnome/gnome_activities_nuvola.png|256x192)
-+[However, after the first launch of a particular service integration script, you can launch it again directly from the dash.](images/3.0/gnome/fedora_flash_install_relaunch_grooveshark.png|256x192)
++[However, after the first launch of a particular service integration script, you can launch it again directly from the dash.](images/3.0/gnome/gnome_activities_deezer.png|256x192)
 
 ## Add to Favorites ##
 
@@ -142,8 +142,8 @@ applications in GNOME Activities screen. One click to launch it again!
 
  Gallery
 +[Launch your favorite service from Nuvola Player 3 services selector window. Grooveshark, for example.](images/3.0/gnome/gnome_selector_launch_grooveshark.png|256x192)
-+[Right-click Grooveshark badge in the GNOME Dash and select Add to favorites.](images/3.0/new/gnome_grooveshark_add_to_favorites.png|256x192)
-+[You can, of course, pin all services ;-)](images/3.0/new/gnome_many_favorites.png|256x192)
++[Right-click Grooveshark badge in the GNOME Dash and select Add to favorites.](images/3.0/gnome/gnome_add_to_favorites.png|256x192)
++[You can, of course, pin all services ;-)](images/3.0/gnome/gnome_many_favorites.png|256x192)
 
 ## Became Keyboard Master ##
 
@@ -151,8 +151,8 @@ Nuvola Player allows you to change keyboard shortcuts or to add your own. Anothe
 special multimedia keys.
 
  Gallery
-+[Click application icon and select Keyboard shortcuts from the menu](images/3.0/gnome/gnome_grooveshark_appmenu_keyboard_shortcuts.png|256x192)
-+[You can define both in-app and global keyboard shortcuts.](images/3.0/gnome/gnome_grooveshark_keyboard_shortcuts.png|256x192)
++[Click application icon and select Preferences from the menu](images/3.0/gnome/gnome_grooveshark_appmenu_preferences.png|256x192)
++[Select tab Keyboard shortcuts and then you can define both in-app and global keyboard shortcuts.](images/3.0/gnome/gnome_grooveshark_keyboard_shortcuts.png|256x192)
 +[Moreover, Nuvola Player automatically handles multimedia keys on your keyboard.](images/3.0/new/gnome_media_keys.png|256x192)
 
 ## Play in Background with Notifications ##
@@ -163,8 +163,8 @@ Simple and extremely useful.
 
  Gallery
 +[Enable background playback if you want to.](images/3.0/gnome/gnome_grooveshark_preferences.png|256x192)
-+[Now you don't have to worry about closing the window accidentally. Playback continues in background.](images/3.0/new/gnome_grooveshark_close.png|256x192)
-+[You'll get notifications on track change.](images/3.0/gnome/gnome_notification_small.png|256x192)
++[Now you don't have to worry about closing the window accidentally. Playback continues in background.](images/3.0/gnome/gnome_grooveshark_close.png|256x192)
++[You'll get notifications on track change.](images/3.0/gnome/gnome_track_change_notification.png|256x192)
 
 ## Notifications with Playback Controls ##
 
@@ -185,12 +185,9 @@ GNOME Shell extension. You can control playback or show the main window if hidde
 +[Search for Media Player Indicator in GNOME Extensions website.](images/3.0/gnome/gnome_mpris_extension_web_page.png|256x192)
 +[Turn the extension on.](images/3.0/gnome/gnome_mpris_extension_turn_on.png|256x192)
 +[Confirm installation.](images/3.0/gnome/gnome_mpris_extension_install.png|256x192)
-+[Reload the web page.](images/3.0/gnome/gnome_mpris_extension_reload.png|256x192)
-+[Open preferences.](images/3.0/gnome/gnome_mpris_extension_open_preferences.png|256x192)
-+[Change position of the indicator, if you want to.](images/3.0/gnome/gnome_mpris_extension_preferences_right.png|256x192)
-+[Close the window while music is playing. Playback continues in background.](images/3.0/new/gnome_grooveshark_close.png|256x192)
-+[You can control playback from the Media Player Indicator.](images/3.0/new/gnome_grooveshark_mpris_pause.png|256x192)
-+[You can also display the hidden main window from the Media Player Indicator](images/3.0/new/gnome_grooveshark_mpris_raise.png|256x192)
++[Close the window while music is playing. Playback continues in background.](images/3.0/gnome/gnome_grooveshark_close.png|256x192)
++[You can control playback from the Media Player Indicator.](images/3.0/gnome/gnome_mpris_extension_grooveshark_playing.png|256x192)
++[You can also display the hidden main window from the Media Player Indicator](images/3.0/gnome/gnome_mpris_extension_grooveshark_open.png|256x192)
 
 ## Dark or Light Theme? ##
 
@@ -199,7 +196,7 @@ Nuvola Player allows you to set a dark theme. Some streaming services look bette
  Gallery
 +[Click application icon and select Preferences from the menu](images/3.0/gnome/gnome_grooveshark_appmenu_preferences.png|256x192)
 +[Check &quot;Prefer dark theme&quit; if you want to.](images/3.0/gnome/gnome_grooveshark_preferences.png|256x192)
-+[Grooveshark looks better with dark window decorations.](images/3.0/new/gnome_grooveshark_dark.png|256x192)
++[Grooveshark looks better with dark window decorations.](images/3.0/gnome/gnome_grooveshark_dark.png|256x192)
 
 ## Last.fm Scrobbling ##
 
