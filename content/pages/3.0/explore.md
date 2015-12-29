@@ -119,14 +119,13 @@ or show the main window if hidden.
 +[You can control playback from the Unity Sound Indicator](images/3.0/unity/unity_deezer_sound_menu.png|256x192)
 +[You can also display the main window from the Unity Sound Indicator](images/3.0/unity/unity_deezer_open_from_sound_menu.png|256x192)
 
-## Last.fm Scrobbling ##
+## Other features ##
 
-Nuvola Player allows you to scrobble your music taste to [Last.fm](http://www.last.fm) audio scrobbler and music recommendation service.
+To enable, disable or configure **other built-in features**, see [Common Features section bellow](#explore-common).
 
 
 GNOME {: #explore-gnome}
 =====
-
 
 ## First Launch ##
 
@@ -176,7 +175,7 @@ to your favorite music faster, just start typing its name in GNOME Activities sc
 
 ## Add to Favorites ##
 
-For even faster access to your music, you can add our favorite music streaming services to dock with favorite
+For even faster access to your music, you can add our favourite music streaming services to dock with favourite
 applications in GNOME Activities screen. One click to launch it again!
 
  Gallery
@@ -238,10 +237,9 @@ Nuvola Player allows you to set a dark theme. Some streaming services look bette
 +[Check &quot;Prefer dark theme&quit; if you want to.](images/3.0/gnome/gnome_grooveshark_preferences.png|256x192)
 +[Grooveshark looks better with dark window decorations.](images/3.0/gnome/gnome_grooveshark_dark.png|256x192)
 
-## Last.fm Scrobbling ##
+## Other features ##
 
-Nuvola Player allows you to scrobble your music taste to [Last.fm](http://www.last.fm) audio scrobbler and music recommendation service.
-
+To enable, disable or configure **other built-in features**, see [Common Features section bellow](#explore-common).
  
 Terminal & Scripts {: #explore-terminal}
 ==================
@@ -250,12 +248,78 @@ Terminal & Scripts {: #explore-terminal}
 
 Nuvola Player 3 can be also controlled from command line via `nuvolaplayer3ctl`.
 
-
-
  Gallery
 +[Nuvola Player comes with command-line controller for your scripts](images/3.0/unity/unity_nuvolactl_help.png|256x192)
 +[Get track info, pause playback, ...](images/3.0/unity/unity_nuvolactl_track_info.png|256x192)
 +[How about controlling three Nuvola Player instances?](images/3.0/unity/unity_nuvolactl_multiple_apps.png|256x192)
 
+Common Features {: #explore-common}
+===============
+
+These featured are not dependent on a particular desktop environment.
+
+## Enable, disable or configure built-in features ##
+
+Nuvola Player allows you enable, disable or configure **many built-in features**:
+
+  * In **Unity**, click *Gear Menu → Preferences*, then switch to tab *Components*.
+  * In **GNOME**, click *App Menu → Preferences*, then switch to tab *Components*.
+
+ Gallery
++[Gear Menu → Preferences](images/3.0/unity/unity_gear_menu_preferences.png|256x192)
++[Switch to tab Components](images/3.0/components/unity_webapp_components.png|256x192)
++[App Menu → Preferences](images/3.0/gnome/gnome_grooveshark_appmenu_preferences.png|256x192)
++[Switch to tab Components](images/3.0/components/gnome_webapp_components.png|256x192)
+
+## Last.fm Scrobbling ##
+
+Nuvola Player allows you to scrobble your music taste to [Last.fm](http://www.last.fm) audio scrobbler and music recommendation service.
+
+  * In **Unity**, click *Gear Menu → Preferences*, then switch to tab *Components*, enable *Audio
+    Scrobbler Services* and finally connect your Last.fm account.
+  * In **GNOME**, click *App Menu → Preferences*, then switch to tab *Components*, enable *Audio
+    Scrobbler Services* and finally connect your Last.fm account.
+
+ Gallery
++[Click Configure button at the Last.fm component](images/3.0/lastfm/unity_webapp_components_lasfm.png|256x192)
++[Click Connect button](images/3.0/lastfm/unity_lastfm_authorize.png|256x192)
++[Grant access to Nuvola Player on the Last.fm page that has been opened](images/3.0/lastfm/unity_lastfm_site_authorize.png|256x192)
++[Finish authorization in Nuvola Player](images/3.0/lastfm/unity_lastfm_finish_authorization.png|256x192)
++[Done! Your music taste will be scrobbled.](images/3.0/lastfm/unity_lastfm_authorized.png|256x192)
+
+## Lyrics Fetching ##
+
+Nuvola Player can fetch lyrics from AZLyrics.
+
+  * In **Unity**, click *Gear Menu → Preferences*, switch to tab *Components*, enable *Lyrics*. Then
+    click *Gear Menu → Show sidebar* and select *Lyrics* if necessary.
+  * In **GNOME**, click *App Menu → Preferences*, switch to tab *Components*, enable *Lyrics*. Then
+    click *Gear Menu → Show sidebar* and select *Lyrics* if necessary.
+
+ Gallery
++[Enable Lyrics component](images/3.0/lyrics/unity_webapp_components_lyrics.png|256x192)
++[Enable sidebar](images/3.0/lyrics/unity_gear_show_sidebar.png|256x192)
++[Lyrics is automatically fetched](images/3.0/lyrics/unity_webapp_lyrics.png|256x192)
+
+## Per-Application Network Proxy ##
+
+Each application can have its own network proxy settings.
+
+  * In **Unity**, click *Gear Menu → Preferences* and switch to tab *Network*.
+  * In **GNOME**, click *App Menu → Preferences* and switch to tab *Network*.
+
+ Gallery
++[Switch to tab Network](images/3.0/components/unity_webapp_network_proxy.png|256x192)
+
+## Old-style Tray Icons ##
+
+Some desktop environments (e.g. XFCE, LXDE, partially GNOME) still support old-style tray icons.
+
+  * In **GNOME**, click *App Menu → Preferences*, switch to tab *Components* and enable *Tray Icon*.
+  * In **other environments**, click *Gear Menu → Preferences*, switch to tab *Components* and
+    enable *Tray Icon*. Note that old-style tray icons are **not supported in Ubuntu's Unity**. 
+
+ Gallery
++[Enable tray icon to use it to control playback.](images/3.0/components/gnome_webapp_trayicon.png|256x192)
 
 [TOC]
