@@ -1,4 +1,4 @@
-Title: Install Nuvola Player 3.0 Beta
+Title: Install Nuvola Player 3.0
 Image: images/3.0/unity/unity_google_play_music_launcher_thumbs_up.png
 Description: Nuvola Player 3.0 will be the first release of the third generation of a runtime for
     web-based music streaming services that provides more native user experience and integration with Linux
@@ -329,7 +329,7 @@ Explore Features
 Debian {: #debian}
 ======
 
-Installation instructions for Debian haven't been written yet, but will be made before the stable release.
+Installation instructions for Debian haven't been written.
 You can follow [instructions for Ubuntu](#ubuntu) for now. Please report any issues to
 [the Nuvola Player Users mailing list](https://groups.google.com/d/forum/nuvola-player-users).
 I'll be there to help you ;-)

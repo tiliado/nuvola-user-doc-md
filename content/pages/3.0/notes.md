@@ -7,8 +7,8 @@ Description: Nuvola Player 3.0 will be the first release of the third generation
     GNOME lock screen and launchers and more.
 
 
-Nuvola Player 3.0 is currently in development. [Rolling beta builds]({filename}./install.md)
-are available since February 8th, 2015.
+Nuvola Player 3.0.0 was released on December 30th, 2015. Continue reading these release notes,
+[explore all features](:3.0/explore.html) or just [jump to installation instructions](:3.0/install.html).
 
 About Nuvola Player
 ===================
@@ -69,7 +69,7 @@ GNOME Activities dock and launch it directly in the future.
 
  Gallery
 +[Multiple services pinned to Unity Launcher.](images/3.0/unity/unity_launcher_multiple_pinned.png|256x192)
-+[Multiple services pinned to GNOME Activities dock.](images/3.0/new/gnome_many_favorites.png|256x192)
++[Multiple services pinned to GNOME Activities dock.](images/3.0/gnome/gnome_many_favorites.png|256x192)
 
 Tiliado Repository
 --------------------------
@@ -153,10 +153,40 @@ See [Nuvola Player hompage](https://tiliado.eu/nuvolaplayer/) for more up-to-dat
  * [Yandex Music 1.1](https://github.com/tiliado/nuvola-app-yandex-music)
    maintained by [Jiří Janoušek](https://github.com/fenryxo)
 
+Explore Features
+================
+
+<div class="row">
+  <div class="col-sm-12 col-md-8">
+    <div class="thumbnail">
+      <a href="./explore.html#explore-gnome"><img src=":images/3.0/gnome/gnome_add_to_favorites[256x192].png" width="256" height="192" /></a>
+      <div class="caption">
+        <a class="btn btn-primary btn-block" role="button" href="./explore.html#explore-gnome">GNOME</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-12 col-md-8">
+    <div class="thumbnail">
+      <a href="./explore.html#explore-unity"><img src=":images/3.0/unity/unity_google_play_music_launcher_thumbs_up[256x192].png" width="256" height="192" /></a>
+      <div class="caption">
+        <a class="btn btn-primary btn-block" role="button" href="./explore.html#explore-unity">Unity</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-12 col-md-8">
+    <div class="thumbnail">
+      <a href="./explore.html#explore-terminal"><img src=":images/3.0/unity/unity_nuvolactl_multiple_apps[256x192].png" width="256" height="192" /></a>
+      <div class="caption">
+        <a class="btn btn-primary btn-block" role="button" href="./explore.html#explore-terminal">Terminal & scripts</a>
+      </div>
+    </div>
+  </div>
+</div>
+
 Missing Features
 ================
 
-Since I don't want to postpone release of Nuvola Player 3 again and again, I've decided not to
+Since I didn't want to postpone release of Nuvola Player 3 again and again, I decided not to
 implement some features available in Nuvola Player 2 for now. As a result, following features are
 missing in Nuvola Player 3 and might be added later upon demand from users: Libre.fm scrobbling,
 translations and file downloads. 

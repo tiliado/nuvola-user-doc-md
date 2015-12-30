@@ -6,13 +6,11 @@ save_as: index.html
 Supported Releases
 ===============
 
-[Nuvola Player 3.0.x]({filename}3.0.md)
+[Nuvola Player 3.0.x Stable Releases](./3.0.html)
 ---------------------
 
-Although Nuvola Player 3 is in a beta stage of development, it is recommended for general usage instead of
-Nuvola Player 2.5, which not maintained any more. Please
-[ask questions and provide feedback](https://groups.google.com/d/forum/nuvola-player-users)
-whenever you find a bug or two.
+  * Initial release 3.0.0 was released on December 30th, 2015.
+
     
 Old Releases
 ============
