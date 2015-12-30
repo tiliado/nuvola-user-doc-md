@@ -40,6 +40,10 @@
     {% endif %}
   </div>
   <div class="col-xs-24 col-md-18 pull-right-md">
+    {% if output_file|in_section("3.0") %}
+       <div class="alert alert-success" role="alert"><strong>Nuvola Player 3.0 is the current stable series.</strong>
+       New releases 3.0.x receive only bug fixes, but no new features except for compatible service integrations.</div>
+    {% endif %}
     {% if page.description and page.debug %}
     <p><strong>Description:</strong> {{ page.description }}</p>
     {% endif %}

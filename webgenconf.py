@@ -29,5 +29,13 @@ def section_filter(path, section, basepath="", label=None):
         css_class = ""
     
     return '<li{}><a href="{}/{}.html">{}</a></li>'.format(css_class, basepath, section, label or section)
+
+
+def in_section_filter(path, *sections):
+    for part in (path if not path.endswith(".html") else path[:-5]).split("/"):
+        if part in sections:
+            return True
+    else:
+        return False
     
-JINJA_FILTERS = {"section": section_filter}
+JINJA_FILTERS = {"section": section_filter, "in_section": in_section_filter, }
