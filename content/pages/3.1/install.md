@@ -51,14 +51,15 @@ Install Tiliado Repository Installer
 Add Nuvola Player Repository
 ----------------------------
 
-!!! danger "Warning"
-    
-    Make sure you have installed **Tiliado Repository Installer version 0.3.2** or newer. If unsure,
-    [download the latest version](https://tiliado.eu/nuvolaplayer/repository/).
+!!! warning "Rolling Releases are for Patrons"
+    Rolling Releases are provided for patrons as a benefit for their support. You will need to
+    enter credentials of your Tiliado account with active
+    [Nuvola Patron membership](https://tiliado.eu/nuvolaplayer/funding/)
+    to access these builds.
 
   1. Click **Ubuntu button** in the top left corner to open Unity Dash.
   2. Launch **Tiliado Repositories** installer.
-  3. Use anonymous access or Enter login credentials to your Tiliado account.
+  3. Enter login credentials to your Tiliado account.
   4. Select Nuvola Player repository.
   5. Select repository components you want to install Nuvola Player from.
   6. Select which packages you want to install from the repository.
@@ -73,7 +74,7 @@ Add Nuvola Player Repository
  Gallery
 +[Click Ubuntu button in the top left corner to open Unity Dash.](images/3.0/unity/unity_open_dash.png|256x192)
 +[Launch Tiliado Repositories installer.](images/3.0/unity/unity_dash_tiliado_installer.png|256x192)
-+[Use anonymous access or enter login credentials to your Tiliado account.](images/3.0/unity/unity_installer_anonymous.png|256x192)
++[Enter login credentials to your Tiliado account.](images/3.0/unity/unity_installer_anonymous.png|256x192)
 +[Select Nuvola Player repository.](images/3.0/unity/unity_installer_repositories.png|256x192)
 +[Select repository components you want to install Nuvola Player from.](images/3.0/unity/unity_installer_components_stable_beta.png|256x192)
 +[Select which packages you want to install from the repository.](images/3.0/unity/unity_installer_packages.png|256x192)
@@ -177,7 +178,6 @@ Install Tiliado Repository Installer
         su
         dnf install /path/to/location/of/tiliado-repositories*.rpm
     
-
  Gallery
 +[Download Tiliado Repository Installer for your distribution release and open it with Software Install tool.](images/3.0/gnome/gnome_firefox_download_rpm.png|256x192)
 +[When the Software Install tool is launched, click Install button.](images/3.0/gnome/gnome_install_installer.png|256x192)
@@ -186,14 +186,15 @@ Install Tiliado Repository Installer
 Add Nuvola Player Repository
 ----------------------------
 
-!!! danger "Warning"
-    
-    Make sure you have installed **Tiliado Repository Installer version 0.3.2** or newer. If unsure,
-    [download the latest version](https://tiliado.eu/nuvolaplayer/repository/).
+!!! warning "Rolling Releases are for Patrons"
+    Rolling Releases are provided for patrons as a benefit for their support. You will need to
+    enter credentials of your Tiliado account with active
+    [Nuvola Patron membership](https://tiliado.eu/nuvolaplayer/funding/)
+    to access these builds.
 
   1. Click **Activities button** in the top left corner to open GNOME Overview.
   2. Launch **Tiliado Repositories** installer.
-  3. Use anonymous access or enter login credentials to your Tiliado account.
+  3. Enter login credentials to your Tiliado account.
   4. Select Nuvola Player repository.
   5. Select repository components you want to install Nuvola Player from.
   6. Select which packages you want to install from the repository.
@@ -205,11 +206,10 @@ Add Nuvola Player Repository
  11. Launch Nuvola Player 3.
  12. You should see Nuvola Player 3 services selector window.
 
-
  Gallery
 +[Click Activities button in the top left corner to open GNOME Overview.](images/3.0/gnome/fedora_open_activities.png|256x192)
 +[Launch Tiliado Repositories installer.](images/3.0/gnome/fedora_activities_tiliado_installer.png|256x192)
-+[Use anonymous access or enter login credentials to your Tiliado account.](images/3.0/gnome/gnome_installer_anonymous.png|256x192)
++[Enter login credentials to your Tiliado account.](images/3.0/gnome/gnome_installer_anonymous.png|256x192)
 +[Select Nuvola Player repository.](images/3.0/gnome/gnome_installer_repositories.png|256x192)
 +[Select repository components you want to install Nuvola Player from.](images/3.0/gnome/gnome_installer_components_stable_beta.png|256x192)
 +[Select which packages you want to install from the repository.](images/3.0/gnome/gnome_installer_packages.png|256x192)
@@ -359,13 +359,14 @@ Download Tiliado Repository Installer for your distribution release and install 
 Add Nuvola Player Repository
 ----------------------------
 
-!!! danger "Warning"
-    
-    Make sure you have installed **Tiliado Repository Installer version 0.3.2** or newer. If unsure,
-    [download the latest version](https://tiliado.eu/nuvolaplayer/repository/).
+!!! warning "Rolling Releases are for Patrons"
+    Rolling Releases are provided for patrons as a benefit for their support. You will need to
+    enter credentials of your Tiliado account with active
+    [Nuvola Patron membership](https://tiliado.eu/nuvolaplayer/funding/)
+    to access these builds.
 
   1. Launch **Tiliado Repositories** installer from applications list.
-  2. Use anonymous access or Enter login credentials to your Tiliado account.
+  2. Enter login credentials to your Tiliado account.
   3. Select Nuvola Player repository.
   4. Select repository components you want to install Nuvola Player from.
   5. Select which packages you want to install from the repository.
@@ -376,6 +377,7 @@ Add Nuvola Player Repository
   9. Click **Ubuntu button** in the top left corner to open Unity Dash.
  10. Launch Nuvola Player 3 from applications list.
  11. You should see Nuvola Player 3 services selector window.
+
 
 Explore Features
 ----------------
