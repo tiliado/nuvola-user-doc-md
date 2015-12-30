@@ -6,8 +6,19 @@ save_as: index.html
 Supported Releases
 ===============
 
+[Nuvola Player 3.1.x Rolling Releases](./3.0.html)
+---------------------
+
+Nuvola Player 3.1 is the current rolling series. New buils are constantly rolling out as new
+features are being developed. 
+
+  * Initial release 3.0.0 was released on December 30th, 2015.
+  
 [Nuvola Player 3.0.x Stable Releases](./3.0.html)
 ---------------------
+
+Nuvola Player 3.0 is the current stable series. New releases 3.0.x receive only bug fixes,
+but no new features except for compatible service integrations.
 
   * Initial release 3.0.0 was released on December 30th, 2015.
 

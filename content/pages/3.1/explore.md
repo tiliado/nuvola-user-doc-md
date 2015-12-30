@@ -1,6 +1,6 @@
-Title: Explore Nuvola Player 3.0
+Title: Explore Nuvola Player 3.1
 Image: images/3.0/unity/unity_google_play_music_launcher_thumbs_up.png
-Description: Nuvola Player 3.0 is the first release of the third generation of a runtime for
+Description: Nuvola Player 3.1 is the second series of the third generation of a runtime for
     web-based music streaming services that provides more native user experience and integration with Linux
     desktop environments than usual web browsers can offer. Nuvola Players handles multimedia keys,
     shows desktop notifications, integrates with various sound indicators, media player applets,
