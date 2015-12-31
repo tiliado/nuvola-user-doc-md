@@ -1,6 +1,6 @@
-Title: Install Nuvola Player 3.0
+Title: Install Nuvola Player 3.1
 Image: images/3.0/unity/unity_google_play_music_launcher_thumbs_up.png
-Description: Nuvola Player 3.0 will be the first release of the third generation of a runtime for
+Description: Nuvola Player 3.1 is the second series of the third generation of a runtime for
     web-based music streaming services that provides more native user experience and integration with Linux
     desktop environments than usual web browsers can offer. Nuvola Players handles multimedia keys,
     shows desktop notifications, integrates with various sound indicators, media player applets,
@@ -74,9 +74,9 @@ Add Nuvola Player Repository
  Gallery
 +[Click Ubuntu button in the top left corner to open Unity Dash.](images/3.0/unity/unity_open_dash.png|256x192)
 +[Launch Tiliado Repositories installer.](images/3.0/unity/unity_dash_tiliado_installer.png|256x192)
-+[Enter login credentials to your Tiliado account.](images/3.0/unity/unity_installer_anonymous.png|256x192)
++[Enter login credentials to your Tiliado account.](images/3.1/installation/unity_tiliado_installer_login.png|256x192)
 +[Select Nuvola Player repository.](images/3.0/unity/unity_installer_repositories.png|256x192)
-+[Select repository components you want to install Nuvola Player from.](images/3.0/unity/unity_installer_components_stable_beta.png|256x192)
++[Select repository components you want to install Nuvola Player from.](images/3.1/installation/unity_tiliado_installer_rolling.png|256x192)
 +[Select which packages you want to install from the repository.](images/3.0/unity/unity_installer_packages.png|256x192)
 +[Review the summary and click Install button.](images/3.0/unity/unity_installer_summary.png|256x192)
 +[Enter your password to confirm installation.](images/3.0/unity/unity_installer_install_auth.png|256x192)
@@ -209,9 +209,9 @@ Add Nuvola Player Repository
  Gallery
 +[Click Activities button in the top left corner to open GNOME Overview.](images/3.0/gnome/fedora_open_activities.png|256x192)
 +[Launch Tiliado Repositories installer.](images/3.0/gnome/fedora_activities_tiliado_installer.png|256x192)
-+[Enter login credentials to your Tiliado account.](images/3.0/gnome/gnome_installer_anonymous.png|256x192)
++[Enter login credentials to your Tiliado account.](images/3.1/installation/fedora_tiliado_installer_login.png|256x192)
 +[Select Nuvola Player repository.](images/3.0/gnome/gnome_installer_repositories.png|256x192)
-+[Select repository components you want to install Nuvola Player from.](images/3.0/gnome/gnome_installer_components_stable_beta.png|256x192)
++[Select repository components you want to install Nuvola Player from.](images/3.1/installation/fedora_tiliado_installer_components_rolling.png|256x192)
 +[Select which packages you want to install from the repository.](images/3.0/gnome/gnome_installer_packages.png|256x192)
 +[Review the summary and click Install button.](images/3.0/gnome/gnome_installer_summary.png|256x192)
 +[Enter your password to confirm installation.](images/3.0/gnome/gnome_installer_install_auth.png|256x192)
