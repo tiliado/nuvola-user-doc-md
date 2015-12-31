@@ -1,10 +1,10 @@
 Title: Nuvola Player 3.0 Release Notes
 Image: images/3.0/unity/unity_google_play_music_launcher_thumbs_up.png
-Description: Nuvola Player 3.0 will be the first release of the third generation of a runtime for
-    web-based music streaming services that provides more native user experience and integration with Linux
-    desktop environments than usual web browsers can offer. Nuvola Players handles multimedia keys,
-    shows desktop notifications, integrates with various sound indicators, media player applets,
-    GNOME lock screen and launchers and more.
+Description: Nuvola Player 3.0.0 was released on December 30th, 2015. It is the first release of the
+    third generation of a runtime for web-based music streaming services that provides more native
+    user experience and integration with Linux desktop environments than usual web browsers can offer.
+    Nuvola Players handles multimedia keys, shows desktop notifications, integrates with various
+    sound indicators, media player applets, GNOME lock screen and launchers and more.
 
 
 Nuvola Player 3.0.0 was released on December 30th, 2015. Continue reading these release notes,
