@@ -20,7 +20,8 @@ features are being developed.
 Nuvola Player 3.0 is the current stable series. New releases 3.0.x receive only bug fixes,
 but no new features except for compatible service integrations.
 
-  * Initial release 3.0.0 was released on December 30th, 2015.
+  * Initial release **3.0.0** was released on December 30th, 2015.
+  * Maintenance release **3.0.1** was released on February 14th, 2016.
 
     
 Old Releases

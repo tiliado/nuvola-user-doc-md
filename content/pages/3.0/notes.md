@@ -7,7 +7,9 @@ Description: Nuvola Player 3.0.0 was released on December 30th, 2015. It is the 
     sound indicators, media player applets, GNOME lock screen and launchers and more.
 
 
-Nuvola Player 3.0.0 was released on December 30th, 2015. Continue reading these release notes,
+**Nuvola Player 3.0.0** was released on December 30th, 2015 and 
+[maintenance release **3.0.1**](#maintenance) was released on February 14th, 2016.
+Continue reading these release notes,
 [explore all features](:3.0/explore.html) or just [jump to installation instructions](:3.0/install.html).
 
 About Nuvola Player
@@ -221,5 +223,26 @@ Thank you and happy listening!
 
 Jiří Janoušek
 
+Maintenance Releases {: #maintenance}
+====================
+
+Nuvola Player 3.0.1
+-------------------
+
+Maintenance release **3.0.1** was released on February 14th, 2016, addressing following issues:
+
+  * Configuration option `--with-appindicator` was removed as AppIndicator integration is currently
+    unmaintained. Issues: tiliado/nuvolaplayer#201 and tiliado/nuvolaplayer#45
+
+  * Web app integration template was moved to
+    [its own repository](https://github.com/tiliado/nuvola-app-template)
+    to keep it up-to-date independently on Nuvola Player releases. Developer documentation was
+    updated accordingly.
+
+  * The `nuvolaplayer3 --help` screen now lists also the `-a/--app-id` argument used to launch
+    a particular service. Issue: tiliado/nuvolaplayer#147
+    
+  * All pop-up windows now can pop up a new window, which is required by the SoundCloud's
+    log-in-via-Google feature, for instance. Issue: tiliado/nuvola-app-soundcloud#3
 
 [TOC]
