@@ -229,7 +229,7 @@ Maintenance Releases {: #maintenance}
 
 Nuvola Player 3.0.2
 -------------------
-Maintenance release **3.0.1** was released on April 29th, 2016, addressing following issues:
+Maintenance release **3.0.2** was released on April 29th, 2016, addressing following issues:
 
   * Added hint how to edit/remove keyboard shortcut in the Keyboard shortcuts tab of the Preferences dialog.
     Issue: tiliado/nuvolaplayer#217
