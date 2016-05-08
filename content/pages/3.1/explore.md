@@ -220,6 +220,14 @@ supported in GNOME 3.18**.
 Nuvola Player integrates with [Media Player Indicator](https://extensions.gnome.org/extension/55/media-player-indicator/)
 GNOME Shell extension. You can control playback or show the main window if hidden.
 
+!!! warning "A custom branch required"
+
+    As of May 8th 2016, the upstream version Media Player Indicator at GNOME Shell extensions website
+    may not be fully functional with Nuvola Player. You can use Nuvola Player developer's
+    [Media Player Indicator branch](https://github.com/fenryxo/gnome-shell-extensions-mediaplayer/tree/nuvola-rating),
+    which contains bug fixes and brings ability not only to display track rating but also to set it with supported
+    streaming services (Google Play Music was the first, others may follow).  
+
  Gallery
 +[Search for Media Player Indicator in GNOME Extensions website.](images/3.0/gnome/gnome_mpris_extension_web_page.png|256x192)
 +[Turn the extension on.](images/3.0/gnome/gnome_mpris_extension_turn_on.png|256x192)
@@ -227,6 +235,7 @@ GNOME Shell extension. You can control playback or show the main window if hidde
 +[Close the window while music is playing. Playback continues in background.](images/3.0/gnome/gnome_grooveshark_close.png|256x192)
 +[You can control playback from the Media Player Indicator.](images/3.0/gnome/gnome_mpris_extension_grooveshark_playing.png|256x192)
 +[You can also display the hidden main window from the Media Player Indicator](images/3.0/gnome/gnome_mpris_extension_grooveshark_open.png|256x192)
++[Ability to set track rating (requires a custom branch as of May 8th 2016)](images/3.1/features/mediaplayer_extensin_set_rating.png|256x192) 
 
 ## Dark or Light Theme? ##
 
