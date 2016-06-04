@@ -23,6 +23,7 @@ but no new features except for compatible service integrations.
   * Initial release **3.0.0** was released on December 30th, 2015.
   * Maintenance release **3.0.1** was released on February 14th, 2016.
   * Maintenance release **3.0.2** was released on April 26th, 2016.
+  * Maintenance release **3.0.3** was released on June 4th, 2016.
 
 Old Releases
 ============
