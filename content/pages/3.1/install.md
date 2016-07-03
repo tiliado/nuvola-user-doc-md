@@ -271,8 +271,8 @@ Install GStreamer MP3 Audio Decoder {: #fedora-mp3}
      
         :::text
         dnf install --nogpgcheck \
-        http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-stable.noarch.rpm \
-        http://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-stable.noarch.rpm
+        http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm \
+        http://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
     
   4. Run following command to install GStreamer MP3 Audio Decoder from the RPM Fusion repository.
     
