@@ -14,18 +14,41 @@ Description: Nuvola Player 3.0 is the first release of the third generation of a
 Choose Installation Method {: #install}
 ==========================
 
-There are two ways how to install Nuvola Player on your system. Choose the one which suits you best.
+There are three ways how to install Nuvola Player on your system. Choose the one which suits you best.
 
-1.  [User-friendly graphical installation](#installer): Users who are not friends with a terminal
-    can take advantage of an easy-to-use graphical installer.
-    **This method is recommended to less experienced users.**
+  1. [All-in-one Nuvola Player Bundle](#bundle): A single package that bundles the core application
+     as well as integration scripts of streaming services. Upon installation, all components are
+     updated independently. **This method is recommended to less experienced users.**
+  2. [User-friendly graphical installation](#installer): Users who are not friends with a terminal
+     can take advantage of an easy-to-use graphical installer.
+     **This method is recommended to less experienced users if installation of the Nuvola Player Bundle fails.**
 
-2.  [Manual installation from terminal](./manual-installation.html): Power users who are excellent in command-line kung-fu can just add
-    [the Nuvola Player Repository](https://tiliado.eu/nuvolaplayer/repository/) manually and install
-    Nuvola Player using common package management tools of your linux distribution. Then skip to the
-    section [Check format support](#format-support).
-    **This method is not recommended to less experienced users. Any mistake can break your system.**
+  3. [Manual installation from terminal](./manual-installation.html):
+     Power users who are excellent in command-line kung-fu can just add
+     [the Nuvola Player Repository](https://tiliado.eu/nuvolaplayer/repository/) manually and install
+     Nuvola Player using common package management tools of your linux distribution. Then skip to the
+     section [Check format support](#format-support).
+     **This method is not recommended to less experienced users. Any mistake can break your system.**
 
+All-in-one Nuvola Player Bundle {: #bundle}
+===============================
+
+ 1. Download [All-in-one Nuvola Player Bundle](https://github.com/tiliado/nuvolaplayer/releases/tag/3.0.3).
+    Note: Choose correct distribution and architecture (i386 for 32-bit processors and amd64 for 64-bit ones).
+ 2. Open the bundle package with GDebi package installation tool and install the package.
+    If the installation is not successful, try the [User-Friendly Graphical Installation](#installer) procedure
+    as it is more robust and can solve conflicts to a certain degree.
+ 3. [Check format support status](#format-support).
+
+ Gallery
++[Download All-in-one Nuvola Player Bundle](images/3.0/installation/debian/firefox_download_bundle.png|256x192)
++[Open the directory where the bundle has been downloaded](images/3.0/installation/debian/firefox_open_bundle_folder.png|256x192)
++[Open the bundle with GDebi package installation tool](images/3.0/installation/debian/bundle_open_with_gdebi.png|256x192)
++[Install the bundle](images/3.0/installation/debian/gdebi_install_bundle.png|256x192)
++[Enter your password to confirm installation.](images/3.0/installation/debian/gdebi_install_bundle_auth.png|256x192)
++[Close the GDebi package installation tool.](images/3.0/installation/debian/gdebi_bundle_close.png|256x192)
++[Click Activities button in the top left corner to open GNOME Overview and launch Nuvola Player 3.](images/3.0/gnome/debian_activities_nuvola.png|256x192)
++[Nuvola Player 3 services selector window.](images/3.0/gnome/debian_selector_launch_deezer.png|256x192)
 
 User-Friendly Graphical Installation {: #installer}
 ====================================
