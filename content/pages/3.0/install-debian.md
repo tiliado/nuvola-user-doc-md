@@ -42,18 +42,20 @@ Install Tiliado Repository Installer
        * [Debian 8 Jessie](https://tiliado.eu/repository-installer/download/jessie/) 
        * [Debian 9 Stretch](https://tiliado.eu/repository-installer/download/stretch/) 
        * [Debian Sid](https://tiliado.eu/repository-installer/download/sid/) 
- 2. Wait a bit as Ubuntu Software Center is a pretty slow beast. Then click **Install** button.
- 3. Enter your password to confirm installation.
+ 2. Open the installer package with GDebi package installation tool and install the package.
 
  Gallery
-+[Download Tiliado Repository Installer and open it with Ubuntu Software Center](images/3.0/unity/unity_firefox_download_installer.png|256x192)
-+[Wait a bit as Ubuntu Software Center is a pretty slow beast. Then click Install button.](images/3.0/unity/unity_install_installer.png|256x192)
-+[Enter your password to confirm installation.](images/3.0/unity/unity_install_installer_auth.png|256x192)
++[Download Tiliado Repository Installer](images/3.0/installation/debian/firefox_download_installer.png|256x192)
++[Open the directory where the isntaller has been downloaded](images/3.0/installation/debian/firefox_open_folder.png|256x192)
++[Open the installer with GDebi package installation tool](images/3.0/installation/debian/open_with_gdebi.png|256x192)
++[Install the installer](images/3.0/installation/debian/gdebi_install.png|256x192)
++[Enter your password to confirm installation.](images/3.0/installation/debian/gdebi_install_auth.png|256x192)
++[Close the GDebi package installation tool.](images/3.0/installation/debian/gdebi_close.png|256x192)
 
 Add Nuvola Player Repository
 ----------------------------
 
-  1. Click **Ubuntu button** in the top left corner to open Unity Dash.
+  1. Click **Activities button** in the top left corner to open GNOME Overview.
   2. Launch **Tiliado Repositories** installer.
   3. Use anonymous access or Enter login credentials to your Tiliado account.
   4. Select Nuvola Player repository.
@@ -63,23 +65,22 @@ Add Nuvola Player Repository
   8. Enter your password to confirm installation.
   9. If installation is successful, click Quit button. Otherwise copy the installation log and
      [contact support](https://github.com/tiliado/tiliado-repositories/issues/new).
- 10. Click **Ubuntu button** in the top left corner to open Unity Dash.
+ 10. Click **Activities button** in the top left corner to open GNOME Overview.
  11. Launch Nuvola Player 3.
  12. You should see Nuvola Player 3 services selector window.
 
  Gallery
-+[Click Ubuntu button in the top left corner to open Unity Dash.](images/3.0/unity/unity_open_dash.png|256x192)
-+[Launch Tiliado Repositories installer.](images/3.0/unity/unity_dash_tiliado_installer.png|256x192)
-+[Use anonymous access or enter login credentials to your Tiliado account.](images/3.0/unity/unity_installer_anonymous.png|256x192)
-+[Select Nuvola Player repository.](images/3.0/unity/unity_installer_repositories.png|256x192)
-+[Select repository components you want to install Nuvola Player from.](images/3.0/installation/unity_tiliado_installer_components_stable.png|256x192)
-+[Select which packages you want to install from the repository.](images/3.0/unity/unity_installer_packages.png|256x192)
-+[Review the summary and click Install button.](images/3.0/unity/unity_installer_summary.png|256x192)
-+[Enter your password to confirm installation.](images/3.0/unity/unity_installer_install_auth.png|256x192)
-+[If installation is successful, click Quit button.](images/3.0/unity/unity_installer_done_quit.png|256x192)
-+[Click Ubuntu button in the top left corner to open Unity Dash.](images/3.0/unity/unity_open_dash.png|256x192)
-+[Launch Nuvola Player 3.](images/3.0/unity/unity_dash_nuvola.png|256x192)
-+[Nuvola Player 3 services selector window.](images/3.0/unity/unity_nuvola_selector_launch_deezer.png|256x192)
++[Click Activities button in the top left corner to open GNOME Overview.](images/3.0/gnome/debian_open_activities.png|256x192)
++[Launch Tiliado Repositories installer.](images/3.0/installation/debian/activities_tiliado_installer.png|256x192)
++[Use anonymous access or enter login credentials to your Tiliado account.](images/3.0/installation/debian/installer_anonymous.png|256x192)
++[Select Nuvola Player repository.](images/3.0/installation/debian/installer_repositories.png|256x192)
++[Select repository components you want to install Nuvola Player from.](images/3.0/installation/debian/tiliado_installer_components_stable.png|256x192)
++[Select which packages you want to install from the repository.](images/3.0/installation/debian/installer_packages.png|256x192)
++[Review the summary and click Install button.](images/3.0/installation/debian/installer_summary.png|256x192)
++[Enter your password to confirm installation.](images/3.0/installation/debian/installer_install_auth.png|256x192)
++[If installation is successful, click Quit button.](images/3.0/installation/debian/installer_done_quit.png|256x192)
++[Click Activities button in the top left corner to open GNOME Overview and launch Nuvola Player 3.](images/3.0/gnome/debian_activities_nuvola.png|256x192)
++[Nuvola Player 3 services selector window.](images/3.0/gnome/debian_selector_launch_deezer.png|256x192)
 
 Check Format Support {: #format-support}
 ====================
@@ -89,23 +90,23 @@ Check Format Support {: #format-support}
     **Nuvola Player 3 packages for Debian** have both Flash plugin and GStreamer MP3 audio decoder as
     dependencies, so these plugins should work out of the box without any hassles.
 
- 1. Click **Ubuntu button** in the top left corner to open Unity Dash.
+ 1. Click **Activities button** in the top left corner to open GNOME Overview.
  2. Launch Nuvola Player 3.
  3. You should see Nuvola Player 3 services selector window. Launch any streaming service.
- 4. Open Gear menu and select Format Support.
+ 4. Open App menu and select Format Support.
  5. Tab Web Plugins shows information about available Flash Player plugins.
  6. Tab MP3 format shows information whether GStreamer MP3 Audio encoder has been found. You can
     click button Check again to run a MP3 support test.
 
  Gallery
-+[Click Ubuntu button in the top left corner to open Unity Dash.](images/3.0/unity/unity_open_dash.png|256x192)
-+[Launch Nuvola Player 3.](images/3.0/unity/unity_dash_nuvola.png|256x192)
-+[Nuvola Player 3 services selector window. Launch any streaming service.](images/3.0/unity/unity_nuvola_selector_launch_deezer.png|256x192)
-+[Open Gear menu and select Format Support.](images/3.0/unity/unity_gear_menu_format_support.png|256x192)
-+[Tab Web Plugins shows information about available Flash Player plugins.](images/3.0/unity/unity_format_support_flash.png|256x192)
-+[Tab MP3 format shows information whether GStreamer MP3 Audio encoder has been found. You can click button Check again to run a MP3 support test.](images/3.0/unity/unity_format_support_mp3_ok.png|256x192) 
-+[A sound is playing during the test.](images/3.0/unity/unity_format_support_mp3_check.png|256x192)
-+[Test has been successful.](images/3.0/unity/unity_format_support_mp3_check_success.png|256x192)
++[Click Activities button in the top left corner to open GNOME Overview.](images/3.0/gnome/debian_open_activities.png|256x192)
++[Launch Nuvola Player 3.](images/3.0/gnome/debian_activities_nuvola.png|256x192)
++[Nuvola Player 3 services selector window.](images/3.0/gnome/debian_selector_launch_deezer.png|256x192)
++[Open App menu and select Format Support.](images/3.0/installation/debian/nuvola_appmenu_format_support.png|256x192)
++[Tab Web Plugins shows information about available Flash Player plugins.](images/3.0/installation/debian/format_support_flash.png|256x192)
++[Tab MP3 format shows information whether GStreamer MP3 Audio encoder has been found. You can click button Check again to run a MP3 support test.](images/3.0/installation/debian/format_support_mp3_ok.png|256x192) 
++[A sound is playing during the test.](images/3.0/installation/debian/format_support_mp3_check.png|256x192)
++[Test has been successful.](images/3.0/installation/debian/format_support_mp3_check_success.png|256x192)
 
 
 Explore Features

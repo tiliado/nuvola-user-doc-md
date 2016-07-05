@@ -67,7 +67,7 @@ Add Nuvola Player Repository
   7. Review the summary and click **Install** button.
   8. Enter your password to confirm installation.
   9. If installation is successful, click Quit button. Otherwise copy the installation log and
-     [contact support](https://groups.google.com/d/forum/nuvola-player-users).
+     [contact support](https://github.com/tiliado/tiliado-repositories/issues/new).
  10. Click **Ubuntu button** in the top left corner to open Unity Dash.
  11. Launch Nuvola Player 3.
  12. You should see Nuvola Player 3 services selector window.
@@ -202,7 +202,7 @@ Add Nuvola Player Repository
   7. Review the summary and click **Install** button.
   8. Enter your password to confirm installation.
   9. If installation is successful, click Quit button. Otherwise copy the installation log and
-     [contact support](https://groups.google.com/d/forum/nuvola-player-users).
+     [contact support](https://github.com/tiliado/tiliado-repositories/issues/new).
  10. Click **Activities button** in the top left corner to open GNOME Overview.
  11. Launch Nuvola Player 3.
  12. You should see Nuvola Player 3 services selector window.
@@ -330,11 +330,6 @@ Explore Features
 Debian {: #debian}
 ======
 
-Installation instructions for Debian haven't been written.
-You can follow [instructions for Ubuntu](#ubuntu) for now. Please report any issues to
-[the Nuvola Player Users mailing list](https://groups.google.com/d/forum/nuvola-player-users).
-I'll be there to help you ;-)
-
 Graphical Installer or Terminal Kung-fu
 ---------------------------------------
 
@@ -366,19 +361,32 @@ Add Nuvola Player Repository
     [Nuvola Patron membership](https://tiliado.eu/nuvolaplayer/funding/)
     to access these builds.
 
-  1. Launch **Tiliado Repositories** installer from applications list.
-  2. Enter login credentials to your Tiliado account.
-  3. Select Nuvola Player repository.
-  4. Select repository components you want to install Nuvola Player from.
-  5. Select which packages you want to install from the repository.
-  6. Review the summary and click **Install** button.
-  7. Enter your password to confirm installation.
-  8. If installation is successful, click Quit button. Otherwise copy the installation log and
-     [contact support](https://groups.google.com/d/forum/nuvola-player-users).
-  9. Click **Ubuntu button** in the top left corner to open Unity Dash.
- 10. Launch Nuvola Player 3 from applications list.
- 11. You should see Nuvola Player 3 services selector window.
+   1. Click **Activities button** in the top left corner to open GNOME Overview.
+  2. Launch **Tiliado Repositories** installer.
+  3. Enter login credentials to your Tiliado account.
+  4. Select Nuvola Player repository.
+  5. Select repository components you want to install Nuvola Player from.
+  6. Select which packages you want to install from the repository.
+  7. Review the summary and click **Install** button.
+  8. Enter your password to confirm installation.
+  9. If installation is successful, click Quit button. Otherwise copy the installation log and
+     [contact support](https://github.com/tiliado/tiliado-repositories/issues/new).
+ 10. Click **Activities button** in the top left corner to open GNOME Overview.
+ 11. Launch Nuvola Player 3.
+ 12. You should see Nuvola Player 3 services selector window.
 
+ Gallery
++[Click Activities button in the top left corner to open GNOME Overview.](images/3.0/gnome/debian_open_activities.png|256x192)
++[Launch Tiliado Repositories installer.](images/3.0/installation/debian/activities_tiliado_installer.png|256x192)
++[Enter login credentials to your Tiliado account.](images/3.1/installation/debian/tiliado_installer_login.png|256x192)
++[Select Nuvola Player repository.](images/3.0/installation/debian/installer_repositories.png|256x192)
++[Select repository components you want to install Nuvola Player from.](images/3.1/installation/debian/tiliado_installer_components_devel.png|256x192)
++[Select which packages you want to install from the repository.](images/3.0/installation/debian/installer_packages.png|256x192)
++[Review the summary and click Install button.](images/3.0/installation/debian/installer_summary.png|256x192)
++[Enter your password to confirm installation.](images/3.0/installation/debian/installer_install_auth.png|256x192)
++[If installation is successful, click Quit button.](images/3.0/installation/debian/installer_done_quit.png|256x192)
++[Click Activities button in the top left corner to open GNOME Overview and launch Nuvola Player 3.](images/3.0/gnome/debian_activities_nuvola.png|256x192)
++[Nuvola Player 3 services selector window.](images/3.0/gnome/debian_selector_launch_deezer.png|256x192)
 
 Explore Features
 ----------------
