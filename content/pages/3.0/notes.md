@@ -7,8 +7,8 @@ Description: Nuvola Player 3.0.0 was released on December 30th, 2015. It is the 
     sound indicators, media player applets, GNOME lock screen and launchers and more.
 
 
-**Nuvola Player 3.0.0** was released on December 30th, 2015 and 
-[maintenance release **3.0.1**](#maintenance) was released on February 14th, 2016.
+**Nuvola Player 3.0.0** was released on December 30th, 2015 and the latest
+[maintenance release **3.0.4**](#maintenance) was released on September 17th, 2016.
 Continue reading these release notes,
 [explore all features](:3.0/explore.html) or just [jump to installation instructions](:3.0/install.html).
 
@@ -230,6 +230,21 @@ Jiří Janoušek
 Maintenance Releases {: #maintenance}
 ====================
 
+Nuvola Player 3.0.4
+-------------------
+
+Maintenance release **3.0.4** was released on September 17th, 2016, addressing following issues:
+
+  * A crash under Wayland session was fixed (GDK_BACKEND set to x11).
+    Issue: tiliado/nuvolaplayer#181
+  * The accelerated compositing mode is disabled with WebKitGTK < 2.13.4 due to a WebKitGTK+ bug that may crash systems with certain graphic cards.
+    Upstream: https://bugs.webkit.org/show_bug.cgi?id=126122
+    Issue: tiliado/nuvolaplayer#245
+  * A non-functional local-storage-directory setting was removed as it produced a console warning.
+  * The design of the Welcome screen was improved.
+  * It is possible to disable media keys in the Preferences dialog.
+    Issue: tiliado/nuvolaplayer#237
+
 Nuvola Player 3.0.3
 -------------------
 
@@ -284,5 +299,6 @@ Maintenance release **3.0.1** was released on February 14th, 2016, addressing fo
     
   * All pop-up windows now can pop up a new window, which is required by the SoundCloud's
     log-in-via-Google feature, for instance. Issue: tiliado/nuvola-app-soundcloud#3
+
 
 [TOC]
