@@ -6,7 +6,7 @@ Description: Nuvola Player 3.1 is the second series of the third generation of a
     shows desktop notifications, integrates with various sound indicators, media player applets,
     GNOME lock screen and launchers and more.
 
-Nuvola Player 3 project officially supports and provides packages for [Ubuntu](#ubuntu) 14.10, 15.04, 15.10 and 16.04,
+Nuvola Player 3 project officially supports and provides packages for [Ubuntu](#ubuntu) 15.04, 15.10, 16.04 and 16.10,
 [Fedora](#fedora) 23-24 and [Debian](#debian) Jessie, Stretch and Sid. The Nuvola Player developer
 has tested installation and functionality in clean virtualized instances of these distributions and
 can assure reasonable user support in case of problems.
@@ -37,10 +37,10 @@ Install Tiliado Repository Installer
 
  1. Download Tiliado Repository Installer for your
     distribution release and open it with Ubuntu Software Center.
-     * [Ubuntu 14.04 LTS Trusty Tahr](https://tiliado.eu/repository-installer/download/trusty/)
      * [Ubuntu 15.04 Vivid Vervet](https://tiliado.eu/repository-installer/download/vivid/)
      * [Ubuntu 15.10 Wily Werewolf](https://tiliado.eu/repository-installer/download/wily/)
      * [Ubuntu 16.04 Xenial Xerus](https://tiliado.eu/repository-installer/download/xenial/)
+     * [Ubuntu 16.10 Yakkety Yak](https://tiliado.eu/repository-installer/download/yakkety/)
  2. Wait a bit as Ubuntu Software Center is a pretty slow beast. Then click **Install** button.
  3. Enter your password to confirm installation.
 

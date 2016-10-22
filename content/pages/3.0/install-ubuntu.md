@@ -9,7 +9,7 @@ Description: Nuvola Player 3.0 is the first release of the third generation of a
 !!! info "Supported Releases"
 
     The Nuvola Player 3 project officially supports and provides packages for
-    Ubuntu 14.04, 15.04, 15.10 and 16.04.
+    Ubuntu 14.04, 15.04, 15.10, 16.04 and 16.10.
 
 Choose Installation Method {: #install}
 ==========================
@@ -66,6 +66,7 @@ Install Tiliado Repository Installer
      * [Ubuntu 15.04 Vivid Vervet](https://tiliado.eu/repository-installer/download/vivid/)
      * [Ubuntu 15.10 Wily Werewolf](https://tiliado.eu/repository-installer/download/wily/)
      * [Ubuntu 16.04 Xenial Xerus](https://tiliado.eu/repository-installer/download/xenial/)
+     * [Ubuntu 16.10 Yakkety Yak](https://tiliado.eu/repository-installer/download/yakkety/)
  2. Wait a bit as Ubuntu Software Center is a pretty slow beast. Then click **Install** button.
  3. Enter your password to confirm installation.
 
