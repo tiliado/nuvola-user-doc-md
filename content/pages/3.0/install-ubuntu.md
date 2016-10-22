@@ -33,7 +33,7 @@ There are three ways how to install Nuvola Player on your system. Choose the one
 All-in-one Nuvola Player Bundle {: #bundle}
 ===============================
 
- 1. Download [All-in-one Nuvola Player Bundle](https://github.com/tiliado/nuvolaplayer/releases/tag/3.0.3).
+ 1. Download [All-in-one Nuvola Player Bundle](https://github.com/tiliado/nuvolaplayer/releases).
     Note: Choose correct distribution and architecture (i386 for 32-bit processors and amd64 for 64-bit ones).
  2. Open the bundle package with the Ubuntu Software application and install the package.
     If the installation is not successful, try the [User-Friendly Graphical Installation](#installer) procedure
