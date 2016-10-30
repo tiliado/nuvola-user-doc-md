@@ -12,7 +12,8 @@ Supported Releases
 Nuvola Player 3.1 is the current rolling series. New buils are constantly rolling out as new
 features are being developed. 
 
-  * Initial milestone 3.1.0 was forked from relese 3.0.0 on December 30th, 2015.
+  * The initial milestone 3.1.0 was forked from release 3.0.0 on December 30th, 2015.
+  * The milestone 3.1.1 was released on October 30th, 2016.
   
 [Nuvola Player 3.0.x Stable Releases](./3.0.html)
 ---------------------

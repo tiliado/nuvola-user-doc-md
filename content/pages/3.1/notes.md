@@ -1,4 +1,4 @@
-Title: Nuvola Player 3.1
+Title: Nuvola Player 3.1 Release Notes
 Image: images/3.0/unity/unity_google_play_music_launcher_thumbs_up.png
 Description: Nuvola Player 3.1 is the second series of the third generation of a runtime for
     web-based music streaming services that provides more native user experience and integration
@@ -11,6 +11,9 @@ Description: Nuvola Player 3.1 is the second series of the third generation of a
     enter credentials of your Tiliado account with active
     [Nuvola Patron membership](https://tiliado.eu/nuvolaplayer/funding/)
     to access these builds.
+
+Nuvola Player 3.1 was forked from release 3.0 on December 30, 2015 and many changes under the hood 
+have been made and many new features & enhancements have been added since then. 
     
 About Nuvola Player
 ===================
@@ -29,12 +32,16 @@ Nuvola Player 3.1 is constantly evolving, to **stay in touch**
  * Follow Nuvola Player on [Facebook](https://www.facebook.com/nuvolaplayer),
     [Google+](https://plus.google.com/110794636546911932554) or
     [Twitter](https://twitter.com/NuvolaPlayer).
-  * Subscribe to the Nuvola Player Newsletter: [weekly (recommended)](http://eepurl.com/bLbm5H)
+  * Subscribe to the Nuvola Player Newsletter: [weekly](http://eepurl.com/bLbm5H)
     or [monthly](http://eepurl.com/bLbtM1).
 
-Nuvola Player 3.1 was forked from release 3.0 on December 30, 2015 and many changes under the hood 
-have been made and a few new features have been added since then. Key features are introduced bellow,
-[see release notes for details](:3.1/notes.html).
+
+Milestone 3.1.1
+---------------
+
+The milestone 3.1.1 was released on October 2016.
+
+### New Features
 
 [Ability to both display and set track rating in Media Player Indicator GNOME Shell extension](:3.1/explore.html#media-player-indicator-extension)
 :   Providing a streaming service supports it, Nuvola Player 3.1 exports track rating in MPRIS
@@ -53,86 +60,47 @@ have been made and a few new features have been added since then. Key features a
 [Password Manager](:3.1/explore.html#password-manager)
 :  With the Password Manager, you can store passwords from login forms in a secure keyring.
 
-Get Help
-========
+### Enhancements:
 
-Whenever you encounter a bug in Nuvola Player, don't hesitate to report it. First of all, it is
-necessary to submit your issue to the right place. [Continue to the Get Help page](:3.1/help.html).
+  * An option to always run in background regardless a song is playing or not. See in action in
+    [Unity](./explore.html#play-in-background-with-notifications) or
+    [GNOME](./explore.html#play-in-background-with-notifications_1).
+  * Better support of HTML5 Audio. It is sufficient for ownCloud Music web app but more work is still necessary to support Google Play Music. Issue: tiliado/nuvolaplayer#52
+  * Pop-up windows are allowed to pop up a new window, which is required by the SoundCloud's log-in-via-Google feature. Issue: tiliado/nuvola-app-soundcloud#3
+  * A hint how to edit or remove a keyboard shortcut. Issue: tiliado/nuvolaplayer#217
+  * Users can disable media keys bindings in the Preferences dialog. Issue: tiliado/nuvolaplayer#237
+  * Inter process communication backed has been rewritten.
+  * All web app scripts have been ported to comply with the latest guidelines.
+  * Packaging improvements: support of independent installation of individual scripts and correct package metadata (e.g. license and homepage).
 
-Desktop Integration
-===================
+### Bug Fixes
 
-Goal of Nuvola Player is to provide better
-[user experience and desktop integration](:3.1/explore.html) than common web browsers can
-offer.
+  * Remove config option `--with-appindicator` as the AppIndicator integration is currently unmaintained. Issue: tiliado/nuvolaplayer#201, tiliado/nuvolaplayer#45
+  * Add missing `-a/--app-id` command-line argument to the `--help` screen. Issue: tiliado/nuvolaplayer#147 
+  * MPRIS implementation of CanPlay and CanPause flags has been fixed. Issue: tiliado/nuvolaplayer#224
+  * Warnings when Notifications is being disabled has been removed. Issue: tiliado/nuvolaplayer#227
+  * Don't use notifications API if disabled as it produces critical warnings. Issue: tiliado/nuvolaplayer#227
+  * Set GDK_BACKEND to x11 not to crash under Wayland. Issue: tiliado/nuvolaplayer#181
+  * Disable compositing mode in WebKitGTK < 2.13.4 as it may crash some websites. Issue: tiliado/nuvolaplayer#245
 
+### News for Script Maintainers:
 
-<div class="row">
-  <div class="col-sm-12 col-md-8">
-    <div class="thumbnail">
-      <a href=":3.1/explore.html#explore-unity"><img src=":images/3.0/unity/unity_google_play_music_launcher_thumbs_up[256x192].png" width="256" height="192" /></a>
-      <div class="caption">
-        <a class="btn btn-primary btn-block" role="button" href=":3.1/explore.html#explore-unity">Unity</a>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-12 col-md-8">
-    <div class="thumbnail">
-      <a href=":3.1/explore.html#explore-gnome"><img src=":images/3.0/gnome/gnome_add_to_favorites[256x192].png" width="256" height="192" /></a>
-      <div class="caption">
-        <a class="btn btn-primary btn-block" role="button" href=":3.1/explore.html#explore-gnome">GNOME</a>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-12 col-md-8">
-    <div class="thumbnail">
-      <a href=":3.1/explore.html#explore-terminal"><img src=":images/3.0/unity/unity_nuvolactl_multiple_apps[256x192].png" width="256" height="192" /></a>
-      <div class="caption">
-        <a class="btn btn-primary btn-block" role="button" href=":3.1/explore.html#explore-terminal">Terminal & scripts</a>
-      </div>
-    </div>
-  </div>
-</div>
+  * Web app integration template has been moved to [its own repository](https://github.com/tiliado/nuvola-app-template).
+  * Added information about Format Requirements Flags. Issue: tiliado/nuvolaplayer#158
+  * `Nuvola.VERSION` property contains Nuvola version encoded as single integer, e.g. e.g. 30105 for 3.1.5.
+  * `Nuvola.API_VERSION` property contains Nuvola API version encoded as single integer, e.g. e.g. 301 for 3.1.
+  * `Nuvola.WEBKITGTK_{VERSION,MAJOR,MINOR,MICRO}` properties contain version information about WebKitGTK+ library.
+  * `Nuvola.LIBSOUP_{VERSION,MAJOR,MINOR,MICRO}` properties contain version information about Soup library.
+  * New API to set rating.
+  * It is possible to set a user agent string via the `user_agent` field of metadata.json. Issue: tiliado/nuvolaplayer#91
+  * It is possible to enable access to insecure content. This happens when a web page loaded over HTTPS protocol loads any content over HTTP protocol.
+  * Developer documentation and guidelines have been updated.
+  
+### Changes in Dependencies
 
+  * Increased: WebKitGTK >= 2.6.2, Valac >= 0.26.1, GLib >= 2.42.1 and GTK+ >= 3.14.5.
+  * New: libuuid and libnm-(util/glib)
 
-Music Streaming Services
-========================
-
-On August 22nd 2016, Nuvola Player 3 shipped with 16 music streaming services.
-See [Nuvola Player hompage](https://tiliado.eu/nuvolaplayer/) for more up-to-date list.
-
- * [8tracks 5.1](https://github.com/tiliado/nuvola-app-8tracks)
-   maintained by [Jiří Janoušek](https://github.com/fenryxo)
- * [Amazon Cloud Player 5.1](https://github.com/tiliado/nuvola-app-amazon-cloud-player)
-   maintained by [Stephen Herbein](https://github.com/SteVwonder)
- * [Bandcamp 2.1](https://github.com/tiliado/nuvola-app-bandcamp)
-   maintained by [Jiří Janoušek](https://github.com/fenryxo)
- * [Deezer 2.4](https://github.com/tiliado/nuvola-app-deezer)
-   maintained by [Jiří Janoušek](https://github.com/fenryxo)
- * [Google Play Music 5.17](https://github.com/tiliado/nuvola-app-google-play-music)
-   maintained by [Jiří Janoušek](https://github.com/fenryxo)
- * [Groove 1.1](https://github.com/tiliado/nuvola-app-groove)
-   maintained by [Joel Cumberland](https://github.com/jrosco)
- * [Jango 2.1](https://github.com/tiliado/nuvola-app-jango)
-   maintained by [Stefano Bagnatica](https://github.com/thepisu)
- * [KEXP Live Stream 1.0](https://github.com/tiliado/nuvola-app-kexp)
-   maintained by [Michael Nye](https://github.com/thenyeguy)
- * [Logitech Media Server 2.0](https://github.com/tiliado/nuvola-app-logitech-media-server)
-   maintained by [Steffen Coenen](https://github.com/Tar-Dingens)
- * [Mixcloud 3.1](https://github.com/tiliado/nuvola-app-mixcloud)
-   maintained by [Samuel Mansour](https://github.com/s83)
- * [Plex Music 1.1](https://github.com/tiliado/nuvola-app-plex)
-   maintained by [SkyghiS](https://github.com/skyghis)
- * [SoundCloud 1.2](https://github.com/tiliado/nuvola-app-soundcloud)
-   maintained by [KiXaM](https://github.com/kixam)
- * [Spotify 2.1](https://github.com/tiliado/nuvola-app-spotify)
-   maintained by [Michael Nye](https://github.com/thenyeguy)
- * [TuneIn 1.0](https://github.com/tiliado/nuvola-app-tunein)
-   maintained by [Aurélien Jabot](https://github.com/ajabot)
- * [Yandex Music 1.1](https://github.com/tiliado/nuvola-app-yandex-music)
-   maintained by [Jiří Janoušek](https://github.com/fenryxo)
- * [YouTube 1.1](https://github.com/tiliado/nuvola-app-youtube)
-   maintained by [Joel Cumberland](https://github.com/jrosco)
 
 Install Nuvola Player
 =====================
@@ -173,7 +141,7 @@ Install Nuvola Player
 </div>
 
 Nuvola Player 3 project officially supports and provides packages for
-[Ubuntu](:3.1/install.html#ubuntu) 14.04, 15.04, 15.10, 16.04 and 16.10,
+[Ubuntu](:3.1/install.html#ubuntu) 15.04, 15.10, 16.04 and 16.10,
 [Fedora](:3.1/install.html#fedora) 23-24 and
 [Debian](:3.1/install.html#debian) Jessie, Stretch and Sid. The Nuvola Player
 developer has tested installation and functionality in clean virtualized instances of these

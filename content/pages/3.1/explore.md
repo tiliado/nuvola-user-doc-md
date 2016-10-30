@@ -102,9 +102,11 @@ With Nuvola Player, you will never accidentally close your web browser while mus
 Nuvola Player window, it keeps playing in background and you will get notifications on track changes.
 Simple and extremely useful.
 
+**New in Nuvola Player 3.1:** An option to always run in background regardless a song is playing or not has been added.
+
  Gallery
 +[Click gear icon and select Preferences from the menu](images/3.0/unity/unity_gear_menu_preferences.png|256x192)
-+[Enable background playback](images/3.0/unity/unity_preferences.png|256x192)
++[Enable background playback.](images/3.1/features/always_run_in_background.png|230x175)
 +[Now you don't have to worry about closing the window accidentally. Playback continues in background.](images/3.0/unity/unity_deezer_close.png|256x192)
 +[You'll get notifications on track change.](images/3.0/unity/unity_track_change_notification.png|256x192)
 
@@ -199,8 +201,10 @@ With Nuvola Player, you will never accidentally close your web browser while mus
 Nuvola Player window, it keeps playing in background and you will get notifications on track changes.
 Simple and extremely useful.
 
+**New in Nuvola Player 3.1:** An option to always run in background regardless a song is playing or not has been added.
+
  Gallery
-+[Enable background playback if you want to.](images/3.0/gnome/gnome_grooveshark_preferences.png|256x192)
++[Enable background playback.](images/3.1/features/always_run_in_background.png|230x175)
 +[Now you don't have to worry about closing the window accidentally. Playback continues in background.](images/3.0/gnome/gnome_grooveshark_close.png|256x192)
 +[You'll get notifications on track change.](images/3.0/gnome/gnome_track_change_notification.png|256x192)
 
@@ -279,6 +283,60 @@ Nuvola Player allows you enable, disable or configure **many built-in features**
 +[Switch to tab Components](images/3.0/components/unity_webapp_components.png|256x192)
 +[App Menu → Preferences](images/3.0/gnome/gnome_grooveshark_appmenu_preferences.png|256x192)
 +[Switch to tab Components](images/3.0/components/gnome_webapp_components.png|256x192)
+
+## Password Manager ##
+
+**New in Nuvola Player 3.1:** With the Password Manager, you can store passwords from login forms in a secure keyring.
+
+  * In **Unity**, click *Gear Menu → Preferences*, then switch to tab *Components* and enable *Password Manager*.
+  * In **GNOME**, click *App Menu → Preferences*, then switch to tab *Components* and enable *Password Manager*.
+
+ Gallery
++[Enable the password manager.](images/3.1/features/deezer_components_password_manager.png|256x192)
++[If there is any password stored in a keyring, login forms are pre-filled automatically.](images/3.1/features/deezer_password_prefilled.png|256x192)
++[If there are more passwords, right click to select a username to fill.](images/3.1/features/deezer_fill_password.png|256x192)
+
+## Remote Control over HTTP ##
+
+**New in Nuvola Player 3.1:** The HTTP Remote Control interface allows creation of client apps to control Nuvola Player over network via an Engine.io socket.
+
+  * In **Unity**, click *Gear Menu → Preferences*, then switch to tab *Components*, enable *Remote Control over HTTP*
+    and finally configure port and addresses Nuvola Player will be listening on.
+  * In **GNOME**, click *App Menu → Preferences*, then switch to tab *Components*, enable *Remote Control over HTTP*
+    and finally configure port and addresses Nuvola Player will be listening on.
+
+ Gallery
++[Enable Remote Control over HTTP.](images/3.1/features/google_play_music_components_http_control.png|256x192)
++[Configure port and addresses Nuvola Player will be listening on.](images/3.1/features/google_play_music_component_http_control.png|256x192)
+
+## Media Player Controller Web Page ###
+
+**New in Nuvola Player 3.1:** This page is an example of a client using the HTTP Remote Control interface.
+It allows you to control Nuvola Player from any device with a web browser (e.g. a phone).
+
+Enable and configure the [Remote Control over HTTP](#remote-control-over-http), then click any of the home buttons
+to to open a web browser with Media Player Controller Web Page. Finally, open that address in any device you want,
+e.g. in a phone or a tablet.
+
+ Gallery
++[Click one of the home buttons to open a web browser with Media Player Controller Web Page.](images/3.1/features/google_play_music_component_http_control_home_button.png|256x192)
++[You can control playback with any device with a web browser.](images/3.1/features/media_player_html_chromium.png|200x200)
++[You can control playback also from your phone.](images/3.1/features/media_player_html_phone.png|100x192)
+
+## Nuvola Controller Pebble Watchapp ##
+
+**New in Nuvola Player 3.1:** This app for Pebble watches is another example of a client using the HTTP Remote Control interface.
+It allows you to control Nuvola Player from your wrist.
+
+Enable and configure the [Remote Control over HTTP](#remote-control-over-http), then install *Nuvola Controller Pebble Watchapp*:
+[the product page at Pebble Appstore](https://apps.getpebble.com/en_US/application/57f635e8637410fdc3000093),
+[direct Pebble installation link](pebble://appstore/57f635e8637410fdc3000093).
+
+ Gallery
++[Connecting to the Nuvola's HTTP Remote Control interface.](images/3.1/pebble/connecting.png|244x350)
++[Control playback](images/3.1/pebble/deezer_playing_alone.png|244x350)
++[If there are more running apps, three-dots-menu is available.](images/3.1/pebble/google_play_music_paused_three_dots.png|244x350)
++[If there are more running apps, you can switch between them.](images/3.1/pebble/app_selector_google_play_music.png|244x350)
 
 ## Last.fm Scrobbling ##
 
