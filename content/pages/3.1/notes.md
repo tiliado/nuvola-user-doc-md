@@ -108,7 +108,7 @@ Install Nuvola Player
 <div class="row">
   <div class="col-sm-12 col-md-6">
     <div class="thumbnail">
-      <a title="Install Nuvola Player in Ubuntu" href=":3.1/install.html#ubuntu"><img src="./images/dist-logos/ubuntu_vertical.png" /></a>
+      <a title="Install Nuvola Player in Ubuntu" href=":3.1/install.html#ubuntu"><img src="../images/dist-logos/ubuntu_vertical.png" /></a>
       <div class="caption">
         <a class="btn btn-primary btn-block" role="button" title="Install Nuvola Player in Ubuntu" href=":3.1/install.html#ubuntu">Ubuntu</a>
       </div>
@@ -116,7 +116,7 @@ Install Nuvola Player
   </div>
   <div class="col-sm-12 col-md-6">
     <div class="thumbnail">
-      <a title="Install Nuvola Player in Fedora" href=":3.1/install.html#fedora"><img src="./images/dist-logos/fedora_vertical.png" /></a>
+      <a title="Install Nuvola Player in Fedora" href=":3.1/install.html#fedora"><img src="../images/dist-logos/fedora_vertical.png" /></a>
       <div class="caption">
         <a class="btn btn-primary btn-block" role="button" title="Install Nuvola Player in Fedora" href=":3.1/install.html#fedora">Fedora</a>
       </div>
@@ -124,7 +124,7 @@ Install Nuvola Player
   </div>
   <div class="col-sm-12 col-md-6">
     <div class="thumbnail">
-      <a title="Install Nuvola Player in Debian" href=":3.1/install.html#debian"><img src="./images/dist-logos/debian_vertical.png" /></a>
+      <a title="Install Nuvola Player in Debian" href=":3.1/install.html#debian"><img src="../images/dist-logos/debian_vertical.png" /></a>
       <div class="caption">
         <a class="btn btn-primary btn-block" role="button" title="Install Nuvola Player in Debian" href=":3.1/install.html#debian">Debian</a>
       </div>
@@ -132,7 +132,7 @@ Install Nuvola Player
   </div>
   <div class="col-sm-12 col-md-6">
     <div class="thumbnail">
-      <a title="Install Nuvola Player" href=":3.1/install.html#other-linux"><img src="./images/nuvola-logos/install_vertical_3.png" /></a>
+      <a title="Install Nuvola Player" href=":3.1/install.html#other-linux"><img src="../images/nuvola-logos/install_vertical_3.png" /></a>
       <div class="caption">
         <a class="btn btn-primary btn-block" role="button" title="Install Nuvola Player" href=":3.1/install.html#other-linux">Other Linux</a>
       </div>
