@@ -7,7 +7,7 @@ Description: Nuvola Player 3.1 is the second series of the third generation of a
     GNOME lock screen and launchers and more.
 
 Nuvola Player 3 project officially supports and provides packages for [Ubuntu](#ubuntu) 15.04, 15.10, 16.04 and 16.10,
-[Fedora](#fedora) 23-24 and [Debian](#debian) Jessie, Stretch and Sid. The Nuvola Player developer
+[Fedora](#fedora) 23-25 and [Debian](#debian) Jessie, Stretch and Sid. The Nuvola Player developer
 has tested installation and functionality in clean virtualized instances of these distributions and
 can assure reasonable user support in case of problems.
 
@@ -165,8 +165,10 @@ Install Tiliado Repository Installer
 
  1. Download Tiliado Repository Installer for your
     distribution release and open it with Software Install tool.
-    * [Fefora 23](https://tiliado.eu/repository-installer/download/fc23/)
+    * [Fedora 25](https://tiliado.eu/repository-installer/download/fc25/)
     * [Fedora 24](https://tiliado.eu/repository-installer/download/fc24/)
+    * [Fefora 23](https://tiliado.eu/repository-installer/download/fc23/)
+    
  2. When the Software Install tool is launched, click **Install** button.
  3. Enter your password to confirm installation.
 

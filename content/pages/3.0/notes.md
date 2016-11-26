@@ -203,12 +203,12 @@ Limited Support and Commercial Support
 ======================================
 
 Nuvola Player 3 project provides free support on best-effort basis without any guarantees.
-Officially supported distributions include [Ubuntu](./install.html#ubuntu) 14.04, 15.04, 15.10, 16.04 and 16.10,
-[Fedora](./install.html#fedora) 23-24, and [Debian](./install.html#debian) Jessie,
+Officially supported distributions include [Ubuntu](./install-ubuntu.html) 14.04, 15.04, 15.10, 16.04 and 16.10,
+[Fedora](./install-fedora.html) 23-25, and [Debian](./install-debian.html) Jessie,
 Stretch and Sid. The Nuvola Player developer has tested installation and functionality in clean
 virtualized instances of these distributions and can assure reasonable user support in case of
 problems. However, Nuvola Player should also work on
-[other modern Linux distributions](./install.html#other-linux), but user experience might
+[other modern Linux distributions](./install-other-linux.html), but user experience might
 not be optimal (e.g. inconsistent look and behavior) and quality of user support depends on
 complexity of an issue.
 
