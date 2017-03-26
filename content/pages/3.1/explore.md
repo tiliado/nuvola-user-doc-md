@@ -1,4 +1,4 @@
-Title: Explore Nuvola Player 3.1
+Title: Explore Nuvola Apps 3.1 Features
 Image: images/3.0/unity/unity_google_play_music_launcher_thumbs_up.png
 Description: Nuvola Player 3.1 is the second series of the third generation of a runtime for
     web-based music streaming services that provides more native user experience and integration with Linux
@@ -8,55 +8,22 @@ Description: Nuvola Player 3.1 is the second series of the third generation of a
 
 
 
-Goal of Nuvola Player is to provide better user experience and desktop integration than common web
+The goal of Nuvola Apps is to provide better user experience and desktop integration than common web
 browsers can offer.
 
 Unity {: #explore-unity}
 =====
 
-## First Launch ##
-
-Let's launch Nuvola Player from Unity Dash. As you can see, you have all supported streaming services in one place,
-no need to look for them in your browser's bookmarks or to remember and type in address of a service.
-
- Gallery
-+[Click Ubuntu button in the top left corner to open Unity Dash.](images/3.0/unity/unity_open_dash.png|256x192)
-+[Launch Nuvola Player 3.](images/3.0/unity/unity_dash_nuvola.png|256x192)
-+[Just in case you wonder which version you have installed.](images/3.0/unity/unity_nuvola_selector_about.png|256x192)
-+[Nuvola Player 3 services selector window. Launch any streaming service.](images/3.0/unity/unity_nuvola_selector_launch_deezer.png|256x192)
-+[Who is the maintainer of this integration script?](images/3.0/unity/unity_deezer_gear_menu_about.png|256x192)
-+[Deezer script is maintained by the main Nuvola Player developer, but other integration scripts can be maintained by independent developers who are properly acknowledged.](images/3.0/unity/unity_deezer_about_dialog.png|256x192)
-
-## Create/Remove Application Launchers
-
-Nuvola Player automatically creates an application launcher when a particular streaming service is
-launched. It also allows you to create all launchers at once 
-(*Gear Menu → Create application launchers*) or to remove unnecessary launchers
-(*Gear Menu → Remove application launchers*). However, the launcher of a currently running streaming
-service cannot be removed.
-
- Gallery
-+[Gear Menu → Create application launchers](images/3.0/app_launchers/unity_create_app_launchers.png|256x192)
-+[Application launchers have been created](images/3.0/app_launchers/unity_app_launchers_created.png|256x192)
-+[Gear Menu → Remove application launchers](images/3.0/app_launchers/unity_delete_app_launchers.png|256x192)
-+[Application launchers have been deleted](images/3.0/app_launchers/unity_app_launchers_deleted.png|256x192)
-
-!!! info "Preserve your custom launchers"
-    Nuvola Player keeps launchers updated every time a particular streaming service is launched. If you
-    want to modify the launchers on your own and prevent Nuvola Player from overwriting your changes,
-    mark the launcher as read-only in a file browser or from a terminal. The launchers are located in
-    a directory `~/.local/share/applications` where `~` represents your home directory.
-
 ## Unity Dash ##
 
-Nuvola Player neatly integrates with Unity Dash. Once a particular music streaming service is launched for the first time,
-a desktop launcher is created in the background. You can then get to your favorite music faster, just start typing its name
+Nuvola Apps neatly integrate with Unity Dash. Once a particular music streaming service is installed, its desktop
+launcher is installed as well. You can then get to your favorite music faster, just start typing its name
 in Unity Dash screen. Can do this your web browser?
 
  Gallery
 +[Click Ubuntu button in the top left corner to open Unity Dash.](images/3.0/unity/unity_open_dash.png|256x192)
-+[First, you can launch only the Nuvola Player 3 services selector.](images/3.0/unity/unity_dash_nuvola.png|256x192)
-+[However, after the first launch of a particular service integration script, you can launch it again directly from the dash.](images/3.0/unity/unity_dash_deezer.png|256x192)
++[You can launch Nuvola Apps selector window.](images/3.0/unity/unity_dash_nuvola.png|256x192)
++[Or you can launch a particular Nuvola app directly.](images/3.0/unity/unity_dash_deezer.png|256x192)
 
 ## Pin to Unity Launcher ##
 
@@ -129,51 +96,17 @@ To enable, disable or configure **other built-in features**, see [Common Feature
 GNOME {: #explore-gnome}
 =====
 
-## First Launch ##
-
-Let's launch Nuvola Player from GNOME Activities screen. As you can see, you have all supported streaming services
-in one place, no need to look for them in your browser's bookmarks or to remember and type in address of a service.
-
- Gallery
-+[Click Activities button in the top left corner to open GNOME Overview.](images/3.0/gnome/fedora_open_activities.png|256x192)
-+[Launch Nuvola Player 3.](images/3.0/gnome/gnome_activities_nuvola.png|256x192)
-+[Just in case you wonder which version you have installed.](images/3.0/gnome/gnome_nuvola_appmenu_about.png|256x192)
-+[Just in case you wonder which version you have installed.](images/3.0/gnome/gnome_nuvola_about_dialog.png|256x192)
-+[Nuvola Player 3 services selector window. Launch Grooveshark, for example.](images/3.0/gnome/gnome_selector_launch_grooveshark.png|256x192)
-+[Who is the maintainer of this integration script?](images/3.0/gnome/gnome_grooveshark_appmenu_about.png|256x192)
-+[Grooveshark script is maintained by the main Nuvola Player developer, but other integration scripts can be maintained by independent developers who are properly acknowledged.](images/3.0/gnome/gnome_grooveshark_about_dialog.png|256x192)
-
-
-## Create/Remove Application Launchers
-
-Nuvola Player automatically creates an application launcher when a particular streaming service is
-launched. It also allows you to create all launchers at once 
-(*App Menu → Create application launchers*) or to remove unnecessary launchers
-(*App Menu → Remove application launchers*). However, the launcher of a currently running streaming
-service cannot be removed.
-
- Gallery
-+[App Menu → Create application launchers](images/3.0/app_launchers/gnome_create_app_launchers.png|256x192)
-+[Application launchers have been created](images/3.0/app_launchers/gnome_app_launchers_created.png|256x192)
-+[App Menu → Remove application launchers](images/3.0/app_launchers/gnome_delete_app_launchers.png|256x192)
-+[Application launchers have been deleted](images/3.0/app_launchers/gnome_app_launchers_deleted.png|256x192)
-
-!!! info "Preserve your custom launchers"
-    Nuvola Player keeps launchers updated every time a particular streaming service is launched. If you
-    want to modify the launchers on your own and prevent Nuvola Player from overwriting your changes,
-    mark the launcher as read-only in a file browser or from a terminal. The launchers are located in
-    a directory `~/.local/share/applications` where `~` represents your home directory.
-
 ## GNOME Dash ##
 
-Nuvola Player neatly integrates with list of applications in GNOME Activities screen. Once a particular music
-streaming service is launched for the first time, a desktop launcher is created in the background. You can then get
-to your favorite music faster, just start typing its name in GNOME Activities screen. Can do this your web browser?
+Nuvola Player neatly integrates with list of applications in GNOME Activities screen. 
+Once a particular music streaming service is installed, its desktop
+launcher is installed as well. You can then get to your favorite music faster, just start typing its name
+in Unity Dash screen. Can do this your web browser?
 
  Gallery
 +[Click Activities button in the top left corner to open GNOME Overview.](images/3.0/gnome/fedora_open_activities.png|256x192)
-+[First, you can launch only the Nuvola Player 3 services selector.](images/3.0/gnome/gnome_activities_nuvola.png|256x192)
-+[However, after the first launch of a particular service integration script, you can launch it again directly from the dash.](images/3.0/gnome/gnome_activities_deezer.png|256x192)
++[You can launch Nuvola Apps selector window.](images/3.0/gnome/gnome_activities_nuvola.png|256x192)
++[Or you can launch a particular Nuvola app directly.](images/3.0/gnome/gnome_activities_deezer.png|256x192)
 
 ## Add to Favorites ##
 
@@ -212,7 +145,7 @@ Simple and extremely useful.
 
 I hope you are not surprised that Nuvola Player also supports rich notifications with playback actions.
 You can than control playback even from a lock screen. Note that rich notifications are **no longer
-supported in GNOME 3.18**.
+supported in GNOME 3.18+**.
 
  Gallery
 +[Hover mouse over small notification and you will get expanded notification with playback controls.](images/3.0/gnome/gnome_notification_expanded.png|256x192)
@@ -223,14 +156,6 @@ supported in GNOME 3.18**.
 
 Nuvola Player integrates with [Media Player Indicator](https://extensions.gnome.org/extension/55/media-player-indicator/)
 GNOME Shell extension. You can control playback or show the main window if hidden.
-
-!!! warning "A custom branch required"
-
-    As of May 8th 2016, the upstream version Media Player Indicator at GNOME Shell extensions website
-    may not be fully functional with Nuvola Player. You can use Nuvola Player developer's
-    [Media Player Indicator branch](https://github.com/fenryxo/gnome-shell-extensions-mediaplayer/tree/nuvola-rating),
-    which contains bug fixes and brings ability not only to display track rating but also to set it with supported
-    streaming services (Google Play Music was the first, others may follow).  
 
  Gallery
 +[Search for Media Player Indicator in GNOME Extensions website.](images/3.0/gnome/gnome_mpris_extension_web_page.png|256x192)
@@ -259,7 +184,14 @@ Terminal & Scripts {: #explore-terminal}
 
 ## Command-line Controller ##
 
-Nuvola Player 3 can be also controlled from command line via `nuvolaplayer3ctl`.
+  * Nuvola Apps can be also controlled from command line via the `nuvolactl` command. Type `nuvolactl --help` to get
+    a list of available commands.
+  * If you use the official flatpak builds of Nuvola Apps, you have to execute the sandboxed variant
+    `flatpak run --command=nuvolactl eu.tiliado.Nuvola` or to define an alias in your `~/.bashrc` or `~/.bash_aliases`
+    file:
+        
+        alias nuvolactl="flatpak run --command=nuvolactl eu.tiliado.Nuvola"
+
 
  Gallery
 +[Nuvola Player comes with command-line controller for your scripts](images/3.0/unity/unity_nuvolactl_help.png|256x192)
