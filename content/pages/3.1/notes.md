@@ -1,24 +1,24 @@
-Title: Nuvola Player 3.1 Release Notes
+Title: Nuvola Apps 3.1 Release Notes
 Image: images/3.0/unity/unity_google_play_music_launcher_thumbs_up.png
-Description: Nuvola Player 3.1 is the second series of the third generation of a runtime for
+Description: Nuvola Apps 3.1 is the second series of the third generation of a runtime for
     web-based music streaming services that provides more native user experience and integration
-    with Linux desktop environments than usual web browsers can offer. Nuvola Players handles
+    with Linux desktop environments than usual web browsers can offer. Nuvola handles
     multimedia keys, shows desktop notifications, integrates with various sound indicators, media
     player applets, GNOME lock screen and launchers and more.
 
-!!! warning "Rolling Releases are for Patrons"
-    Rolling Releases are provided for patrons as a benefit for their support. You will need to
-    enter credentials of your Tiliado account with active
-    [Nuvola Patron membership](https://tiliado.eu/nuvolaplayer/funding/)
+!!! warning "Rolling Releases are for PremiumPatron users"
+    Rolling Releases are provided for Premium/Patron users as a benefit for their support. You will
+    need to enter credentials of your Tiliado account with active
+    [Nuvola Premium or Patron plan](https://tiliado.eu/nuvolaplayer/funding/)
     to access these builds.
 
-Nuvola Player 3.1 was forked from release 3.0 on December 30, 2015 and many changes under the hood 
+Nuvola Apps 3.1 was forked from release 3.0 on December 30, 2015 and many changes under the hood 
 have been made and many new features & enhancements have been added since then. 
     
-About Nuvola Player
-===================
+About Nuvola Apps
+=================
 
-**Nuvola Player** is a runtime for web-based music streaming services providing more native user
+**Nuvola Apps** is a runtime for web-based music streaming services providing more native user
 experience and integration with Linux desktop environments than usual web browsers can offer. It
 tries to feel and look like a native application as possible. However, it cannot overcome common
 drawbacks of web-based music streaming: some music streaming services require Flash plugin and web
@@ -35,6 +35,53 @@ Nuvola Player 3.1 is constantly evolving, to **stay in touch**
   * Subscribe to the Nuvola Player Newsletter: [weekly](http://eepurl.com/bLbm5H)
     or [monthly](http://eepurl.com/bLbtM1).
 
+
+Milestone 3.1.2 
+---------------
+
+The milestone 3.1.2 was released on March 26, 2017 (123 commit since the 3.1.1 milestone).
+
+### New Features
+
+  * Nuvola Player was renamed to Nuvola Apps as non-media player apps (Google Calendar) were enabled
+    and should be fully supported in the 4.0 release.
+  * Nuvola Apps are distributed as [cross-distribution flatpak builds](https://nuvola.tiliado.eu/).
+    There have been a lot of changes under the hood to support this transition.
+  * The `nuvolaplayer3` and `nuvolaplayer3ctl` commands are deprecated in favor of `nuvola` and `nuvolactl`.
+  * WebApp scripts provide own desktop files so the unnecessary create/delete desktop launchers actions
+    were removed.
+
+### Enhancements
+
+  * Enhanced support of HTML5 Audio and Media Source Extension (MSE), which is currently enabled only
+    in the BBC iPlayer script with a custom WebKitGTK+ build.
+  * Album art is downloaded with WebKit's NetworkProcess to access images that are otherwise restricted.
+    Issue: tiliado/nuvolaplayer#76
+  * Preferences dialog: Components tab was renamed to Features as it is more user-friendly.
+
+### Under the Hood
+
+  * Inter-process communication has been reworked for greater flexibility as required by the HTTP Remote Control
+    feature.
+  * Nuvola and individual apps are DBus-activatable.
+  * The unique name has been changed to `eu.tiliado.Nuvola` and most of the resources (e.g. icons) use this name.
+  * AppData/AppStream metadata have been updated.
+  * The build script now honors the VAPIDIR env variable.
+  * Added a script to set up Nuvola CDK environment (`setup_nuvolacdk.sh`).
+
+### Bug Fixes
+
+  * "Too many flash plugins" false positives. Resolve symlinks and track final paths not to count duplicates.
+    Issue: tiliado/nuvolaplayer#159
+  * Repeated Runner: prefix in debugging output. Issue: tiliado/nuvolaplayer#265
+  * Disable LIBGL_DRI3_DISABLE workaround with WebKitGTK 2.14+ to fix performance issues.
+    Issue: tiliado/nuvolaplayer#260
+
+### News for Script Maintainers
+
+  * Documentation has been updated and Mantainer's Guide merged into the tutorial.
+  * Format requirements flag were implemented but not yet documented.
+  * Web app scripts are built with Nuvola SDK.
 
 Milestone 3.1.1
 ---------------
