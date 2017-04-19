@@ -11,6 +11,11 @@ Description: Nuvola Player 3.0 is the first release of the third generation of a
     The Nuvola Player 3 project officially supports and provides packages for
     Ubuntu 14.04, 15.04, 15.10, 16.04, 16.10 and 17.04.
 
+!!! warning "Ubuntu Software Bug"
+
+    [Ubuntu Software currently cannot install third-party deb packages](https://bugs.launchpad.net/ubuntu/+source/gnome-software/+bug/1672424).
+    **We recommend using [GDebi package installer](apt://gdebi)** (package name [gdebi](apt://gdebi)) until this issue is fixed.
+
 Choose Installation Method {: #install}
 ==========================
 
