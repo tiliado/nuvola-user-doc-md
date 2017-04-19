@@ -9,7 +9,7 @@ Description: Nuvola Player 3.0 is the first release of the third generation of a
 !!! info "Supported Releases"
 
     The Nuvola Player 3 project officially supports and provides packages for
-    Ubuntu 14.04, 15.04, 15.10, 16.04 and 16.10.
+    Ubuntu 14.04, 15.04, 15.10, 16.04, 16.10 and 17.04.
 
 Choose Installation Method {: #install}
 ==========================
