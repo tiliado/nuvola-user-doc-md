@@ -236,6 +236,60 @@ Jiří Janoušek
 Maintenance Releases {: #maintenance}
 ====================
 
+Nuvola Player 3.0.8
+-------------------
+
+Maintenance release **3.0.8** was released on April 15th, 2017, addressing following issues:
+
+  * Missing license file.
+  * Updated copyright year in the About dialog.
+  * Fixed start-up WM Class in the desktop file. Issue: tiliado/nuvolaplayer#305
+  * Build script fixed to require Diorite 0.2.2.
+  * Fixed crash with Valac 0.36.
+
+Nuvola Player 3.0.7
+-------------------
+
+Maintenance release **3.0.7** was released on February 26th, 2017, addressing following issues:
+
+  * NuvolaPlayer/SoundCloud 3.0.5 menu item 'Unknown application name'.
+    Issue: tiliado/nuvolaplayer#301
+  * SoundCloud 3.0.5 crashes when started from a Ubuntu Launcher.
+    Issue: tiliado/nuvolaplayer#302
+  * Web App scripts should provide own desktop files.
+    Issue: tiliado/nuvolaplayer#263
+
+In addition, Nuvola 3.0.6 no longer supports scripts not built with
+the [Nuvola SDK](https://github.com/tiliado/nuvolasdk). This backward
+incompatible change is necessary for a smooth transition to Nuvola 4.0.
+
+Nuvola Player 3.0.6
+-------------------
+
+Maintenance release **3.0.6** was released on February 25th, 2017, addressing the same issues as 3.0.7 but with
+an insufficient fix for NuvolaPlayer/SoundCloud 3.0.5 menu item 'Unknown application name'.
+
+Nuvola Player 3.0.5
+-------------------
+
+Maintenance release **3.0.5** was released on February 18th, 2017, addressing following issues:
+
+  * False positive "Too many flash plugins" has been fixed.
+    Issue: tiliado/nuvolaplayer#159
+  * Repeated Runner: prefix in debugging output has been suppressed.
+    Issue: tiliado/nuvolaplayer#265
+  * Nuvola is compatible with scripts built with the Nuvola SDK build system
+    providing own desktop launchers. Moreover, scripts without the desktop files
+    are deprecated and might not function properly in the next release.
+    Issue: tiliado/nuvolaplayer#263
+  * The usage of the old Tiliado API has been removed along with the donation bar.
+  * Frequent deadlocks of the web rendering process of recent versions of WebKitGTK
+    have been addressed.
+    Issue: tiliado/nuvolaplayer#279
+  * A workaround addressing a bug in older graphics drivers is now disabled with recent versions
+    of WebKitGTK as it is no longer necessary and causes huge CPU usage under Wayland.
+    Issue: tiliado/nuvolaplayer#260
+
 Nuvola Player 3.0.4
 -------------------
 
