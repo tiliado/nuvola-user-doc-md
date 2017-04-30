@@ -29,27 +29,35 @@ Explore Features
 ----------------
 
 <div class="row">
-  <div class="col-sm-12 col-md-8">
+  <div class="col-sm-12">
     <div class="thumbnail">
-      <a href="./explore.html#explore-unity"><img src=":images/3.0/unity/unity_google_play_music_launcher_thumbs_up[256x192].png" width="256" height="192" /></a>
+      <a href=":3.1/explore.html#explore-unity"><img src=":images/3.0/unity/unity_google_play_music_launcher_thumbs_up[256x192].png" width="256" height="192" /></a>
       <div class="caption">
-        <a class="btn btn-primary btn-block" role="button" href="./explore.html#explore-unity">Unity</a>
+        <a class="btn btn-primary btn-block" role="button" href=":3.1/explore.html#explore-unity">Unity</a>
       </div>
     </div>
   </div>
-  <div class="col-sm-12 col-md-8">
+  <div class="col-sm-12">
     <div class="thumbnail">
-      <a href="./explore.html#explore-gnome"><img src=":images/3.0/gnome/gnome_add_to_favorites[256x192].png" width="256" height="192" /></a>
+      <a href=":3.1/explore.html#explore-gnome"><img src=":images/3.0/gnome/gnome_add_to_favorites[256x192].png" width="256" height="192" /></a>
       <div class="caption">
-        <a class="btn btn-primary btn-block" role="button" href="./explore.html#explore-gnome">GNOME</a>
+        <a class="btn btn-primary btn-block" role="button" href=":3.1/explore.html#explore-gnome">GNOME</a>
       </div>
     </div>
   </div>
-  <div class="col-sm-12 col-md-8">
+  <div class="col-sm-12">
     <div class="thumbnail">
-      <a href="./explore.html#explore-terminal"><img src=":images/3.0/unity/unity_nuvolactl_multiple_apps[256x192].png" width="256" height="192" /></a>
+      <a href=":3.1/explore.html#explore-pantheon"><img src=":images/3.1/pantheon/pantheon_dock_thumbs_up_done_with_window[320x].png" width="320" /></a>
       <div class="caption">
-        <a class="btn btn-primary btn-block" role="button" href="./explore.html#explore-terminal">Terminal & scripts</a>
+        <a class="btn btn-primary btn-block" role="button" href=":3.1/explore.html#explore-pantheon">elementaryOS</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-12">
+    <div class="thumbnail">
+      <a href=":3.1/explore.html#explore-terminal"><img src=":images/3.0/unity/unity_nuvolactl_multiple_apps[256x192].png" width="256" height="192" /></a>
+      <div class="caption">
+        <a class="btn btn-primary btn-block" role="button" href=":3.1/explore.html#explore-terminal">Terminal & scripts</a>
       </div>
     </div>
   </div>

@@ -11,6 +11,44 @@ Description: Nuvola Player 3.1 is the second series of the third generation of a
 The goal of Nuvola Apps is to provide better user experience and desktop integration than common web
 browsers can offer.
 
+Desktop Environments
+====================
+
+<div class="row">
+  <div class="col-sm-12">
+    <div class="thumbnail">
+      <a href=":3.1/explore.html#explore-unity"><img src=":images/3.0/unity/unity_google_play_music_launcher_thumbs_up[256x192].png" width="256" height="192" /></a>
+      <div class="caption">
+        <a class="btn btn-primary btn-block" role="button" href=":3.1/explore.html#explore-unity">Unity</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-12">
+    <div class="thumbnail">
+      <a href=":3.1/explore.html#explore-gnome"><img src=":images/3.0/gnome/gnome_add_to_favorites[256x192].png" width="256" height="192" /></a>
+      <div class="caption">
+        <a class="btn btn-primary btn-block" role="button" href=":3.1/explore.html#explore-gnome">GNOME</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-12">
+    <div class="thumbnail">
+      <a href=":3.1/explore.html#explore-pantheon"><img src=":images/3.1/pantheon/pantheon_dock_thumbs_up_done_with_window[320x].png" width="320" /></a>
+      <div class="caption">
+        <a class="btn btn-primary btn-block" role="button" href=":3.1/explore.html#explore-pantheon">elementaryOS</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-12">
+    <div class="thumbnail">
+      <a href=":3.1/explore.html#explore-terminal"><img src=":images/3.0/unity/unity_nuvolactl_multiple_apps[256x192].png" width="256" height="192" /></a>
+      <div class="caption">
+        <a class="btn btn-primary btn-block" role="button" href=":3.1/explore.html#explore-terminal">Terminal & scripts</a>
+      </div>
+    </div>
+  </div>
+</div>
+
 Unity {: #explore-unity}
 =====
 
@@ -178,6 +216,73 @@ Nuvola Player allows you to set a dark theme. Some streaming services look bette
 ## Other features ##
 
 To enable, disable or configure **other built-in features**, see [Common Features section bellow](#explore-common).
+
+
+elementaryOS Pantheon {: #explore-pantheon}
+=====================
+
+## List of Applications  ##
+
+Nuvola neatly integrates with list of applications accessible through the Applications button in the top left corner. 
+Once a particular music streaming service is installed, its desktop
+launcher is installed as well. You can then get to your favorite music faster, just start typing its name
+in Applications screen. Can do this your web browser?
+
+ Gallery 2cols
++[Click Applications button in the top left corner to open Applications screen.](images/3.1/pantheon/pantheon_click_applications.png|320)
++[You can launch a particular Nuvola app directly.](images/3.1/pantheon/pantheon_applications_click_app.png|320)
++[You can launch a particular Nuvola app by searching its name.](images/3.1/pantheon/pantheon_search_nuvola_app.png|320)
++[You can launch a particular Nuvola app by searching its name.](images/3.1/pantheon/pantheon_search_nuvola_app_selected.png|320)
+
+## Keep Apps in Docks ##
+
+For even faster access to your music, you can add our favourite music streaming services to the bottom dock as permanent
+launchers. One click to launch it again!
+
+ Gallery 2cols
++[Right-click to the icon of your favorite Nuvola app and select Keep in Dock.](images/3.1/pantheon/pantheon_keep_in_dock.png|320)
++[You can, of course, pin more apps ;-)](images/3.1/pantheon/pantheon_dock_more_apps.png|320)
+
+## Use Dock Menu ##
+
+Nuvola integrates with the dock menu of a particular app and adds playback actions. In addition, some screaming services
+provide other actions like rating.
+
+ Gallery 2cols
++[Right-click to the icon of your favorite Nuvola app and select Keep in Dock.](images/3.1/pantheon/pantheon_keep_in_dock.png|320)
++[All integration scripts provide basic playback actions: Play/pause, previous song and next song.](images/3.1/pantheon/pantheon_dock_next_track.png|320)
++[Some integration scripts provide extra actions such as thumbs up/down in Google Play Music.](images/3.1/pantheon/pantheon_dock_thumbs_up_with_window.png|320)
++[Rating done. This feature is useful when the Google Play Window is hidden or covered by other windows.](images/3.1/pantheon/pantheon_dock_thumbs_up_done_with_window.png|320)
+
+
+## Play in Background with Notifications ##
+
+With Nuvola, you will never accidentally close your web browser while music is playing. If you close
+Nuvola window, it keeps playing in background and you will get notifications on track changes.
+Simple and extremely useful.
+
+**New in Nuvola Apps 3.1:** An option to always run in background regardless a song is playing or not has been added.
+
+ Gallery 2cols
++[Enable background playback.](images/3.1/pantheon/pantheon_background_playback.png|320)
++[Now you don't have to worry about closing the window accidentally. Playback continues in background.](images/3.1/pantheon/pantheon_close_window.png|320)
++[You'll get notifications on track change.](images/3.1/pantheon/pantheon_track_notification.png|320)
++[You'll get notifications on track change.](images/3.1/pantheon/pantheon_notification_center.png|320)
+
+
+## Sound Menu Applet ##
+
+Nuvola integrates with the sound menu applet. You can control playback or show the main window if hidden.
+
+ Gallery 2cols
++[Close the window while music is playing. Playback continues in background.](images/3.1/pantheon/pantheon_close_window.png|320)
++[You can control playback from the sound menu applet.](images/3.1/pantheon/pantheon_mpris_next.png|320)
++[You can also display the hidden main window from the sound menu applet](images/3.1/pantheon/pantheon_mpris_activate.png|320)
+
+## Other features ##
+
+To enable, disable or configure **other built-in features**, see [Common Features section bellow](#explore-common).
+
  
 Terminal & Scripts {: #explore-terminal}
 ==================
@@ -207,8 +312,8 @@ These featured are not dependent on a particular desktop environment.
 
 Nuvola Player allows you enable, disable or configure **many built-in features**:
 
-  * In **Unity**, click *Gear Menu → Preferences*, then switch to tab *Components*.
-  * In **GNOME**, click *App Menu → Preferences*, then switch to tab *Components*.
+  * In **Unity** and **elementaryOS**, click *Gear Menu → Preferences*, then switch to tab *Features*.
+  * In **GNOME**, click *App Menu → Preferences*, then switch to tab *Features*.
 
  Gallery
 +[Gear Menu → Preferences](images/3.0/unity/unity_gear_menu_preferences.png|256x192)
@@ -220,8 +325,8 @@ Nuvola Player allows you enable, disable or configure **many built-in features**
 
 **New in Nuvola Player 3.1:** With the Password Manager, you can store passwords from login forms in a secure keyring.
 
-  * In **Unity**, click *Gear Menu → Preferences*, then switch to tab *Components* and enable *Password Manager*.
-  * In **GNOME**, click *App Menu → Preferences*, then switch to tab *Components* and enable *Password Manager*.
+  * In **Unity** and **elementaryOS**, click *Gear Menu → Preferences*, then switch to tab *Features* and enable *Password Manager*.
+  * In **GNOME**, click *App Menu → Preferences*, then switch to tab *Features* and enable *Password Manager*.
 
  Gallery
 +[Enable the password manager.](images/3.1/features/deezer_components_password_manager.png|256x192)
@@ -232,9 +337,9 @@ Nuvola Player allows you enable, disable or configure **many built-in features**
 
 **New in Nuvola Player 3.1:** The HTTP Remote Control interface allows creation of client apps to control Nuvola Player over network via an Engine.io socket.
 
-  * In **Unity**, click *Gear Menu → Preferences*, then switch to tab *Components*, enable *Remote Control over HTTP*
+  * In **Unity** and **elementaryOS**, click *Gear Menu → Preferences*, then switch to tab *Features*, enable *Remote Control over HTTP*
     and finally configure port and addresses Nuvola Player will be listening on.
-  * In **GNOME**, click *App Menu → Preferences*, then switch to tab *Components*, enable *Remote Control over HTTP*
+  * In **GNOME**, click *App Menu → Preferences*, then switch to tab *Features*, enable *Remote Control over HTTP*
     and finally configure port and addresses Nuvola Player will be listening on.
 
  Gallery
@@ -274,9 +379,9 @@ Enable and configure the [Remote Control over HTTP](#remote-control-over-http), 
 
 Nuvola Player allows you to scrobble your music taste to [Last.fm](http://www.last.fm) audio scrobbler and music recommendation service.
 
-  * In **Unity**, click *Gear Menu → Preferences*, then switch to tab *Components*, enable *Audio
+  * In **Unity** and **elementaryOS**, click *Gear Menu → Preferences*, then switch to tab *Features*, enable *Audio
     Scrobbler Services* and finally connect your Last.fm account.
-  * In **GNOME**, click *App Menu → Preferences*, then switch to tab *Components*, enable *Audio
+  * In **GNOME**, click *App Menu → Preferences*, then switch to tab *Features*, enable *Audio
     Scrobbler Services* and finally connect your Last.fm account.
 
  Gallery
@@ -290,9 +395,9 @@ Nuvola Player allows you to scrobble your music taste to [Last.fm](http://www.la
 
 Nuvola Player can fetch lyrics from AZLyrics.
 
-  * In **Unity**, click *Gear Menu → Preferences*, switch to tab *Components*, enable *Lyrics*. Then
+  * In **Unity** and **elementaryOS**, click *Gear Menu → Preferences*, switch to tab *Features*, enable *Lyrics*. Then
     click *Gear Menu → Show sidebar* and select *Lyrics* if necessary.
-  * In **GNOME**, click *App Menu → Preferences*, switch to tab *Components*, enable *Lyrics*. Then
+  * In **GNOME**, click *App Menu → Preferences*, switch to tab *Features*, enable *Lyrics*. Then
     click *Gear Menu → Show sidebar* and select *Lyrics* if necessary.
 
  Gallery
@@ -304,7 +409,7 @@ Nuvola Player can fetch lyrics from AZLyrics.
 
 Each application can have its own network proxy settings.
 
-  * In **Unity**, click *Gear Menu → Preferences* and switch to tab *Network*.
+  * In **Unity** and **elementaryOS**, click *Gear Menu → Preferences* and switch to tab *Network*.
   * In **GNOME**, click *App Menu → Preferences* and switch to tab *Network*.
 
  Gallery
@@ -314,9 +419,9 @@ Each application can have its own network proxy settings.
 
 Some desktop environments (e.g. XFCE, LXDE, partially GNOME) still support old-style tray icons.
 
-  * In **GNOME**, click *App Menu → Preferences*, switch to tab *Components* and enable *Tray Icon*.
-  * In **other environments**, click *Gear Menu → Preferences*, switch to tab *Components* and
-    enable *Tray Icon*. Note that old-style tray icons are **not supported in Ubuntu's Unity**. 
+  * In **GNOME**, click *App Menu → Preferences*, switch to tab *Features* and enable *Tray Icon*.
+  * In **other environments**, click *Gear Menu → Preferences*, switch to tab *Features* and
+    enable *Tray Icon*. Note that old-style tray icons are **not supported in Ubuntu's Unity** and **elementaryOS**. 
 
  Gallery
 +[Enable tray icon to use it to control playback.](images/3.0/components/gnome_webapp_trayicon.png|256x192)
