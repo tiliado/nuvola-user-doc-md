@@ -148,56 +148,24 @@ The milestone 3.1.1 was released on October 2016.
   * Increased: WebKitGTK >= 2.6.2, Valac >= 0.26.1, GLib >= 2.42.1 and GTK+ >= 3.14.5.
   * New: libuuid and libnm-(util/glib)
 
+Install Nuvola
+==============
 
-Install Nuvola Player
-=====================
+Nuvola project provides **cross-distribution flatpak packages** of Nuvola 3.1, which contain all
+requires dependencies. In order to install a particular Nuvola app, follow steps in the
+[Nuvola Apps Repository Index](https://nuvola.tiliado.eu/) portal according to your distribution:
 
-<div class="row">
-  <div class="col-sm-12 col-md-6">
-    <div class="thumbnail">
-      <a title="Install Nuvola Player in Ubuntu" href=":3.1/install.html#ubuntu"><img src="../images/dist-logos/ubuntu_vertical.png" /></a>
-      <div class="caption">
-        <a class="btn btn-primary btn-block" role="button" title="Install Nuvola Player in Ubuntu" href=":3.1/install.html#ubuntu">Ubuntu</a>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-12 col-md-6">
-    <div class="thumbnail">
-      <a title="Install Nuvola Player in Fedora" href=":3.1/install.html#fedora"><img src="../images/dist-logos/fedora_vertical.png" /></a>
-      <div class="caption">
-        <a class="btn btn-primary btn-block" role="button" title="Install Nuvola Player in Fedora" href=":3.1/install.html#fedora">Fedora</a>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-12 col-md-6">
-    <div class="thumbnail">
-      <a title="Install Nuvola Player in Debian" href=":3.1/install.html#debian"><img src="../images/dist-logos/debian_vertical.png" /></a>
-      <div class="caption">
-        <a class="btn btn-primary btn-block" role="button" title="Install Nuvola Player in Debian" href=":3.1/install.html#debian">Debian</a>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-12 col-md-6">
-    <div class="thumbnail">
-      <a title="Install Nuvola Player" href=":3.1/install.html#other-linux"><img src="../images/nuvola-logos/install_vertical_3.png" /></a>
-      <div class="caption">
-        <a class="btn btn-primary btn-block" role="button" title="Install Nuvola Player" href=":3.1/install.html#other-linux">Other Linux</a>
-      </div>
-    </div>
-  </div>
-</div>
-
-Nuvola Player 3 project officially supports and provides packages for
-[Ubuntu](:3.1/install.html#ubuntu) 15.04, 15.10, 16.04 and 16.10,
-[Fedora](:3.1/install.html#fedora) 23-25 and
-[Debian](:3.1/install.html#debian) Jessie, Stretch and Sid. The Nuvola Player
-developer has tested installation and functionality in clean virtualized instances of these
-distributions and can assure reasonable user support in case of problems.
-
-However, Nuvola Player should also work on
-[other modern Linux distributions](:3.1/install.html#other-linux), but user experience might
-not be optimal (e.g. inconsistent look and behavior) and quality of user support depends on
-complexity of an issue.
+  * [Ubuntu 16.04 Xenial Xerus](https://nuvola.tiliado.eu/#!index!ubuntu!xenial)
+  * [Ubuntu 16.10 Yakkety Yak](https://nuvola.tiliado.eu/#!index!ubuntu!yakkety)
+  * [Ubuntu 17.04 Zesty Zapus](https://nuvola.tiliado.eu/#!index!ubuntu!zesty)
+  * [elementaryOS 0.4 Loki](https://nuvola.tiliado.eu/#!index!elementary!loki)
+  * [Debian 8 Jessie (stable)](https://nuvola.tiliado.eu/#!index!debian!stretch)
+  * [Debian 9 Stretch (testing)](https://nuvola.tiliado.eu/#!index!debian!jessie)
+  * [Debian Sid (unstable)](https://nuvola.tiliado.eu/#!index!debian!sid)
+  * [Fedora 25](https://nuvola.tiliado.eu/#!index!fedora!fc25)
+  * [Fedora 24](https://nuvola.tiliado.eu/#!index!fedora!fc24)
+  * [Arch Linux](https://nuvola.tiliado.eu/#!index!archlinux)
+  * [Other linux](https://nuvola.tiliado.eu/#!index!other)
 
 
 [TOC]
