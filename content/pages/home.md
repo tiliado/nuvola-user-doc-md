@@ -14,6 +14,8 @@ features are being developed.
 
   * The initial milestone 3.1.0 was forked from release 3.0.0 on December 30th, 2015.
   * The milestone 3.1.1 was released on October 30th, 2016.
+  * The milestone 3.1.2 was released on March 26, 2017.
+  * The milestone 3.1.3 was released on April 30, 2017.
   
 [Nuvola Player 3.0.x Stable Releases](./3.0.html)
 ---------------------
