@@ -117,7 +117,6 @@ Simple and extremely useful.
 
 ## Unity Sound Indicator ##
 
-
 I hope you are not surprised that Nuvola Player also integrates with Unity sound indicator. You can control playback
 or show the main window if hidden.
 
@@ -125,6 +124,15 @@ or show the main window if hidden.
 +[Close the window while music is playing. Playback continues in background.](images/3.0/unity/unity_deezer_close.png|256x192)
 +[You can control playback from the Unity Sound Indicator](images/3.0/unity/unity_deezer_sound_menu.png|256x192)
 +[You can also display the main window from the Unity Sound Indicator](images/3.0/unity/unity_deezer_open_from_sound_menu.png|256x192)
+
+## AppIndicator and Tray Icon ##
+
+Tray icon feature can use either AppIndicator library or obsolete X11 tray icons to display a small icon in
+the notification area.
+
+ Gallery 2cols
++[Preferences dialog and AppIndicator in Ubuntu's Unity.](images/3.1/appindicator/appindicator_unity_thumbs_up.png|320)
++[AppIndicator in Ubuntu's Unity while Nuvola is running in background.](images/3.1/appindicator/appindicator_unity_activate_window.png|320)
 
 ## Other features ##
 
@@ -204,6 +212,18 @@ GNOME Shell extension. You can control playback or show the main window if hidde
 +[You can also display the hidden main window from the Media Player Indicator](images/3.0/gnome/gnome_mpris_extension_grooveshark_open.png|256x192)
 +[Ability to set track rating (requires a custom branch as of May 8th 2016)](images/3.1/features/mediaplayer_extensin_set_rating.png|256x192) 
 
+
+## AppIndicator and Tray Icon ##
+
+Tray icon feature can use either AppIndicator library or obsolete X11 tray icons to display a small icon in
+the notification area. Although app indicators are mostly known from Ubuntu's Unity desktop, they also work
+in GNOME Shell with [AppIndicator extension](https://extensions.gnome.org/extension/615/appindicator-support))
+and provide superior user experience.
+    
+ Gallery 2cols
++[Preferences dialog and AppIndicator in GNOME Shell.](images/3.1/appindicator/appindicator_gnome_thumbs_up.png|320)
++[AppIndicator in GNOME Shell while Nuvola is running in background.](images/3.1/appindicator/appindicator_gnome_activate_window.png|320)
+
 ## Dark or Light Theme? ##
 
 Nuvola Player allows you to set a dark theme. Some streaming services look better that way.
@@ -278,6 +298,17 @@ Nuvola integrates with the sound menu applet. You can control playback or show t
 +[Close the window while music is playing. Playback continues in background.](images/3.1/pantheon/pantheon_close_window.png|320)
 +[You can control playback from the sound menu applet.](images/3.1/pantheon/pantheon_mpris_next.png|320)
 +[You can also display the hidden main window from the sound menu applet](images/3.1/pantheon/pantheon_mpris_activate.png|320)
+
+
+## AppIndicator and Tray Icon ##
+
+Tray icon feature can use either AppIndicator library or obsolete X11 tray icons to display a small icon in
+the notification area. Although app indicators are mostly known from Ubuntu's Unity desktop, they also work
+in elementaryOS and provide superior user experience.
+    
+ Gallery 2cols
++[Preferences dialog and AppIndicator in elementaryOS.](images/3.1/appindicator/appindicator_pantheon_thumbs_up.png|320)
++[AppIndicator in elementaryOS while Nuvola is running in background.](images/3.1/appindicator/appindicator_pantheon_activate_window.png|320)
 
 ## Other features ##
 
@@ -415,15 +446,15 @@ Each application can have its own network proxy settings.
  Gallery
 +[Switch to tab Network](images/3.0/components/unity_webapp_network_proxy.png|256x192)
 
-## Old-style Tray Icons ##
+## Website Data Manager
 
-Some desktop environments (e.g. XFCE, LXDE, partially GNOME) still support old-style tray icons.
+Users can easily clear cookies, cache and temporary files, IndexedDB and WebSQL databases and local storage
+from the Website Data Manager.
 
-  * In **GNOME**, click *App Menu → Preferences*, switch to tab *Features* and enable *Tray Icon*.
-  * In **other environments**, click *Gear Menu → Preferences*, switch to tab *Features* and
-    enable *Tray Icon*. Note that old-style tray icons are **not supported in Ubuntu's Unity** and **elementaryOS**. 
+  * In **Unity** and **elementaryOS**, click *Gear Menu → Preferences* and switch to tab *Website Data*.
+  * In **GNOME**, click *App Menu → Preferences* and switch to tab *Website Data*.
 
- Gallery
-+[Enable tray icon to use it to control playback.](images/3.0/components/gnome_webapp_trayicon.png|256x192)
+ Gallery 2cols
++[Website data manager.](images/3.1/features/website_data_manager.png|320)
 
 [TOC]
