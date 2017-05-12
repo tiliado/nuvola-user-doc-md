@@ -9,7 +9,8 @@ Description: Nuvola Player 3.0 is the first release of the third generation of a
 !!! info "Supported Releases"
 
     The Nuvola Player 3 project officially supports and provides packages for
-    Debian Jessie, Stretch and Sid.
+    Debian Stretch and Sid.
+    [Debian Jessie is supported only in 3.1.x series](https://nuvola.tiliado.eu/#!nuvola!debian!jessie).
 
 Choose Installation Method {: #install}
 ==========================
@@ -62,7 +63,6 @@ Install Tiliado Repository Installer
 
  1. Download Tiliado Repository Installer for your
     distribution release and open it with Ubuntu Software Center.
-       * [Debian 8 Jessie](https://tiliado.eu/repository-installer/download/jessie/) 
        * [Debian 9 Stretch](https://tiliado.eu/repository-installer/download/stretch/) 
        * [Debian Sid](https://tiliado.eu/repository-installer/download/sid/) 
  2. Open the installer package with GDebi package installation tool and install the package.

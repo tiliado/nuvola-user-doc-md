@@ -7,9 +7,9 @@ Description: Nuvola Player 3.0 is the first release of the third generation of a
     GNOME lock screen and launchers and more.
 
 Nuvola Player 3 project officially supports and provides packages for
-[Ubuntu](./install-ubuntu.html) 14.04, 15.04, 15.10 and 16.04,
-[Fedora](./install-fedora.html) 23-24
-and [Debian](./install-debian.html) Jessie, Stretch and Sid.
+[Ubuntu](./install-ubuntu.html) 16.04-17.04,
+[Fedora](./install-fedora.html) 24-25
+and [Debian](./install-debian.html) Stretch and Sid.
 However, Nuvola Player should also work on other modern Linux distributions, but
 user experience might not be optimal (e.g. inconsistent look and behaviour) and quality of user
 support depends on complexity of an issue.

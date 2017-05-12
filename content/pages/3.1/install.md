@@ -16,6 +16,7 @@ requires dependencies. In order to install a particular Nuvola app, follow steps
 
   * [Ubuntu 16.04 Xenial Xerus](https://nuvola.tiliado.eu/#!index!ubuntu!xenial)
   * [Ubuntu 16.10 Yakkety Yak](https://nuvola.tiliado.eu/#!index!ubuntu!yakkety)
+  * [elementaryOS 0.4 Loki](https://nuvola.tiliado.eu/#!index!elementary!loki)
   * [Debian 8 Jessie (stable)](https://nuvola.tiliado.eu/#!index!debian!jessie)
   * [Debian 9 Stretch (testing)](https://nuvola.tiliado.eu/#!index!debian!stretch)
   * [Debian Sid (unstable)](https://nuvola.tiliado.eu/#!index!debian!sid)

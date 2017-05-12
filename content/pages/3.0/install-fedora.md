@@ -9,7 +9,7 @@ Description: Nuvola Player 3.0 is the first release of the third generation of a
 !!! info "Supported Releases"
 
     The Nuvola Player 3 project officially supports and provides packages for
-    Fedora 23-25.
+    Fedora 24-25.
 
 Choose Installation Method {: #install}
 ==========================
@@ -39,7 +39,6 @@ Install Tiliado Repository Installer
 
  1. Download Tiliado Repository Installer for your
     distribution release and open it with Software Install tool.
-    * [Fefora 23](https://tiliado.eu/repository-installer/download/fc23/)
     * [Fedora 24](https://tiliado.eu/repository-installer/download/fc24/)
     * [Fedora 25](https://tiliado.eu/repository-installer/download/fc25/)
  2. When the Software Install tool is launched, click **Install** button.
