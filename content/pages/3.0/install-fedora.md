@@ -133,9 +133,18 @@ Install Flash Plugin {: #flash}
 Install GStreamer MP3 Audio Decoder {: #mp3}
 -----------------------------------
 
+### Fedora 25+
+
 !!! info
     
-    Fedora repository doesn't contain a GStreamer MP3 Audio Decoder package,
+    Fedora repository contain a GStreamer MP3 Audio Decoder package since Fedora 25,
+    install package [gstreamer1-plugin-mpg123](https://admin.fedoraproject.org/pkgdb/package/rpms/gstreamer1-plugin-mpg123/).
+
+### Fedora 24
+
+!!! info
+    
+    Fedora 24 repository doesn't contain a GStreamer MP3 Audio Decoder package,
     so it **cannot be installed automatically with Nuvola Player 3** package and it's necessary to
     [install it manually](https://ask.fedoraproject.org/en/question/42073/how-i-can-install-audio-codecs-like-mp3/).
 
