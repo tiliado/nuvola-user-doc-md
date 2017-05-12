@@ -8,7 +8,7 @@ Description: Nuvola Player 3.0.0 was released on December 30th, 2015. It is the 
 
 
 **Nuvola Player 3.0.0** was released on December 30th, 2015 and the latest
-[maintenance release **3.0.4**](#maintenance) was released on September 17th, 2016.
+[maintenance release **3.0.8**](#maintenance) was released on April 15th, 2017.
 Continue reading these release notes,
 [explore all features](:3.0/explore.html) or just [jump to installation instructions](:3.0/install.html).
 
