@@ -40,16 +40,20 @@
     {% endif %}
   </div>
   <div class="col-xs-24 col-md-18 pull-right-md">
-    {% if output_file|in_section("3.1") %}
-       <div class="alert alert-info" role="alert"><strong>Nuvola Player 3.1 is the current rolling series.</strong>
+    {% if output_file|in_section("4") %}
+       <div class="alert alert-info" role="alert"><strong>Nuvola Apps 4.x is the current rolling series.</strong>
        New buils are constantly rolling out as new features are being developed.
        <strong>Do you want something a bit more stable?</strong>
        Check out <a href="{{root_dir}}/3.0.html">Nuvola Player 3.0 Stable Releases</a>.</div>
+    {% elif output_file|in_section("3.1") %}
+       <div class="alert alert-danger" role="alert"><strong>Nuvola Player 3.1 is obsolete.</strong>
+       You should switch to <a href="{{root_dir}}/4.html">Nuvola Apps 4.x Rolling Releases</a> or
+       <a href="{{root_dir}}/3.0.html">Nuvola Player 3.0 Stable Releases</a>.</div>
     {% elif output_file|in_section("3.0") %}
        <div class="alert alert-success" role="alert"><strong>Nuvola Player 3.0 is the current stable series.</strong>
        New releases 3.0.x receive only bug fixes, but no new features except for compatible service integrations.
        <strong>Do you want something more fresh?</strong>
-       Check out <a href="{{root_dir}}/3.1.html">Nuvola Player 3.1 Rolling Releases</a>.</div>
+       Check out <a href="{{root_dir}}/4.html">Nuvola Apps 4.x Rolling Releases</a>.</div>
     {% endif %}
     {% if page.description and page.debug %}
     <p><strong>Description:</strong> {{ page.description }}</p>

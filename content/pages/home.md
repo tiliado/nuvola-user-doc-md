@@ -6,16 +6,18 @@ save_as: index.html
 Supported Releases
 ===============
 
-[Nuvola Player 3.1.x Rolling Releases](./3.1.html)
+[Nuvola Apps 4.x Rolling Releases](./4.html)
 ---------------------
 
-Nuvola Player 3.1 is the current rolling series. New buils are constantly rolling out as new
-features are being developed. 
+Nuvola Apps 4.x is the current rolling series. New builds are constantly rolling out as new
+features are being developed. This series started with version numbers 3.1.x, which was later
+simplified to 4.x.
 
   * The initial milestone 3.1.0 was forked from release 3.0.0 on December 30th, 2015.
   * The milestone 3.1.1 was released on October 30th, 2016.
   * The milestone 3.1.2 was released on March 26, 2017.
   * The milestone 3.1.3 was released on April 30, 2017.
+  * The milestone 4.4  was released on May 27, 2017.
   
 [Nuvola Player 3.0.x Stable Releases](./3.0.html)
 ---------------------

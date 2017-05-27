@@ -1,6 +1,6 @@
-Title: Nuvola Apps 3.1 Release Notes
+Title: Nuvola Apps 4 Release Notes
 Image: images/3.0/unity/unity_google_play_music_launcher_thumbs_up.png
-Description: Nuvola Apps 3.1 is the second series of the third generation of a runtime for
+Description: Nuvola Apps 4 is the fourth generation of a runtime for
     web-based music streaming services that provides more native user experience and integration
     with Linux desktop environments than usual web browsers can offer. Nuvola handles
     multimedia keys, shows desktop notifications, integrates with various sound indicators, media
@@ -12,7 +12,7 @@ Description: Nuvola Apps 3.1 is the second series of the third generation of a r
     [Nuvola Premium or Patron plan](https://tiliado.eu/nuvolaplayer/funding/)
     to access these builds.
 
-Nuvola Apps 3.1 was forked from release 3.0 on December 30, 2015 and many changes under the hood 
+Nuvola Apps 4 was forked from release 3.0 on December 30, 2015 and many changes under the hood 
 have been made and many new features & enhancements have been added since then. 
     
 About Nuvola Apps
@@ -27,7 +27,7 @@ apps usually have higher memory usage than native apps.
 What's New
 ==========
 
-Nuvola 3.1 is constantly evolving, to **stay in touch**
+Nuvola 4 is constantly evolving, to **stay in touch**
 
  * Follow Nuvola Player on [Facebook](https://www.facebook.com/nuvolaplayer),
     [Google+](https://plus.google.com/110794636546911932554) or
@@ -35,10 +35,10 @@ Nuvola 3.1 is constantly evolving, to **stay in touch**
   * Subscribe to the Nuvola Player Newsletter: [weekly](http://eepurl.com/bLbm5H)
     or [monthly](http://eepurl.com/bLbtM1).
 
-Milestone 3.1.4
+Milestone 4.4
 ---------------
 
-The milestone 3.1.4 was released as Nuvola 4.4 on May 27, 2017.
+The milestone 4.4 was released on May 27, 2017.
 
 ### Gallery
 
@@ -209,21 +209,21 @@ The milestone 3.1.1 was released on October 2016.
 
 ### New Features
 
-[Ability to both display and set track rating in Media Player Indicator GNOME Shell extension](:3.1/explore.html#media-player-indicator-extension)
-:   Providing a streaming service supports it, Nuvola Player 3.1 exports track rating in MPRIS
+[Ability to both display and set track rating in Media Player Indicator GNOME Shell extension](:4/explore.html#media-player-indicator-extension)
+:   Providing a streaming service supports it, Nuvola Player 4 exports track rating in MPRIS
     interface and a custom method to set rating of a track. Note that as of October 30th 2016,
-    [Player Indicator git master version](:3.1/explore.html#media-player-indicator-extension) is required.
+    [Player Indicator git master version](:4/explore.html#media-player-indicator-extension) is required.
 
-[HTTP Remote Control interface](:3.1/explore.html#remote-control-over-http)
+[HTTP Remote Control interface](:4/explore.html#remote-control-over-http)
 :   This interface allows creation of client apps to control Nuvola Player over network via an Engine.io socket.
 
-[Media Player Controller web page](:3.1/explore.html#media-player-controller-web-page)
+[Media Player Controller web page](:4/explore.html#media-player-controller-web-page)
 :   This page is an example of a client using the HTTP Remote Control interface. It allows you to control Nuvola Player
     from any device with a web browser (e.g. a phone).
-[Nuvola Controller Pebble Watchapp](:3.1/explore.html#nuvola-controller-pebble-watchapp)
+[Nuvola Controller Pebble Watchapp](:4/explore.html#nuvola-controller-pebble-watchapp)
 :   This app for Pebble watches is another example of a client using the HTTP Remote Control interface. It allows you to control Nuvola Player
     from your wrist.
-[Password Manager](:3.1/explore.html#password-manager)
+[Password Manager](:4/explore.html#password-manager)
 :  With the Password Manager, you can store passwords from login forms in a secure keyring.
 
 ### Enhancements:
@@ -270,7 +270,7 @@ The milestone 3.1.1 was released on October 2016.
 Install Nuvola
 ==============
 
-Nuvola project provides **cross-distribution flatpak packages** of Nuvola 3.1, which contain all
+Nuvola project provides **cross-distribution flatpak packages** of Nuvola 4, which contain all
 requires dependencies. In order to install a particular Nuvola app, follow steps in the
 [Nuvola Apps Repository Index](https://nuvola.tiliado.eu/) portal according to your distribution:
 
