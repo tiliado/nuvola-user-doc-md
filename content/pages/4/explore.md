@@ -201,7 +201,7 @@ supported in GNOME 3.18+**.
 ## Media Player Indicator extension ##
 
 Nuvola Player integrates with [Media Player Indicator](https://extensions.gnome.org/extension/55/media-player-indicator/)
-GNOME Shell extension. You can control playback or show the main window if hidden.
+GNOME Shell extension. You can control playback or show the main window if hidden. Since Nuvola 4.5, you can also sek and change playback volume.
 
  Gallery
 +[Search for Media Player Indicator in GNOME Extensions website.](images/3.0/gnome/gnome_mpris_extension_web_page.png|256x192)
@@ -211,7 +211,8 @@ GNOME Shell extension. You can control playback or show the main window if hidde
 +[You can control playback from the Media Player Indicator.](images/3.0/gnome/gnome_mpris_extension_grooveshark_playing.png|256x192)
 +[You can also display the hidden main window from the Media Player Indicator](images/3.0/gnome/gnome_mpris_extension_grooveshark_open.png|256x192)
 +[Ability to set track rating (requires a custom branch as of May 8th 2016)](images/3.1/features/mediaplayer_extensin_set_rating.png|256x192) 
-
++[You can seek with Media Player GNOME Shell extension](images/4/progress_volume_bar/gnome_mediaplayer_progressbar.png|256)
++[You can change volume with Media Player GNOME Shell extension](images/4/progress_volume_bar/gnome_mediaplayer_volumebar.png|256)
 
 ## AppIndicator and Tray Icon ##
 
