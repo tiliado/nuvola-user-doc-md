@@ -19,6 +19,7 @@ simplified to 4.x.
   * The milestone 3.1.3 was released on April 30, 2017.
   * The milestone 4.4  was released on May 27, 2017.
   * The milestone 4.5  was released on June 24, 2017.
+  * The milestone 4.6  was released on July 29, 2017.
   
 [Nuvola Player 3.0.x Stable Releases](./3.0.html)
 ---------------------
