@@ -9,7 +9,7 @@ Description: Nuvola Player 3.0 is the first release of the third generation of a
 !!! info "Supported Releases"
 
     The Nuvola Player 3 project officially supports and provides packages for
-    Ubuntu 16.04, 16.10 and 17.04.
+    Ubuntu 16.04 and 17.04.
 
 !!! warning "Ubuntu Software Bug"
 
@@ -38,7 +38,7 @@ There are three ways how to install Nuvola Player on your system. Choose the one
 All-in-one Nuvola Player Bundle {: #bundle}
 ===============================
 
- 1. Download [All-in-one Nuvola Player Bundle](https://github.com/tiliado/nuvolaplayer/releases).
+ 1. Download [All-in-one Nuvola Player Bundle](https://github.com/tiliado/nuvolaruntime/releases/tag/3.0.9).
     Note: Choose correct distribution and architecture (i386 for 32-bit processors and amd64 for 64-bit ones).
  2. Open the bundle package with the Ubuntu Software application and install the package.
     If the installation is not successful, try the [User-Friendly Graphical Installation](#installer) procedure
@@ -68,7 +68,6 @@ Install Tiliado Repository Installer
  1. Download Tiliado Repository Installer for your
     distribution release and open it with Ubuntu Software Center.
      * [Ubuntu 16.04 LTS Xenial Xerus](https://tiliado.eu/repository-installer/download/xenial/)
-     * [Ubuntu 16.10 Yakkety Yak](https://tiliado.eu/repository-installer/download/yakkety/)
      * [Ubuntu 17.04 Zesty Zapus](https://tiliado.eu/repository-installer/download/zesty/)
  2. Wait a bit as Ubuntu Software Center is a pretty slow beast. Then click **Install** button.
  3. Enter your password to confirm installation.

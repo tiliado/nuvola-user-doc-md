@@ -36,6 +36,7 @@ but no new features except for compatible service integrations.
   * Maintenance release **3.0.6** was released on February 25th, 2017.
   * Maintenance release **3.0.7** was released on February 26th, 2017.
   * Maintenance release **3.0.8** was released on April 15th, 2017.
+  * Maintenance release **3.0.9** was released on July 18th, 2017.
 
 Old Releases
 ============

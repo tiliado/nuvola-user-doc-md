@@ -236,6 +236,14 @@ Jiří Janoušek
 Maintenance Releases {: #maintenance}
 ====================
 
+Nuvola Player 3.0.9
+-------------------
+
+Maintenance release **3.0.9** was released on July 18th, 2017.
+
+* WebKitGTK+ ≥ 2.16.3 is required as it fixes many web compatibility issues.
+* Welcome text updated with with the link to Nuvola’s Medium blog and information about Nuvola 3.0.x End of Life schedule.
+
 Nuvola Player 3.0.8
 -------------------
 
