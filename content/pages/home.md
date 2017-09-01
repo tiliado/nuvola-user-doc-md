@@ -13,13 +13,14 @@ Nuvola Apps 4.x is the current series. New builds are constantly rolling out as 
 features are being developed. This series started with version numbers 3.1.x, which was later
 simplified to 4.x.
 
-  * The initial milestone 3.1.0 was forked from release 3.0.0 on December 30th, 2015.
-  * The milestone 3.1.1 was released on October 30th, 2016.
-  * The milestone 3.1.2 was released on March 26, 2017.
-  * The milestone 3.1.3 was released on April 30, 2017.
-  * The milestone 4.4  was released on May 27, 2017.
-  * The milestone 4.5  was released on June 24, 2017.
-  * The milestone 4.6  was released on July 29, 2017.
+  * The initial release 3.1.0 was forked from release 3.0.0 on December 30th, 2015.
+  * The release 3.1.1 was released on October 30th, 2016.
+  * The release 3.1.2 was released on March 26, 2017.
+  * The release 3.1.3 was released on April 30, 2017.
+  * The release 4.4  was released on May 27, 2017.
+  * The release 4.5  was released on June 24, 2017.
+  * The release 4.6  was released on July 29, 2017.
+  * The release 4.7  was released on September 1st, 2017.
   
 [Nuvola Player 3.0.x Legacy Releases](./3.0.html)
 ---------------------

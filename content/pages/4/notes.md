@@ -5,16 +5,7 @@ Description: Nuvola Apps 4 is the fourth generation of a runtime for
     with Linux desktop environments than usual web browsers can offer. Nuvola handles
     multimedia keys, shows desktop notifications, integrates with various sound indicators, media
     player applets, GNOME lock screen and launchers and more.
-
-!!! warning "Rolling Releases are for PremiumPatron users"
-    Rolling Releases are provided for Premium/Patron users as a benefit for their support. You will
-    need to enter credentials of your Tiliado account with active
-    [Nuvola Premium or Patron plan](https://tiliado.eu/nuvolaplayer/funding/)
-    to access these builds.
-
-Nuvola Apps 4 was forked from release 3.0 on December 30, 2015 and many changes under the hood 
-have been made and many new features & enhancements have been added since then. 
-    
+   
 About Nuvola Apps
 =================
 
@@ -34,6 +25,56 @@ Nuvola 4 is constantly evolving, to **stay in touch**
     [Twitter](https://twitter.com/NuvolaPlayer).
   * Subscribe to the Nuvola Player Newsletter: [weekly](http://eepurl.com/bLbm5H)
     or [monthly](http://eepurl.com/bLbtM1).
+
+Release 4.7
+----------
+
+Nuvola 4.7 was released on September 1st, 2017.
+
+### New Features
+
+  * New web app:  Jupiter Broadcasting by Andrew Stubbs.
+  * The genuine flatpak builds offers free trial and $1/month subscription.
+  * For sake of transparency, preferences dialog shows placeholders for features which were disabled by a distributor.
+
+### Bug Fixes:
+
+  * VAAPI/VDPAU checks are not run under Wayland. Issue:
+    [tiliado/nuvolaruntime#280](https://github.com/tiliado/nuvolaruntime/issues/280) Issue:
+    [tiliado/nuvolaruntime#359](https://github.com/tiliado/nuvolaruntime/issues/359)
+  * URL sandbox was not honoured properly: Issue:
+    [tiliado/nuvolaruntime#367](https://github.com/tiliado/nuvolaruntime/issues/367)
+
+### News for Script Maintainers:
+
+  * API 4.6 is required for new scripts.
+
+### Under the Hood:
+
+  * Nuvola no longer bundles `*.vapi` files but depends on those of Valac 0.36.3. However, glib-2.0.vapi and
+    webkit2gtk-web-extension-4.0.vapi must be patched to work properly (see `vapi/*.patch`). You may need to modify
+    wscript if you don't use Valac 0.36. Issue:
+    [tiliado/nuvolaruntime#369](https://github.com/tiliado/nuvolaruntime/issues/369)
+  * Valac and GLib dependencies were raised to 0.36.3 and 2.52. Issue:
+    [tiliado/nuvolaruntime#369](https://github.com/tiliado/nuvolaruntime/issues/369)
+  * GIR XML and typelib files are generated. Introduces new dependency on g-ir-compiler.
+  * There was a lot of refactoring to allow usage of Python-GObject and to support multiple web engines in future.
+  * Future warning: Nuvola is likely to introduce dependency on Python 3.6.
+
+### Nuvola SDK 4.7.0
+
+  * desktop launcher: Spaces around the equals sign were removed because they confuse kbuildsycoca5. Issue:
+    [tiliado/nuvolaruntime#365](https://github.com/tiliado/nuvolaruntime/issues/365)
+    [Upstream ticket](https://bugs.kde.org/show_bug.cgi?id=310674)
+  * Added individual version info properties - `nuvolasdk.VERSION_MAJOR/MINOR/MICRO`.
+  * new-project: New `metadata.in.json` files use the latest Nuvola SDK version.
+
+### Diorite 4.7.0
+
+  * Diorite no longer bundles *.vapi files and depends on those of Vala 0.36.3.
+  * GLib dependency has been raised to 2.52.0 to make use of Valac's GTask support.
+  * Diorite GTK namespace was changed to Drtgtk.
+  * GIR XML and typelib files are generated. Introduces new dependency on g-ir-compiler.
 
 Release 4.6
 -----------
