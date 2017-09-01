@@ -8,7 +8,7 @@ Description: Nuvola Player 3.0.0 was released on December 30th, 2015. It is the 
 
 
 **Nuvola Player 3.0.0** was released on December 30th, 2015 and the latest
-[maintenance release **3.0.8**](#maintenance) was released on April 15th, 2017.
+[maintenance release **3.0.10**](#maintenance) was released on September 1st, 2017.
 Continue reading these release notes,
 [explore all features](:3.0/explore.html) or just [jump to installation instructions](:3.0/install.html).
 
@@ -235,6 +235,12 @@ Jiří Janoušek
 
 Maintenance Releases {: #maintenance}
 ====================
+
+Nuvola Player 3.0.10
+-------------------
+
+Maintenance release **3.0.10** was released on September 1st, 2017. It fixes high CPU usage under Wayland
+and exchanges “Stable Release” designation for “Legacy Release”.
 
 Nuvola Player 3.0.9
 -------------------

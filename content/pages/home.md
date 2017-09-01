@@ -9,7 +9,7 @@ Supported Releases
 [Nuvola Apps 4.x Rolling Releases](./4.html)
 ---------------------
 
-Nuvola Apps 4.x is the current rolling series. New builds are constantly rolling out as new
+Nuvola Apps 4.x is the current series. New builds are constantly rolling out as new
 features are being developed. This series started with version numbers 3.1.x, which was later
 simplified to 4.x.
 
@@ -21,11 +21,10 @@ simplified to 4.x.
   * The milestone 4.5  was released on June 24, 2017.
   * The milestone 4.6  was released on July 29, 2017.
   
-[Nuvola Player 3.0.x Stable Releases](./3.0.html)
+[Nuvola Player 3.0.x Legacy Releases](./3.0.html)
 ---------------------
 
-Nuvola Player 3.0 is the current stable series. New releases 3.0.x receive only bug fixes,
-but no new features except for compatible service integrations.
+Nuvola Player 3.0 is the legacy series having End of Life scheduled for December 31st, 2017.
 
   * Initial release **3.0.0** was released on December 30th, 2015.
   * Maintenance release **3.0.1** was released on February 14th, 2016.
@@ -37,6 +36,7 @@ but no new features except for compatible service integrations.
   * Maintenance release **3.0.7** was released on February 26th, 2017.
   * Maintenance release **3.0.8** was released on April 15th, 2017.
   * Maintenance release **3.0.9** was released on July 18th, 2017.
+  * Maintenance release **3.0.10** was released on September 1st, 2017.
 
 Old Releases
 ============
