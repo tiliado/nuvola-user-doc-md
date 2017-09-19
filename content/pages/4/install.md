@@ -10,24 +10,25 @@ Description: Nuvola 4 is the fourth generation of a runtime for
 Installation Instructions
 -------------------------
 
-Nuvola Project provides **cross-distribution flatpak packages** of Nuvola 4, which contain all
-requires dependencies. In order to install a particular Nuvola app, follow steps in the
-[Nuvola Apps Repository Index](https://nuvola.tiliado.eu/) portal according to your distribution:
+Nuvola project provides **cross-distribution flatpak packages** of Nuvola 4.x, which contain all requires dependencies.
 
-  * [Ubuntu 16.04 Xenial Xerus](https://nuvola.tiliado.eu/#!index!ubuntu!xenial)
-  * [Ubuntu 16.10 Yakkety Yak](https://nuvola.tiliado.eu/#!index!ubuntu!yakkety)
-  * [Ubuntu 17.04 Zesty Zapus](https://nuvola.tiliado.eu/#!index!ubuntu!zesty)
-  * [elementaryOS 0.4 Loki](https://nuvola.tiliado.eu/#!index!elementary!loki)
-  * [Debian 8 Jessie (oldstable)](https://nuvola.tiliado.eu/#!index!debian!jessie)
-  * [Debian 9 Stretch (stable)](https://nuvola.tiliado.eu/#!index!debian!stretch)
-  * [Debian 10 Buster (testing)](https://nuvola.tiliado.eu/#!index!debian!buster)
-  * [Debian Sid (unstable)](https://nuvola.tiliado.eu/#!index!debian!sid)
-  * [Fedora 26](https://nuvola.tiliado.eu/#!index!fedora!fc26)
-  * [Fedora 25](https://nuvola.tiliado.eu/#!index!fedora!fc25)
-  * [Fedora 24](https://nuvola.tiliado.eu/#!index!fedora!fc24)
-  * [Arch Linux](https://nuvola.tiliado.eu/#!index!archlinux)
-  * [Other linux](https://nuvola.tiliado.eu/#!index!other)
+ 1. **Follow installation instructions of Flatpak and Nuvola Apps Runtime according to your distribution:**
+  
+     * [Ubuntu 16.04 Xenial Xerus](https://nuvola.tiliado.eu/nuvola/ubuntu/xenial/)
+     * [Ubuntu 16.10 Yakkety Yak](https://nuvola.tiliado.eu/nuvola/ubuntu/yakkety/)
+     * [Ubuntu 17.04 Zesty Zapus](https://nuvola.tiliado.eu/nuvola/ubuntu/zesty/)
+     * [elementaryOS 0.4 Loki](https://nuvola.tiliado.eu/nuvola/elementary/loki/)
+     * [Debian 8 Jessie (oldstable)](https://nuvola.tiliado.eu/nuvola/debian/jessie/)
+     * [Debian 9 Stretch (stable)](https://nuvola.tiliado.eu/nuvola/debian/stretch/)
+     * [Debian 10 Buster (testing)](https://nuvola.tiliado.eu/nuvola/debian/buster/)
+     * [Debian Sid (unstable)](https://nuvola.tiliado.eu/nuvola/debian/sid/)
+     * [Fedora 26](https://nuvola.tiliado.eu/nuvola/fedora/fc26/)
+     * [Fedora 25](https://nuvola.tiliado.eu/nuvola/fedora/fc25/)
+     * [Fedora 24](https://nuvola.tiliado.eu/nuvola/fedora/fc24/)
+     * [Arch Linux](https://nuvola.tiliado.eu/nuvola/archlinux/)
+     * [Other linux](https://nuvola.tiliado.eu/nuvola/other/)
 
+  2. **Then [install individual web app scripts of your choice](https://nuvola.tiliado.eu/).**
 
 Explore Features
 ----------------
