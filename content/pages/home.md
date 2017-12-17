@@ -22,6 +22,7 @@ simplified to 4.x.
   * The release 4.6 was released on July 29, 2017.
   * The release 4.7 was released on September 1st, 2017.
   * The release 4.8 was released on September 29th, 2017.
+  * The release 4.9 was released on December 17th, 2017.
   
 [Nuvola Player 3.0.x Legacy Releases](./3.0.html)
 ---------------------
