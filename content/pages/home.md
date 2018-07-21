@@ -25,6 +25,7 @@ simplified to 4.x.
   * The release 4.9 was released on December 17th, 2017.
   * The release 4.10 was released on March 4th, 2018.
   * The release 4.11 was released on May 8th, 2018.
+  * The release 4.12 was released on July 21st, 2018.
 
 Old Releases
 ============
