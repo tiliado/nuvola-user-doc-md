@@ -41,14 +41,15 @@
   </div>
   <div class="col-xs-24 col-md-18 pull-right-md">
     {% if output_file|in_section("4") %}
+    <div class="alert alert-danger" role="alert"><strong>Nuvola 4 has new documentation</strong>
+       <a href="https://nuvola.tiliado.eu/docs/4/">Visit new Nuvola Apps 4.x documentation</a>.</div>
     {% elif output_file|in_section("3.1") %}
        <div class="alert alert-danger" role="alert"><strong>Nuvola Player 3.1 is obsolete.</strong>
-       You should switch to <a href="{{root_dir}}/4.html">Nuvola Apps 4.x Rolling Releases</a> or
-       <a href="{{root_dir}}/3.0.html">Nuvola Player 3.0 Stable Releases</a>.</div>
+       You should switch to <a href="https://nuvola.tiliado.eu/docs/4/">Nuvola Apps 4.x</a>.</div>
     {% elif output_file|in_section("3.0") %}
-       <div class="alert alert-danger" role="alert"><strong>Nuvola Player 3.0 is the legacy series</strong>
-       having End of Life scheduled for December 31st, 2017.
-       Check out <a href="{{root_dir}}/4.html">Nuvola Apps 4.x Rolling Releases</a> instead.</div>
+       <div class="alert alert-danger" role="alert"><strong>Nuvola Player 3.0 has reached the end-of-life status</strong>
+       on December 31st, 2017.
+       Check out <a href="https://nuvola.tiliado.eu/docs/4/">Nuvola Apps 4</a> instead.</div>
     {% endif %}
     {% if page.description and page.debug %}
     <p><strong>Description:</strong> {{ page.description }}</p>
